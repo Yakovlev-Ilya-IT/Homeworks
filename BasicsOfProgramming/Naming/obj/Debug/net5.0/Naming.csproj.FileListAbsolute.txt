@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\BasicsOfProgramming\Naming\bin\Debug\net5.0\Naming.exe
+D:\IJuniorHomeworks\BasicsOfProgramming\Naming\bin\Debug\net5.0\Naming.deps.json
+D:\IJuniorHomeworks\BasicsOfProgramming\Naming\bin\Debug\net5.0\Naming.runtimeconfig.json
+D:\IJuniorHomeworks\BasicsOfProgramming\Naming\bin\Debug\net5.0\Naming.runtimeconfig.dev.json
+D:\IJuniorHomeworks\BasicsOfProgramming\Naming\bin\Debug\net5.0\Naming.dll
+D:\IJuniorHomeworks\BasicsOfProgramming\Naming\bin\Debug\net5.0\Naming.pdb
+D:\IJuniorHomeworks\BasicsOfProgramming\Naming\obj\Debug\net5.0\Naming.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\BasicsOfProgramming\Naming\obj\Debug\net5.0\Naming.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\BasicsOfProgramming\Naming\obj\Debug\net5.0\Naming.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\BasicsOfProgramming\Naming\obj\Debug\net5.0\Naming.AssemblyInfo.cs
+D:\IJuniorHomeworks\BasicsOfProgramming\Naming\obj\Debug\net5.0\Naming.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\BasicsOfProgramming\Naming\obj\Debug\net5.0\Naming.dll
+D:\IJuniorHomeworks\BasicsOfProgramming\Naming\obj\Debug\net5.0\refint\Naming.dll
+D:\IJuniorHomeworks\BasicsOfProgramming\Naming\obj\Debug\net5.0\Naming.pdb
+D:\IJuniorHomeworks\BasicsOfProgramming\Naming\obj\Debug\net5.0\Naming.genruntimeconfig.cache
+D:\IJuniorHomeworks\BasicsOfProgramming\Naming\obj\Debug\net5.0\ref\Naming.dll

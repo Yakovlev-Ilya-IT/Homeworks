@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\BasicsOfProgramming\TextAboutUser\bin\Debug\net5.0\TextAboutUser.exe
+D:\IJuniorHomeworks\BasicsOfProgramming\TextAboutUser\bin\Debug\net5.0\TextAboutUser.deps.json
+D:\IJuniorHomeworks\BasicsOfProgramming\TextAboutUser\bin\Debug\net5.0\TextAboutUser.runtimeconfig.json
+D:\IJuniorHomeworks\BasicsOfProgramming\TextAboutUser\bin\Debug\net5.0\TextAboutUser.runtimeconfig.dev.json
+D:\IJuniorHomeworks\BasicsOfProgramming\TextAboutUser\bin\Debug\net5.0\TextAboutUser.dll
+D:\IJuniorHomeworks\BasicsOfProgramming\TextAboutUser\bin\Debug\net5.0\TextAboutUser.pdb
+D:\IJuniorHomeworks\BasicsOfProgramming\TextAboutUser\obj\Debug\net5.0\TextAboutUser.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\BasicsOfProgramming\TextAboutUser\obj\Debug\net5.0\TextAboutUser.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\BasicsOfProgramming\TextAboutUser\obj\Debug\net5.0\TextAboutUser.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\BasicsOfProgramming\TextAboutUser\obj\Debug\net5.0\TextAboutUser.AssemblyInfo.cs
+D:\IJuniorHomeworks\BasicsOfProgramming\TextAboutUser\obj\Debug\net5.0\TextAboutUser.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\BasicsOfProgramming\TextAboutUser\obj\Debug\net5.0\TextAboutUser.dll
+D:\IJuniorHomeworks\BasicsOfProgramming\TextAboutUser\obj\Debug\net5.0\refint\TextAboutUser.dll
+D:\IJuniorHomeworks\BasicsOfProgramming\TextAboutUser\obj\Debug\net5.0\TextAboutUser.pdb
+D:\IJuniorHomeworks\BasicsOfProgramming\TextAboutUser\obj\Debug\net5.0\TextAboutUser.genruntimeconfig.cache
+D:\IJuniorHomeworks\BasicsOfProgramming\TextAboutUser\obj\Debug\net5.0\ref\TextAboutUser.dll
