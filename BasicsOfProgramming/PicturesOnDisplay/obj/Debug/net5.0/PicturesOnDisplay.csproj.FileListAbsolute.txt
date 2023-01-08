@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\BasicsOfProgramming\PicturesOnDisplay\bin\Debug\net5.0\PicturesOnDisplay.exe
+D:\IJuniorHomeworks\BasicsOfProgramming\PicturesOnDisplay\bin\Debug\net5.0\PicturesOnDisplay.deps.json
+D:\IJuniorHomeworks\BasicsOfProgramming\PicturesOnDisplay\bin\Debug\net5.0\PicturesOnDisplay.runtimeconfig.json
+D:\IJuniorHomeworks\BasicsOfProgramming\PicturesOnDisplay\bin\Debug\net5.0\PicturesOnDisplay.runtimeconfig.dev.json
+D:\IJuniorHomeworks\BasicsOfProgramming\PicturesOnDisplay\bin\Debug\net5.0\PicturesOnDisplay.dll
+D:\IJuniorHomeworks\BasicsOfProgramming\PicturesOnDisplay\bin\Debug\net5.0\PicturesOnDisplay.pdb
+D:\IJuniorHomeworks\BasicsOfProgramming\PicturesOnDisplay\obj\Debug\net5.0\PicturesOnDisplay.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\BasicsOfProgramming\PicturesOnDisplay\obj\Debug\net5.0\PicturesOnDisplay.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\BasicsOfProgramming\PicturesOnDisplay\obj\Debug\net5.0\PicturesOnDisplay.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\BasicsOfProgramming\PicturesOnDisplay\obj\Debug\net5.0\PicturesOnDisplay.AssemblyInfo.cs
+D:\IJuniorHomeworks\BasicsOfProgramming\PicturesOnDisplay\obj\Debug\net5.0\PicturesOnDisplay.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\BasicsOfProgramming\PicturesOnDisplay\obj\Debug\net5.0\PicturesOnDisplay.dll
+D:\IJuniorHomeworks\BasicsOfProgramming\PicturesOnDisplay\obj\Debug\net5.0\refint\PicturesOnDisplay.dll
+D:\IJuniorHomeworks\BasicsOfProgramming\PicturesOnDisplay\obj\Debug\net5.0\PicturesOnDisplay.pdb
+D:\IJuniorHomeworks\BasicsOfProgramming\PicturesOnDisplay\obj\Debug\net5.0\PicturesOnDisplay.genruntimeconfig.cache
+D:\IJuniorHomeworks\BasicsOfProgramming\PicturesOnDisplay\obj\Debug\net5.0\ref\PicturesOnDisplay.dll
