@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\BasicsOfProgramming\SwappingValues\bin\Debug\net5.0\SwappingValues.exe
+D:\IJuniorHomeworks\BasicsOfProgramming\SwappingValues\bin\Debug\net5.0\SwappingValues.deps.json
+D:\IJuniorHomeworks\BasicsOfProgramming\SwappingValues\bin\Debug\net5.0\SwappingValues.runtimeconfig.json
+D:\IJuniorHomeworks\BasicsOfProgramming\SwappingValues\bin\Debug\net5.0\SwappingValues.runtimeconfig.dev.json
+D:\IJuniorHomeworks\BasicsOfProgramming\SwappingValues\bin\Debug\net5.0\SwappingValues.dll
+D:\IJuniorHomeworks\BasicsOfProgramming\SwappingValues\bin\Debug\net5.0\SwappingValues.pdb
+D:\IJuniorHomeworks\BasicsOfProgramming\SwappingValues\obj\Debug\net5.0\SwappingValues.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\BasicsOfProgramming\SwappingValues\obj\Debug\net5.0\SwappingValues.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\BasicsOfProgramming\SwappingValues\obj\Debug\net5.0\SwappingValues.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\BasicsOfProgramming\SwappingValues\obj\Debug\net5.0\SwappingValues.AssemblyInfo.cs
+D:\IJuniorHomeworks\BasicsOfProgramming\SwappingValues\obj\Debug\net5.0\SwappingValues.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\BasicsOfProgramming\SwappingValues\obj\Debug\net5.0\SwappingValues.dll
+D:\IJuniorHomeworks\BasicsOfProgramming\SwappingValues\obj\Debug\net5.0\refint\SwappingValues.dll
+D:\IJuniorHomeworks\BasicsOfProgramming\SwappingValues\obj\Debug\net5.0\SwappingValues.pdb
+D:\IJuniorHomeworks\BasicsOfProgramming\SwappingValues\obj\Debug\net5.0\SwappingValues.genruntimeconfig.cache
+D:\IJuniorHomeworks\BasicsOfProgramming\SwappingValues\obj\Debug\net5.0\ref\SwappingValues.dll
