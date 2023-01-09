@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\WhileExit\bin\Debug\net5.0\WhileExit.exe
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\WhileExit\bin\Debug\net5.0\WhileExit.deps.json
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\WhileExit\bin\Debug\net5.0\WhileExit.runtimeconfig.json
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\WhileExit\bin\Debug\net5.0\WhileExit.runtimeconfig.dev.json
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\WhileExit\bin\Debug\net5.0\WhileExit.dll
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\WhileExit\bin\Debug\net5.0\WhileExit.pdb
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\WhileExit\obj\Debug\net5.0\WhileExit.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\WhileExit\obj\Debug\net5.0\WhileExit.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\WhileExit\obj\Debug\net5.0\WhileExit.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\WhileExit\obj\Debug\net5.0\WhileExit.AssemblyInfo.cs
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\WhileExit\obj\Debug\net5.0\WhileExit.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\WhileExit\obj\Debug\net5.0\WhileExit.dll
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\WhileExit\obj\Debug\net5.0\refint\WhileExit.dll
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\WhileExit\obj\Debug\net5.0\WhileExit.pdb
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\WhileExit\obj\Debug\net5.0\WhileExit.genruntimeconfig.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\WhileExit\obj\Debug\net5.0\ref\WhileExit.dll
