@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\RandomSummary\bin\Debug\net5.0\RandomSummary.exe
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\RandomSummary\bin\Debug\net5.0\RandomSummary.deps.json
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\RandomSummary\bin\Debug\net5.0\RandomSummary.runtimeconfig.json
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\RandomSummary\bin\Debug\net5.0\RandomSummary.runtimeconfig.dev.json
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\RandomSummary\bin\Debug\net5.0\RandomSummary.dll
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\RandomSummary\bin\Debug\net5.0\RandomSummary.pdb
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\RandomSummary\obj\Debug\net5.0\RandomSummary.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\RandomSummary\obj\Debug\net5.0\RandomSummary.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\RandomSummary\obj\Debug\net5.0\RandomSummary.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\RandomSummary\obj\Debug\net5.0\RandomSummary.AssemblyInfo.cs
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\RandomSummary\obj\Debug\net5.0\RandomSummary.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\RandomSummary\obj\Debug\net5.0\RandomSummary.dll
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\RandomSummary\obj\Debug\net5.0\refint\RandomSummary.dll
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\RandomSummary\obj\Debug\net5.0\RandomSummary.pdb
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\RandomSummary\obj\Debug\net5.0\RandomSummary.genruntimeconfig.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\RandomSummary\obj\Debug\net5.0\ref\RandomSummary.dll
