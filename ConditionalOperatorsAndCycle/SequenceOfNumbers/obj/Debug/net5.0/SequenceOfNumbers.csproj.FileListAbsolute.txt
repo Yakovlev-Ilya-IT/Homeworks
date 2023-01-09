@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\SequenceOfNumbers\bin\Debug\net5.0\SequenceOfNumbers.exe
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\SequenceOfNumbers\bin\Debug\net5.0\SequenceOfNumbers.deps.json
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\SequenceOfNumbers\bin\Debug\net5.0\SequenceOfNumbers.runtimeconfig.json
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\SequenceOfNumbers\bin\Debug\net5.0\SequenceOfNumbers.runtimeconfig.dev.json
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\SequenceOfNumbers\bin\Debug\net5.0\SequenceOfNumbers.dll
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\SequenceOfNumbers\bin\Debug\net5.0\SequenceOfNumbers.pdb
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\SequenceOfNumbers\obj\Debug\net5.0\SequenceOfNumbers.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\SequenceOfNumbers\obj\Debug\net5.0\SequenceOfNumbers.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\SequenceOfNumbers\obj\Debug\net5.0\SequenceOfNumbers.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\SequenceOfNumbers\obj\Debug\net5.0\SequenceOfNumbers.AssemblyInfo.cs
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\SequenceOfNumbers\obj\Debug\net5.0\SequenceOfNumbers.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\SequenceOfNumbers\obj\Debug\net5.0\SequenceOfNumbers.dll
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\SequenceOfNumbers\obj\Debug\net5.0\refint\SequenceOfNumbers.dll
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\SequenceOfNumbers\obj\Debug\net5.0\SequenceOfNumbers.pdb
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\SequenceOfNumbers\obj\Debug\net5.0\SequenceOfNumbers.genruntimeconfig.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\SequenceOfNumbers\obj\Debug\net5.0\ref\SequenceOfNumbers.dll

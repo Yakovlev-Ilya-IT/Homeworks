@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForCycle", "ForCycle\ForCyc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhileExit", "WhileExit\WhileExit.csproj", "{8BAF6585-45AF-4835-A69A-FF6A3B8E6880}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SequenceOfNumbers", "SequenceOfNumbers\SequenceOfNumbers.csproj", "{8B1B3008-94AA-4E81-AA78-85434DB3711A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{8BAF6585-45AF-4835-A69A-FF6A3B8E6880}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BAF6585-45AF-4835-A69A-FF6A3B8E6880}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BAF6585-45AF-4835-A69A-FF6A3B8E6880}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B1B3008-94AA-4E81-AA78-85434DB3711A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B1B3008-94AA-4E81-AA78-85434DB3711A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B1B3008-94AA-4E81-AA78-85434DB3711A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B1B3008-94AA-4E81-AA78-85434DB3711A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
