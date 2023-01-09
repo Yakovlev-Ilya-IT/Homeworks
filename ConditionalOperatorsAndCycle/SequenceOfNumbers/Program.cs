@@ -11,9 +11,7 @@ namespace SequenceOfNumbers
             int step = 7;
 
             for (int currentNumber = firstNumber; currentNumber <= lastNumber; currentNumber += step)
-            {
                 Console.WriteLine(currentNumber);
-            }
         }
     }
 }
