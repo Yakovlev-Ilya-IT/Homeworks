@@ -13,7 +13,7 @@
             char filteringLetter = 'N';
             ulong key;
             byte colorMask;
-            bool isAvailableForPayment;
+            ushort userID;
         }
     }
 }
