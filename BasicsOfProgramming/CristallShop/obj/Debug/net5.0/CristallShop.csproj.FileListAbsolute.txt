@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\BasicsOfProgramming\CristallShop\bin\Debug\net5.0\CristallShop.exe
+D:\IJuniorHomeworks\BasicsOfProgramming\CristallShop\bin\Debug\net5.0\CristallShop.deps.json
+D:\IJuniorHomeworks\BasicsOfProgramming\CristallShop\bin\Debug\net5.0\CristallShop.runtimeconfig.json
+D:\IJuniorHomeworks\BasicsOfProgramming\CristallShop\bin\Debug\net5.0\CristallShop.runtimeconfig.dev.json
+D:\IJuniorHomeworks\BasicsOfProgramming\CristallShop\bin\Debug\net5.0\CristallShop.dll
+D:\IJuniorHomeworks\BasicsOfProgramming\CristallShop\bin\Debug\net5.0\CristallShop.pdb
+D:\IJuniorHomeworks\BasicsOfProgramming\CristallShop\obj\Debug\net5.0\CristallShop.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\BasicsOfProgramming\CristallShop\obj\Debug\net5.0\CristallShop.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\BasicsOfProgramming\CristallShop\obj\Debug\net5.0\CristallShop.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\BasicsOfProgramming\CristallShop\obj\Debug\net5.0\CristallShop.AssemblyInfo.cs
+D:\IJuniorHomeworks\BasicsOfProgramming\CristallShop\obj\Debug\net5.0\CristallShop.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\BasicsOfProgramming\CristallShop\obj\Debug\net5.0\CristallShop.dll
+D:\IJuniorHomeworks\BasicsOfProgramming\CristallShop\obj\Debug\net5.0\refint\CristallShop.dll
+D:\IJuniorHomeworks\BasicsOfProgramming\CristallShop\obj\Debug\net5.0\CristallShop.pdb
+D:\IJuniorHomeworks\BasicsOfProgramming\CristallShop\obj\Debug\net5.0\CristallShop.genruntimeconfig.cache
+D:\IJuniorHomeworks\BasicsOfProgramming\CristallShop\obj\Debug\net5.0\ref\CristallShop.dll
