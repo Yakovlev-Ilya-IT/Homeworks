@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\ForCycle\bin\Debug\net5.0\ForCycle.exe
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\ForCycle\bin\Debug\net5.0\ForCycle.deps.json
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\ForCycle\bin\Debug\net5.0\ForCycle.runtimeconfig.json
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\ForCycle\bin\Debug\net5.0\ForCycle.runtimeconfig.dev.json
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\ForCycle\bin\Debug\net5.0\ForCycle.dll
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\ForCycle\bin\Debug\net5.0\ForCycle.pdb
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\ForCycle\obj\Debug\net5.0\ForCycle.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\ForCycle\obj\Debug\net5.0\ForCycle.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\ForCycle\obj\Debug\net5.0\ForCycle.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\ForCycle\obj\Debug\net5.0\ForCycle.AssemblyInfo.cs
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\ForCycle\obj\Debug\net5.0\ForCycle.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\ForCycle\obj\Debug\net5.0\ForCycle.dll
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\ForCycle\obj\Debug\net5.0\refint\ForCycle.dll
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\ForCycle\obj\Debug\net5.0\ForCycle.pdb
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\ForCycle\obj\Debug\net5.0\ForCycle.genruntimeconfig.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\ForCycle\obj\Debug\net5.0\ref\ForCycle.dll
