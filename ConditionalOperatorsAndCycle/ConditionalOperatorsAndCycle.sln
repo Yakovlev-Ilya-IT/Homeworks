@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SequenceOfNumbers", "Sequen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomSummary", "RandomSummary\RandomSummary.csproj", "{9C748A41-11E9-4799-9697-EA7DA2468DFD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyWallet", "CurrencyWallet\CurrencyWallet.csproj", "{AFEF48CD-86FC-4787-B8E2-95FD799C5C2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{9C748A41-11E9-4799-9697-EA7DA2468DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C748A41-11E9-4799-9697-EA7DA2468DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C748A41-11E9-4799-9697-EA7DA2468DFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFEF48CD-86FC-4787-B8E2-95FD799C5C2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFEF48CD-86FC-4787-B8E2-95FD799C5C2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFEF48CD-86FC-4787-B8E2-95FD799C5C2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFEF48CD-86FC-4787-B8E2-95FD799C5C2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

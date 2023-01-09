@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\CurrencyWallet\bin\Debug\net5.0\CurrencyWallet.exe
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\CurrencyWallet\bin\Debug\net5.0\CurrencyWallet.deps.json
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\CurrencyWallet\bin\Debug\net5.0\CurrencyWallet.runtimeconfig.json
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\CurrencyWallet\bin\Debug\net5.0\CurrencyWallet.runtimeconfig.dev.json
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\CurrencyWallet\bin\Debug\net5.0\CurrencyWallet.dll
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\CurrencyWallet\bin\Debug\net5.0\CurrencyWallet.pdb
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\CurrencyWallet\obj\Debug\net5.0\CurrencyWallet.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\CurrencyWallet\obj\Debug\net5.0\CurrencyWallet.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\CurrencyWallet\obj\Debug\net5.0\CurrencyWallet.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\CurrencyWallet\obj\Debug\net5.0\CurrencyWallet.AssemblyInfo.cs
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\CurrencyWallet\obj\Debug\net5.0\CurrencyWallet.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\CurrencyWallet\obj\Debug\net5.0\CurrencyWallet.dll
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\CurrencyWallet\obj\Debug\net5.0\refint\CurrencyWallet.dll
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\CurrencyWallet\obj\Debug\net5.0\CurrencyWallet.pdb
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\CurrencyWallet\obj\Debug\net5.0\CurrencyWallet.genruntimeconfig.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\CurrencyWallet\obj\Debug\net5.0\ref\CurrencyWallet.dll
