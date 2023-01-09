@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\BasicsOfProgramming\CalculationOfWaitiongInQueue\bin\Debug\net5.0\CalculationOfWaitiongInQueue.exe
+D:\IJuniorHomeworks\BasicsOfProgramming\CalculationOfWaitiongInQueue\bin\Debug\net5.0\CalculationOfWaitiongInQueue.deps.json
+D:\IJuniorHomeworks\BasicsOfProgramming\CalculationOfWaitiongInQueue\bin\Debug\net5.0\CalculationOfWaitiongInQueue.runtimeconfig.json
+D:\IJuniorHomeworks\BasicsOfProgramming\CalculationOfWaitiongInQueue\bin\Debug\net5.0\CalculationOfWaitiongInQueue.runtimeconfig.dev.json
+D:\IJuniorHomeworks\BasicsOfProgramming\CalculationOfWaitiongInQueue\bin\Debug\net5.0\CalculationOfWaitiongInQueue.dll
+D:\IJuniorHomeworks\BasicsOfProgramming\CalculationOfWaitiongInQueue\bin\Debug\net5.0\CalculationOfWaitiongInQueue.pdb
+D:\IJuniorHomeworks\BasicsOfProgramming\CalculationOfWaitiongInQueue\obj\Debug\net5.0\CalculationOfWaitiongInQueue.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\BasicsOfProgramming\CalculationOfWaitiongInQueue\obj\Debug\net5.0\CalculationOfWaitiongInQueue.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\BasicsOfProgramming\CalculationOfWaitiongInQueue\obj\Debug\net5.0\CalculationOfWaitiongInQueue.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\BasicsOfProgramming\CalculationOfWaitiongInQueue\obj\Debug\net5.0\CalculationOfWaitiongInQueue.AssemblyInfo.cs
+D:\IJuniorHomeworks\BasicsOfProgramming\CalculationOfWaitiongInQueue\obj\Debug\net5.0\CalculationOfWaitiongInQueue.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\BasicsOfProgramming\CalculationOfWaitiongInQueue\obj\Debug\net5.0\CalculationOfWaitiongInQueue.dll
+D:\IJuniorHomeworks\BasicsOfProgramming\CalculationOfWaitiongInQueue\obj\Debug\net5.0\refint\CalculationOfWaitiongInQueue.dll
+D:\IJuniorHomeworks\BasicsOfProgramming\CalculationOfWaitiongInQueue\obj\Debug\net5.0\CalculationOfWaitiongInQueue.pdb
+D:\IJuniorHomeworks\BasicsOfProgramming\CalculationOfWaitiongInQueue\obj\Debug\net5.0\CalculationOfWaitiongInQueue.genruntimeconfig.cache
+D:\IJuniorHomeworks\BasicsOfProgramming\CalculationOfWaitiongInQueue\obj\Debug\net5.0\ref\CalculationOfWaitiongInQueue.dll

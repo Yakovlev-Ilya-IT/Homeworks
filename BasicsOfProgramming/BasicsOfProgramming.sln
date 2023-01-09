@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PicturesOnDisplay", "Pictur
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwappingValues", "SwappingValues\SwappingValues.csproj", "{8BF55288-CE96-4B42-A212-51B44C0B2655}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CristallShop", "CristallShop\CristallShop.csproj", "{C0033834-69CC-445F-8F2C-5FF96DB55126}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CristallShop", "CristallShop\CristallShop.csproj", "{C0033834-69CC-445F-8F2C-5FF96DB55126}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculationOfWaitiongInQueue", "CalculationOfWaitiongInQueue\CalculationOfWaitiongInQueue.csproj", "{E50FC7BB-6D00-44A8-80B9-62DBCC17E996}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{C0033834-69CC-445F-8F2C-5FF96DB55126}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0033834-69CC-445F-8F2C-5FF96DB55126}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0033834-69CC-445F-8F2C-5FF96DB55126}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E50FC7BB-6D00-44A8-80B9-62DBCC17E996}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E50FC7BB-6D00-44A8-80B9-62DBCC17E996}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E50FC7BB-6D00-44A8-80B9-62DBCC17E996}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E50FC7BB-6D00-44A8-80B9-62DBCC17E996}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
