@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\NameInRectangle\bin\Debug\net5.0\NameInRectangle.exe
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\NameInRectangle\bin\Debug\net5.0\NameInRectangle.deps.json
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\NameInRectangle\bin\Debug\net5.0\NameInRectangle.runtimeconfig.json
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\NameInRectangle\bin\Debug\net5.0\NameInRectangle.runtimeconfig.dev.json
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\NameInRectangle\bin\Debug\net5.0\NameInRectangle.dll
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\NameInRectangle\bin\Debug\net5.0\NameInRectangle.pdb
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\NameInRectangle\obj\Debug\net5.0\NameInRectangle.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\NameInRectangle\obj\Debug\net5.0\NameInRectangle.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\NameInRectangle\obj\Debug\net5.0\NameInRectangle.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\NameInRectangle\obj\Debug\net5.0\NameInRectangle.AssemblyInfo.cs
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\NameInRectangle\obj\Debug\net5.0\NameInRectangle.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\NameInRectangle\obj\Debug\net5.0\NameInRectangle.dll
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\NameInRectangle\obj\Debug\net5.0\refint\NameInRectangle.dll
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\NameInRectangle\obj\Debug\net5.0\NameInRectangle.pdb
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\NameInRectangle\obj\Debug\net5.0\NameInRectangle.genruntimeconfig.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\NameInRectangle\obj\Debug\net5.0\ref\NameInRectangle.dll

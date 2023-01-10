@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomSummary", "RandomSumm
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyWallet", "CurrencyWallet\CurrencyWallet.csproj", "{AFEF48CD-86FC-4787-B8E2-95FD799C5C2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPanel", "CommandPanel\CommandPanel.csproj", "{6FFA6D68-B3FD-4EAF-BDF6-A86B0B1B399A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandPanel", "CommandPanel\CommandPanel.csproj", "{6FFA6D68-B3FD-4EAF-BDF6-A86B0B1B399A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameInRectangle", "NameInRectangle\NameInRectangle.csproj", "{44043E66-8B41-4C9B-80AE-86285C64B916}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{6FFA6D68-B3FD-4EAF-BDF6-A86B0B1B399A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FFA6D68-B3FD-4EAF-BDF6-A86B0B1B399A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FFA6D68-B3FD-4EAF-BDF6-A86B0B1B399A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44043E66-8B41-4C9B-80AE-86285C64B916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44043E66-8B41-4C9B-80AE-86285C64B916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44043E66-8B41-4C9B-80AE-86285C64B916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44043E66-8B41-4C9B-80AE-86285C64B916}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
