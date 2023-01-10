@@ -6,7 +6,10 @@ namespace ForCycle
     {
         static void Main(string[] args)
         {
-            while (true)
+            string exitCommand = "1";
+            string inputCommand;
+
+            do
             {
                 Console.WriteLine("Введите сообщения для повтора:");
 
@@ -20,7 +23,12 @@ namespace ForCycle
                 {
                     Console.WriteLine(message);
                 }
-            }
+
+                Console.WriteLine($"Для выхода из программы введите {exitCommand}");
+                Console.WriteLine($"Для продолжения введите любое сообщение или нажмите Enter");
+
+                inputCommand = Console.ReadLine();
+            } while(inputCommand != exitCommand);
         }
     }
 }
