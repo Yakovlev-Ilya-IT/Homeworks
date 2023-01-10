@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\MinimumPowerOfTwo\bin\Debug\net5.0\MinimumPowerOfTwo.exe
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\MinimumPowerOfTwo\bin\Debug\net5.0\MinimumPowerOfTwo.deps.json
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\MinimumPowerOfTwo\bin\Debug\net5.0\MinimumPowerOfTwo.runtimeconfig.json
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\MinimumPowerOfTwo\bin\Debug\net5.0\MinimumPowerOfTwo.runtimeconfig.dev.json
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\MinimumPowerOfTwo\bin\Debug\net5.0\MinimumPowerOfTwo.dll
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\MinimumPowerOfTwo\bin\Debug\net5.0\MinimumPowerOfTwo.pdb
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\MinimumPowerOfTwo\obj\Debug\net5.0\MinimumPowerOfTwo.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\MinimumPowerOfTwo\obj\Debug\net5.0\MinimumPowerOfTwo.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\MinimumPowerOfTwo\obj\Debug\net5.0\MinimumPowerOfTwo.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\MinimumPowerOfTwo\obj\Debug\net5.0\MinimumPowerOfTwo.AssemblyInfo.cs
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\MinimumPowerOfTwo\obj\Debug\net5.0\MinimumPowerOfTwo.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\MinimumPowerOfTwo\obj\Debug\net5.0\MinimumPowerOfTwo.dll
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\MinimumPowerOfTwo\obj\Debug\net5.0\refint\MinimumPowerOfTwo.dll
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\MinimumPowerOfTwo\obj\Debug\net5.0\MinimumPowerOfTwo.pdb
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\MinimumPowerOfTwo\obj\Debug\net5.0\MinimumPowerOfTwo.genruntimeconfig.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\MinimumPowerOfTwo\obj\Debug\net5.0\ref\MinimumPowerOfTwo.dll

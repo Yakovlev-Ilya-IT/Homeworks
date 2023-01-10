@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecretPassword", "SecretPas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiples", "Multiples\Multiples.csproj", "{A61B3D68-DA26-4C3B-BB3C-4B12932FDF53}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimumPowerOfTwo", "MinimumPowerOfTwo\MinimumPowerOfTwo.csproj", "{B6876D0F-CF12-4F73-A427-08A10ED4071B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{A61B3D68-DA26-4C3B-BB3C-4B12932FDF53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A61B3D68-DA26-4C3B-BB3C-4B12932FDF53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A61B3D68-DA26-4C3B-BB3C-4B12932FDF53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6876D0F-CF12-4F73-A427-08A10ED4071B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6876D0F-CF12-4F73-A427-08A10ED4071B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6876D0F-CF12-4F73-A427-08A10ED4071B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6876D0F-CF12-4F73-A427-08A10ED4071B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
