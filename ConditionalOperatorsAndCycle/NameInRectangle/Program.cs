@@ -4,11 +4,11 @@ namespace NameInRectangle
 {
     internal class Program
     {
-        const string ExitCommand = "exit";
-        const int OutlineSymbolLength = 1;
-        const int MinOutlineRectWidth = 2;
-        const int OutlineRectHeight = 3;
-        const int NumberOfNameRow = 1;
+        private const string ExitCommand = "exit";
+        private const int OutlineSymbolLength = 1;
+        private const int MinOutlineRectWidth = 2;
+        private const int OutlineRectHeight = 3;
+        private const int NumberOfNameRow = 1;
 
         static void Main(string[] args)
         {

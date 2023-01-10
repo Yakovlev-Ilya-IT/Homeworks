@@ -4,18 +4,19 @@ namespace CommandPanel
 {
     internal class Program
     {
-        const string ExitCommand = "0";
-        const string ClearConsoleCommand = "1";
-        const string ChangeTextColorCommand = "2";
-        const string ChangeProgramTitleCommand = "3";
-        const string GetJokeCommand = "4";
-        const string ChangeConsoleSizeCommand = "5";
+        private const string ExitCommand = "0";
+        private const string ClearConsoleCommand = "1";
+        private const string ChangeTextColorCommand = "2";
+        private const string ChangeProgramTitleCommand = "3";
+        private const string GetJokeCommand = "4";
+        private const string ChangeConsoleSizeCommand = "5";
 
         static void Main(string[] args)
         {
             Console.WriteLine("Рад приветствовать на борту моего пианино, можете попробовать любую из команд:)");
 
             string userInputCommand;
+            Random random = new Random();
 
             do
             {
@@ -28,7 +29,6 @@ namespace CommandPanel
                 Console.WriteLine($"{ChangeConsoleSizeCommand} - изменить размеры консоли");
 
                 userInputCommand = Console.ReadLine();
-                Random random = new Random();
 
                 switch (userInputCommand)
                 {

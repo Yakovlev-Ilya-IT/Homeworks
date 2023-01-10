@@ -4,8 +4,8 @@ namespace SecretPassword
 {
     internal class Program
     {
-        const int NumberOfTries = 3;
-        const string SecretMessage = "А ты хороооош мужик... хорооош!";
+        private const int NumberOfTries = 3;
+        private const string SecretMessage = "А ты хороооош мужик... хорооош!";
 
         static void Main(string[] args)
         {
