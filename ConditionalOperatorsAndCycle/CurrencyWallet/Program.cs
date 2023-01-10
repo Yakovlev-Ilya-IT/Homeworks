@@ -4,13 +4,13 @@ namespace CurrencyWallet
 {
     internal class Program
     {
-        const string ExitCommand = "exit";
-        const string ConvertingRubleToDollarCommand = "1";
-        const string ConvertingDollarToRubbleCommand = "2";
-        const string ConvertingEuroToRubbleCommand = "3";
-        const string ConvertingRubbleToEuroCommand = "4";
-        const string ConvertingEuroToDollarCommand = "5";
-        const string ConvertingDollarToEuroCommand = "6";
+        private const string ExitCommand = "exit";
+        private const string ConvertingRubleToDollarCommand = "1";
+        private const string ConvertingDollarToRubbleCommand = "2";
+        private const string ConvertingEuroToRubbleCommand = "3";
+        private const string ConvertingRubbleToEuroCommand = "4";
+        private const string ConvertingEuroToDollarCommand = "5";
+        private const string ConvertingDollarToEuroCommand = "6";
 
         static void Main(string[] args)
         {
