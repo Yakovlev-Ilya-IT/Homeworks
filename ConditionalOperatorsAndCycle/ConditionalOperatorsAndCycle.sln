@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameInRectangle", "NameInRe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecretPassword", "SecretPassword\SecretPassword.csproj", "{414A6A68-155C-4D70-B91B-78ACC4A23701}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiples", "Multiples\Multiples.csproj", "{A61B3D68-DA26-4C3B-BB3C-4B12932FDF53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{414A6A68-155C-4D70-B91B-78ACC4A23701}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{414A6A68-155C-4D70-B91B-78ACC4A23701}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{414A6A68-155C-4D70-B91B-78ACC4A23701}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A61B3D68-DA26-4C3B-BB3C-4B12932FDF53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A61B3D68-DA26-4C3B-BB3C-4B12932FDF53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A61B3D68-DA26-4C3B-BB3C-4B12932FDF53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A61B3D68-DA26-4C3B-BB3C-4B12932FDF53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

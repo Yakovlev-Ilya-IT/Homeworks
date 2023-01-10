@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\Multiples\bin\Debug\net5.0\Multiples.exe
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\Multiples\bin\Debug\net5.0\Multiples.deps.json
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\Multiples\bin\Debug\net5.0\Multiples.runtimeconfig.json
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\Multiples\bin\Debug\net5.0\Multiples.runtimeconfig.dev.json
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\Multiples\bin\Debug\net5.0\Multiples.dll
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\Multiples\bin\Debug\net5.0\Multiples.pdb
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\Multiples\obj\Debug\net5.0\Multiples.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\Multiples\obj\Debug\net5.0\Multiples.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\Multiples\obj\Debug\net5.0\Multiples.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\Multiples\obj\Debug\net5.0\Multiples.AssemblyInfo.cs
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\Multiples\obj\Debug\net5.0\Multiples.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\Multiples\obj\Debug\net5.0\Multiples.dll
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\Multiples\obj\Debug\net5.0\refint\Multiples.dll
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\Multiples\obj\Debug\net5.0\Multiples.pdb
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\Multiples\obj\Debug\net5.0\Multiples.genruntimeconfig.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\Multiples\obj\Debug\net5.0\ref\Multiples.dll
