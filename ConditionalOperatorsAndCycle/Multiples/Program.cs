@@ -20,10 +20,8 @@ namespace Multiples
             int result = 0;
 
             for (int i = 0; i < EndOfNumericalInterval; i += number)
-            {
                 if(i >= StartOfNumericalInterval)
                     result++;
-            }
 
             Console.WriteLine($"количество трехзначных натуральных чисел, которые кратны {number}: {result}");
         }
