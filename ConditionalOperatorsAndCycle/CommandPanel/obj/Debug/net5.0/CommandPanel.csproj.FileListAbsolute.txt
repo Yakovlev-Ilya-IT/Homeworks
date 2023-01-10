@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\CommandPanel\bin\Debug\net5.0\CommandPanel.exe
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\CommandPanel\bin\Debug\net5.0\CommandPanel.deps.json
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\CommandPanel\bin\Debug\net5.0\CommandPanel.runtimeconfig.json
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\CommandPanel\bin\Debug\net5.0\CommandPanel.runtimeconfig.dev.json
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\CommandPanel\bin\Debug\net5.0\CommandPanel.dll
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\CommandPanel\bin\Debug\net5.0\CommandPanel.pdb
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\CommandPanel\obj\Debug\net5.0\CommandPanel.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\CommandPanel\obj\Debug\net5.0\CommandPanel.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\CommandPanel\obj\Debug\net5.0\CommandPanel.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\CommandPanel\obj\Debug\net5.0\CommandPanel.AssemblyInfo.cs
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\CommandPanel\obj\Debug\net5.0\CommandPanel.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\CommandPanel\obj\Debug\net5.0\CommandPanel.dll
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\CommandPanel\obj\Debug\net5.0\refint\CommandPanel.dll
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\CommandPanel\obj\Debug\net5.0\CommandPanel.pdb
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\CommandPanel\obj\Debug\net5.0\CommandPanel.genruntimeconfig.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\CommandPanel\obj\Debug\net5.0\ref\CommandPanel.dll
