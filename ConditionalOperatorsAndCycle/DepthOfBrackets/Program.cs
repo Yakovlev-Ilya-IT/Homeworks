@@ -6,8 +6,6 @@ namespace DepthOfBrackets
     {
         private const char LeftBracket = '(';
         private const char RightBracket = ')';
-        private const char EmptySymbol = ' ';
-        private const int MinDepth = 1;
 
         static void Main(string[] args)
         {
@@ -15,21 +13,18 @@ namespace DepthOfBrackets
 
             string input = Console.ReadLine();
 
-            int maxDepth = MinDepth;
-            int currentDepth = MinDepth;
-            int leftBracketCounter = 0;
-            int rightBracketCounter = 0;
-            char previousSymbol = EmptySymbol;
+            int maxDepth = 0;
+            int currentDepth = 0;
 
             foreach (char symbol in input)
             {
                 if(symbol != LeftBracket && symbol != RightBracket)
                 {
                     Console.WriteLine("Введен некорректный символ");
-                    break;
+                    return;
                 }
 
-                if (previousSymbol == symbol)
+                if (symbol == LeftBracket)
                 {
                     currentDepth++;
 
@@ -38,28 +33,17 @@ namespace DepthOfBrackets
                 }
                 else
                 {
-                    currentDepth = MinDepth;
-                    previousSymbol = symbol;
+                    if(currentDepth <= 0)
+                    {
+                        Console.WriteLine($"Строка некорректная");
+                        return;
+                    }
+
+                    currentDepth--;
                 }
-
-                if(previousSymbol == EmptySymbol)
-                    previousSymbol = symbol;
-
-                if (symbol == LeftBracket)
-                    leftBracketCounter++;
-
-                if(symbol == RightBracket)
-                    rightBracketCounter++;
             }
 
-            if (rightBracketCounter == leftBracketCounter)
-            {
-                Console.WriteLine($"Строка корректная и максимум глубины: {maxDepth}");
-            }
-            else
-            {
-                Console.WriteLine($"Строка некорректная");
-            }
+            Console.WriteLine($"Строка корректная и максимум глубины: {maxDepth}");
         }
     }
 }
