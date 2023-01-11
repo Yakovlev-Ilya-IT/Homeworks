@@ -32,21 +32,13 @@ namespace NameInRectangle
                 {
                     int outlineRectLength = name.Length + MinOutlineRectWidth;
 
-                    for (int i = 0; i < OutlineRectHeight; i++)
-                    {
-                        if(i == NumberOfNameRow)
-                        {
-                            Console.Write(outlineSymbol);
-                            Console.Write(name);
-                            Console.WriteLine(outlineSymbol);
-                        }
-                        else
-                        {
-                            for (int j = 0; j < outlineRectLength; j++)
-                                Console.Write(outlineSymbol);
-                            Console.WriteLine();
-                        }
-                    }
+                    string upperOutline = new string(outlineSymbol[0], outlineRectLength);
+                    string nameInOutline = $"{outlineSymbol}{name}{outlineSymbol}";
+                    string lowerOutline = new string(outlineSymbol[0], outlineRectLength);
+
+                    Console.WriteLine(upperOutline);
+                    Console.WriteLine(nameInOutline);
+                    Console.WriteLine(lowerOutline);
                 }
 
                 Console.WriteLine($"Для выхода из программы введите {ExitCommand}");
