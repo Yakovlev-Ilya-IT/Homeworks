@@ -4,14 +4,11 @@ namespace NameInRectangle
 {
     internal class Program
     {
-        private const string ExitCommand = "exit";
-        private const int OutlineSymbolLength = 1;
-        private const int MinOutlineRectWidth = 2;
-        private const int OutlineRectHeight = 3;
-        private const int NumberOfNameRow = 1;
-
         static void Main(string[] args)
         {
+            string exitCommand = "exit";
+            int outlineSymbolLength = 1;
+
             string inputCommand;
 
             do
@@ -24,29 +21,26 @@ namespace NameInRectangle
 
                 string outlineSymbol = Console.ReadLine();
 
-                if (outlineSymbol.Length != OutlineSymbolLength)
+                if (outlineSymbol.Length != outlineSymbolLength)
                 {
                     Console.WriteLine("Упс, это не похоже на символ :(");
                 }
                 else
                 {
-                    int outlineRectLength = name.Length + MinOutlineRectWidth;
-
-                    string upperOutline = new string(outlineSymbol[0], outlineRectLength);
                     string nameInOutline = $"{outlineSymbol}{name}{outlineSymbol}";
-                    string lowerOutline = new string(outlineSymbol[0], outlineRectLength);
+                    string outline = new string(outlineSymbol[0], nameInOutline.Length);
 
-                    Console.WriteLine(upperOutline);
+                    Console.WriteLine(outline);
                     Console.WriteLine(nameInOutline);
-                    Console.WriteLine(lowerOutline);
+                    Console.WriteLine(outline);
                 }
 
-                Console.WriteLine($"Для выхода из программы введите {ExitCommand}");
+                Console.WriteLine($"Для выхода из программы введите {exitCommand}");
                 Console.WriteLine($"Для продолжения введите любое сообщение или нажмите Enter");
 
                 inputCommand = Console.ReadLine();
 
-            } while (inputCommand != ExitCommand);
+            } while (inputCommand != exitCommand);
         }
     }
 }
