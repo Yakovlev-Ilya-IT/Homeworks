@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\DepthOfBrackets\bin\Debug\net5.0\DepthOfBrackets.exe
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\DepthOfBrackets\bin\Debug\net5.0\DepthOfBrackets.deps.json
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\DepthOfBrackets\bin\Debug\net5.0\DepthOfBrackets.runtimeconfig.json
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\DepthOfBrackets\bin\Debug\net5.0\DepthOfBrackets.runtimeconfig.dev.json
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\DepthOfBrackets\bin\Debug\net5.0\DepthOfBrackets.dll
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\DepthOfBrackets\bin\Debug\net5.0\DepthOfBrackets.pdb
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\DepthOfBrackets\obj\Debug\net5.0\DepthOfBrackets.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\DepthOfBrackets\obj\Debug\net5.0\DepthOfBrackets.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\DepthOfBrackets\obj\Debug\net5.0\DepthOfBrackets.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\DepthOfBrackets\obj\Debug\net5.0\DepthOfBrackets.AssemblyInfo.cs
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\DepthOfBrackets\obj\Debug\net5.0\DepthOfBrackets.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\DepthOfBrackets\obj\Debug\net5.0\DepthOfBrackets.dll
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\DepthOfBrackets\obj\Debug\net5.0\refint\DepthOfBrackets.dll
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\DepthOfBrackets\obj\Debug\net5.0\DepthOfBrackets.pdb
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\DepthOfBrackets\obj\Debug\net5.0\DepthOfBrackets.genruntimeconfig.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\DepthOfBrackets\obj\Debug\net5.0\ref\DepthOfBrackets.dll

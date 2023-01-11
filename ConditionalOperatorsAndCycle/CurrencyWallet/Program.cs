@@ -23,6 +23,7 @@ namespace CurrencyWallet
             float euroInWallet = 1000;
 
             string userInputCommand;
+            bool programmIsCompleted = false;
 
             Console.WriteLine("Добро пожаловать в банк, для выхода наберите команду exit");
 
@@ -45,7 +46,10 @@ namespace CurrencyWallet
 
                 float exchangeCurrencyCount;
                 switch (userInputCommand)
-                {   
+                {
+                    case ExitCommand:
+                        programmIsCompleted = true;
+                        break;
                     case ConvertingRubleToDollarCommand:
                         Console.WriteLine("Обмен рублей на доллары");
                         Console.WriteLine("Сколько рублей вы хотите обменять?");
@@ -145,7 +149,7 @@ namespace CurrencyWallet
                     default:
                         break;
                 }
-            } while (userInputCommand != ExitCommand);
+            } while (!programmIsCompleted);
         }
     }
 }
