@@ -4,15 +4,14 @@ namespace MinimumPowerOfTwo
 {
     internal class Program
     {
-        private const int Basis = 2;
-
-        private const int LowerBoundOfNumberGeneration = 1;
-        private const int UpperBoundOfNumberGeneration = 100;
-
         static void Main(string[] args)
         {
+            int basis = 2;
+            int minLimit = 1;
+            int maxLimit = 100;
+
             Random random = new Random();
-            int number = random.Next(LowerBoundOfNumberGeneration, UpperBoundOfNumberGeneration);
+            int number = random.Next(minLimit, maxLimit);
 
             Console.WriteLine($"Сгенирированное число: {number}");
 
@@ -20,11 +19,11 @@ namespace MinimumPowerOfTwo
 
             while(number > 0)
             {
-                number /= Basis;
+                number /= basis;
                 degreeCounter++;
             }
 
-            int result = (int)Math.Pow(Basis, degreeCounter);
+            int result = (int)Math.Pow(basis, degreeCounter);
 
             Console.WriteLine($"Степень: {degreeCounter} \nЧисло в степени: {result}");
         }
