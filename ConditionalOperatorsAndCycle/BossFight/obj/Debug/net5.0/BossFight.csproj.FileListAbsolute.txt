@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\BossFight\bin\Debug\net5.0\BossFight.exe
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\BossFight\bin\Debug\net5.0\BossFight.deps.json
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\BossFight\bin\Debug\net5.0\BossFight.runtimeconfig.json
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\BossFight\bin\Debug\net5.0\BossFight.runtimeconfig.dev.json
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\BossFight\bin\Debug\net5.0\BossFight.dll
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\BossFight\bin\Debug\net5.0\BossFight.pdb
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\BossFight\obj\Debug\net5.0\BossFight.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\BossFight\obj\Debug\net5.0\BossFight.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\BossFight\obj\Debug\net5.0\BossFight.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\BossFight\obj\Debug\net5.0\BossFight.AssemblyInfo.cs
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\BossFight\obj\Debug\net5.0\BossFight.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\BossFight\obj\Debug\net5.0\BossFight.dll
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\BossFight\obj\Debug\net5.0\refint\BossFight.dll
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\BossFight\obj\Debug\net5.0\BossFight.pdb
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\BossFight\obj\Debug\net5.0\BossFight.genruntimeconfig.cache
+D:\IJuniorHomeworks\ConditionalOperatorsAndCycle\BossFight\obj\Debug\net5.0\ref\BossFight.dll
