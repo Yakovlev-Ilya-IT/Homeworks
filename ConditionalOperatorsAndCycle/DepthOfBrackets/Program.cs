@@ -4,11 +4,11 @@ namespace DepthOfBrackets
 {
     internal class Program
     {
-        private const char LeftBracket = '(';
-        private const char RightBracket = ')';
-
         static void Main(string[] args)
         {
+            const char leftBracket = '(';
+            const char rightBracket = ')';
+
             Console.WriteLine(@"Введите строку из круглых скобок ""("" или "")"" ");
 
             string input = Console.ReadLine();
@@ -18,13 +18,13 @@ namespace DepthOfBrackets
 
             foreach (char symbol in input)
             {
-                if(symbol != LeftBracket && symbol != RightBracket)
+                if(symbol != leftBracket && symbol != rightBracket)
                 {
                     Console.WriteLine("Введен некорректный символ");
                     return;
                 }
 
-                if (symbol == LeftBracket)
+                if (symbol == leftBracket)
                 {
                     currentDepth++;
 
@@ -33,17 +33,17 @@ namespace DepthOfBrackets
                 }
                 else
                 {
-                    if(currentDepth <= 0)
-                    {
-                        Console.WriteLine($"Строка некорректная");
-                        return;
-                    }
-
                     currentDepth--;
+
+                    if (currentDepth < 0)
+                        break;
                 }
             }
 
-            Console.WriteLine($"Строка корректная и максимум глубины: {maxDepth}");
+            if(currentDepth == 0)
+                Console.WriteLine($"Строка корректная и максимум глубины: {maxDepth}");
+            else
+                Console.WriteLine($"Строка некорректная");
         }
     }
 }
