@@ -45,6 +45,7 @@ namespace CurrencyWallet
                 userInputCommand = Console.ReadLine();
 
                 float exchangeCurrencyCount;
+
                 switch (userInputCommand)
                 {
                     case ExitCommand:
