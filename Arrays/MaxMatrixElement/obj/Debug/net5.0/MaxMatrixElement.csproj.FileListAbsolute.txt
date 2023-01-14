@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\Arrays\MaxMatrixElement\bin\Debug\net5.0\MaxMatrixElement.exe
+D:\IJuniorHomeworks\Arrays\MaxMatrixElement\bin\Debug\net5.0\MaxMatrixElement.deps.json
+D:\IJuniorHomeworks\Arrays\MaxMatrixElement\bin\Debug\net5.0\MaxMatrixElement.runtimeconfig.json
+D:\IJuniorHomeworks\Arrays\MaxMatrixElement\bin\Debug\net5.0\MaxMatrixElement.runtimeconfig.dev.json
+D:\IJuniorHomeworks\Arrays\MaxMatrixElement\bin\Debug\net5.0\MaxMatrixElement.dll
+D:\IJuniorHomeworks\Arrays\MaxMatrixElement\bin\Debug\net5.0\MaxMatrixElement.pdb
+D:\IJuniorHomeworks\Arrays\MaxMatrixElement\obj\Debug\net5.0\MaxMatrixElement.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\Arrays\MaxMatrixElement\obj\Debug\net5.0\MaxMatrixElement.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\Arrays\MaxMatrixElement\obj\Debug\net5.0\MaxMatrixElement.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\Arrays\MaxMatrixElement\obj\Debug\net5.0\MaxMatrixElement.AssemblyInfo.cs
+D:\IJuniorHomeworks\Arrays\MaxMatrixElement\obj\Debug\net5.0\MaxMatrixElement.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\Arrays\MaxMatrixElement\obj\Debug\net5.0\MaxMatrixElement.dll
+D:\IJuniorHomeworks\Arrays\MaxMatrixElement\obj\Debug\net5.0\refint\MaxMatrixElement.dll
+D:\IJuniorHomeworks\Arrays\MaxMatrixElement\obj\Debug\net5.0\MaxMatrixElement.pdb
+D:\IJuniorHomeworks\Arrays\MaxMatrixElement\obj\Debug\net5.0\MaxMatrixElement.genruntimeconfig.cache
+D:\IJuniorHomeworks\Arrays\MaxMatrixElement\obj\Debug\net5.0\ref\MaxMatrixElement.dll
