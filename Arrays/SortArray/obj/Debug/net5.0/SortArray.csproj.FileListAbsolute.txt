@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\Arrays\SortArray\bin\Debug\net5.0\SortArray.exe
+D:\IJuniorHomeworks\Arrays\SortArray\bin\Debug\net5.0\SortArray.deps.json
+D:\IJuniorHomeworks\Arrays\SortArray\bin\Debug\net5.0\SortArray.runtimeconfig.json
+D:\IJuniorHomeworks\Arrays\SortArray\bin\Debug\net5.0\SortArray.runtimeconfig.dev.json
+D:\IJuniorHomeworks\Arrays\SortArray\bin\Debug\net5.0\SortArray.dll
+D:\IJuniorHomeworks\Arrays\SortArray\bin\Debug\net5.0\SortArray.pdb
+D:\IJuniorHomeworks\Arrays\SortArray\obj\Debug\net5.0\SortArray.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\Arrays\SortArray\obj\Debug\net5.0\SortArray.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\Arrays\SortArray\obj\Debug\net5.0\SortArray.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\Arrays\SortArray\obj\Debug\net5.0\SortArray.AssemblyInfo.cs
+D:\IJuniorHomeworks\Arrays\SortArray\obj\Debug\net5.0\SortArray.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\Arrays\SortArray\obj\Debug\net5.0\SortArray.dll
+D:\IJuniorHomeworks\Arrays\SortArray\obj\Debug\net5.0\refint\SortArray.dll
+D:\IJuniorHomeworks\Arrays\SortArray\obj\Debug\net5.0\SortArray.pdb
+D:\IJuniorHomeworks\Arrays\SortArray\obj\Debug\net5.0\SortArray.genruntimeconfig.cache
+D:\IJuniorHomeworks\Arrays\SortArray\obj\Debug\net5.0\ref\SortArray.dll
