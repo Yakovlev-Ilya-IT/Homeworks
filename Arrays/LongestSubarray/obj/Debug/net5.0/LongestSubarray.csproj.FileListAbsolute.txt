@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\Arrays\LongestSubarray\bin\Debug\net5.0\LongestSubarray.exe
+D:\IJuniorHomeworks\Arrays\LongestSubarray\bin\Debug\net5.0\LongestSubarray.deps.json
+D:\IJuniorHomeworks\Arrays\LongestSubarray\bin\Debug\net5.0\LongestSubarray.runtimeconfig.json
+D:\IJuniorHomeworks\Arrays\LongestSubarray\bin\Debug\net5.0\LongestSubarray.runtimeconfig.dev.json
+D:\IJuniorHomeworks\Arrays\LongestSubarray\bin\Debug\net5.0\LongestSubarray.dll
+D:\IJuniorHomeworks\Arrays\LongestSubarray\bin\Debug\net5.0\LongestSubarray.pdb
+D:\IJuniorHomeworks\Arrays\LongestSubarray\obj\Debug\net5.0\LongestSubarray.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\Arrays\LongestSubarray\obj\Debug\net5.0\LongestSubarray.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\Arrays\LongestSubarray\obj\Debug\net5.0\LongestSubarray.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\Arrays\LongestSubarray\obj\Debug\net5.0\LongestSubarray.AssemblyInfo.cs
+D:\IJuniorHomeworks\Arrays\LongestSubarray\obj\Debug\net5.0\LongestSubarray.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\Arrays\LongestSubarray\obj\Debug\net5.0\LongestSubarray.dll
+D:\IJuniorHomeworks\Arrays\LongestSubarray\obj\Debug\net5.0\refint\LongestSubarray.dll
+D:\IJuniorHomeworks\Arrays\LongestSubarray\obj\Debug\net5.0\LongestSubarray.pdb
+D:\IJuniorHomeworks\Arrays\LongestSubarray\obj\Debug\net5.0\LongestSubarray.genruntimeconfig.cache
+D:\IJuniorHomeworks\Arrays\LongestSubarray\obj\Debug\net5.0\ref\LongestSubarray.dll
