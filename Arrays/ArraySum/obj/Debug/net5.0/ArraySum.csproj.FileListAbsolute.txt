@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\Arrays\ArraySum\bin\Debug\net5.0\ArraySum.exe
+D:\IJuniorHomeworks\Arrays\ArraySum\bin\Debug\net5.0\ArraySum.deps.json
+D:\IJuniorHomeworks\Arrays\ArraySum\bin\Debug\net5.0\ArraySum.runtimeconfig.json
+D:\IJuniorHomeworks\Arrays\ArraySum\bin\Debug\net5.0\ArraySum.runtimeconfig.dev.json
+D:\IJuniorHomeworks\Arrays\ArraySum\bin\Debug\net5.0\ArraySum.dll
+D:\IJuniorHomeworks\Arrays\ArraySum\bin\Debug\net5.0\ArraySum.pdb
+D:\IJuniorHomeworks\Arrays\ArraySum\obj\Debug\net5.0\ArraySum.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\Arrays\ArraySum\obj\Debug\net5.0\ArraySum.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\Arrays\ArraySum\obj\Debug\net5.0\ArraySum.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\Arrays\ArraySum\obj\Debug\net5.0\ArraySum.AssemblyInfo.cs
+D:\IJuniorHomeworks\Arrays\ArraySum\obj\Debug\net5.0\ArraySum.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\Arrays\ArraySum\obj\Debug\net5.0\ArraySum.dll
+D:\IJuniorHomeworks\Arrays\ArraySum\obj\Debug\net5.0\refint\ArraySum.dll
+D:\IJuniorHomeworks\Arrays\ArraySum\obj\Debug\net5.0\ArraySum.pdb
+D:\IJuniorHomeworks\Arrays\ArraySum\obj\Debug\net5.0\ArraySum.genruntimeconfig.cache
+D:\IJuniorHomeworks\Arrays\ArraySum\obj\Debug\net5.0\ref\ArraySum.dll
