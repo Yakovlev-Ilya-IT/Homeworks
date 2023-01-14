@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortArray", "SortArray\Sort
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringSplit", "StringSplit\StringSplit.csproj", "{6E066A28-8D80-43B9-8FF4-A5DA7836018D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayCarousel", "ArrayCarousel\ArrayCarousel.csproj", "{65FA7D5F-DD2A-4DAD-B6F8-015CC1CD76C4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{6E066A28-8D80-43B9-8FF4-A5DA7836018D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E066A28-8D80-43B9-8FF4-A5DA7836018D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E066A28-8D80-43B9-8FF4-A5DA7836018D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65FA7D5F-DD2A-4DAD-B6F8-015CC1CD76C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65FA7D5F-DD2A-4DAD-B6F8-015CC1CD76C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65FA7D5F-DD2A-4DAD-B6F8-015CC1CD76C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65FA7D5F-DD2A-4DAD-B6F8-015CC1CD76C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

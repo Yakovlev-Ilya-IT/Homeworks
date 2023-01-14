@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\Arrays\ArrayCarousel\bin\Debug\net5.0\ArrayCarousel.exe
+D:\IJuniorHomeworks\Arrays\ArrayCarousel\bin\Debug\net5.0\ArrayCarousel.deps.json
+D:\IJuniorHomeworks\Arrays\ArrayCarousel\bin\Debug\net5.0\ArrayCarousel.runtimeconfig.json
+D:\IJuniorHomeworks\Arrays\ArrayCarousel\bin\Debug\net5.0\ArrayCarousel.runtimeconfig.dev.json
+D:\IJuniorHomeworks\Arrays\ArrayCarousel\bin\Debug\net5.0\ArrayCarousel.dll
+D:\IJuniorHomeworks\Arrays\ArrayCarousel\bin\Debug\net5.0\ArrayCarousel.pdb
+D:\IJuniorHomeworks\Arrays\ArrayCarousel\obj\Debug\net5.0\ArrayCarousel.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\Arrays\ArrayCarousel\obj\Debug\net5.0\ArrayCarousel.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\Arrays\ArrayCarousel\obj\Debug\net5.0\ArrayCarousel.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\Arrays\ArrayCarousel\obj\Debug\net5.0\ArrayCarousel.AssemblyInfo.cs
+D:\IJuniorHomeworks\Arrays\ArrayCarousel\obj\Debug\net5.0\ArrayCarousel.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\Arrays\ArrayCarousel\obj\Debug\net5.0\ArrayCarousel.dll
+D:\IJuniorHomeworks\Arrays\ArrayCarousel\obj\Debug\net5.0\refint\ArrayCarousel.dll
+D:\IJuniorHomeworks\Arrays\ArrayCarousel\obj\Debug\net5.0\ArrayCarousel.pdb
+D:\IJuniorHomeworks\Arrays\ArrayCarousel\obj\Debug\net5.0\ArrayCarousel.genruntimeconfig.cache
+D:\IJuniorHomeworks\Arrays\ArrayCarousel\obj\Debug\net5.0\ref\ArrayCarousel.dll
