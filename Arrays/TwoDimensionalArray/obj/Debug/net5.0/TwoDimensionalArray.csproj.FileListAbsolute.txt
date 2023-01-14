@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\Arrays\TwoDimensionalArray\bin\Debug\net5.0\TwoDimensionalArray.exe
+D:\IJuniorHomeworks\Arrays\TwoDimensionalArray\bin\Debug\net5.0\TwoDimensionalArray.deps.json
+D:\IJuniorHomeworks\Arrays\TwoDimensionalArray\bin\Debug\net5.0\TwoDimensionalArray.runtimeconfig.json
+D:\IJuniorHomeworks\Arrays\TwoDimensionalArray\bin\Debug\net5.0\TwoDimensionalArray.runtimeconfig.dev.json
+D:\IJuniorHomeworks\Arrays\TwoDimensionalArray\bin\Debug\net5.0\TwoDimensionalArray.dll
+D:\IJuniorHomeworks\Arrays\TwoDimensionalArray\bin\Debug\net5.0\TwoDimensionalArray.pdb
+D:\IJuniorHomeworks\Arrays\TwoDimensionalArray\obj\Debug\net5.0\TwoDimensionalArray.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\Arrays\TwoDimensionalArray\obj\Debug\net5.0\TwoDimensionalArray.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\Arrays\TwoDimensionalArray\obj\Debug\net5.0\TwoDimensionalArray.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\Arrays\TwoDimensionalArray\obj\Debug\net5.0\TwoDimensionalArray.AssemblyInfo.cs
+D:\IJuniorHomeworks\Arrays\TwoDimensionalArray\obj\Debug\net5.0\TwoDimensionalArray.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\Arrays\TwoDimensionalArray\obj\Debug\net5.0\TwoDimensionalArray.dll
+D:\IJuniorHomeworks\Arrays\TwoDimensionalArray\obj\Debug\net5.0\refint\TwoDimensionalArray.dll
+D:\IJuniorHomeworks\Arrays\TwoDimensionalArray\obj\Debug\net5.0\TwoDimensionalArray.pdb
+D:\IJuniorHomeworks\Arrays\TwoDimensionalArray\obj\Debug\net5.0\TwoDimensionalArray.genruntimeconfig.cache
+D:\IJuniorHomeworks\Arrays\TwoDimensionalArray\obj\Debug\net5.0\ref\TwoDimensionalArray.dll
