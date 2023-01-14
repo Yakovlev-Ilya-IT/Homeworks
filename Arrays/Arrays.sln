@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoDimensionalArray", "TwoD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxMatrixElement", "MaxMatrixElement\MaxMatrixElement.csproj", "{E2F2AAA7-C14C-49A0-BFBA-5FE53A9AC22E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalMaximumInArray", "LocalMaximumInArray\LocalMaximumInArray.csproj", "{00DBC166-0EC2-40EF-B92A-921F73AEC23A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E2F2AAA7-C14C-49A0-BFBA-5FE53A9AC22E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2F2AAA7-C14C-49A0-BFBA-5FE53A9AC22E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2F2AAA7-C14C-49A0-BFBA-5FE53A9AC22E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00DBC166-0EC2-40EF-B92A-921F73AEC23A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00DBC166-0EC2-40EF-B92A-921F73AEC23A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00DBC166-0EC2-40EF-B92A-921F73AEC23A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00DBC166-0EC2-40EF-B92A-921F73AEC23A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

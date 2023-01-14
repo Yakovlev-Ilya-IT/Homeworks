@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\Arrays\LocalMaximumInArray\bin\Debug\net5.0\LocalMaximumInArray.exe
+D:\IJuniorHomeworks\Arrays\LocalMaximumInArray\bin\Debug\net5.0\LocalMaximumInArray.deps.json
+D:\IJuniorHomeworks\Arrays\LocalMaximumInArray\bin\Debug\net5.0\LocalMaximumInArray.runtimeconfig.json
+D:\IJuniorHomeworks\Arrays\LocalMaximumInArray\bin\Debug\net5.0\LocalMaximumInArray.runtimeconfig.dev.json
+D:\IJuniorHomeworks\Arrays\LocalMaximumInArray\bin\Debug\net5.0\LocalMaximumInArray.dll
+D:\IJuniorHomeworks\Arrays\LocalMaximumInArray\bin\Debug\net5.0\LocalMaximumInArray.pdb
+D:\IJuniorHomeworks\Arrays\LocalMaximumInArray\obj\Debug\net5.0\LocalMaximumInArray.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\Arrays\LocalMaximumInArray\obj\Debug\net5.0\LocalMaximumInArray.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\Arrays\LocalMaximumInArray\obj\Debug\net5.0\LocalMaximumInArray.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\Arrays\LocalMaximumInArray\obj\Debug\net5.0\LocalMaximumInArray.AssemblyInfo.cs
+D:\IJuniorHomeworks\Arrays\LocalMaximumInArray\obj\Debug\net5.0\LocalMaximumInArray.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\Arrays\LocalMaximumInArray\obj\Debug\net5.0\LocalMaximumInArray.dll
+D:\IJuniorHomeworks\Arrays\LocalMaximumInArray\obj\Debug\net5.0\refint\LocalMaximumInArray.dll
+D:\IJuniorHomeworks\Arrays\LocalMaximumInArray\obj\Debug\net5.0\LocalMaximumInArray.pdb
+D:\IJuniorHomeworks\Arrays\LocalMaximumInArray\obj\Debug\net5.0\LocalMaximumInArray.genruntimeconfig.cache
+D:\IJuniorHomeworks\Arrays\LocalMaximumInArray\obj\Debug\net5.0\ref\LocalMaximumInArray.dll
