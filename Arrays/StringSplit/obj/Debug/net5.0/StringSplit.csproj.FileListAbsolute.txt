@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\Arrays\StringSplit\bin\Debug\net5.0\StringSplit.exe
+D:\IJuniorHomeworks\Arrays\StringSplit\bin\Debug\net5.0\StringSplit.deps.json
+D:\IJuniorHomeworks\Arrays\StringSplit\bin\Debug\net5.0\StringSplit.runtimeconfig.json
+D:\IJuniorHomeworks\Arrays\StringSplit\bin\Debug\net5.0\StringSplit.runtimeconfig.dev.json
+D:\IJuniorHomeworks\Arrays\StringSplit\bin\Debug\net5.0\StringSplit.dll
+D:\IJuniorHomeworks\Arrays\StringSplit\bin\Debug\net5.0\StringSplit.pdb
+D:\IJuniorHomeworks\Arrays\StringSplit\obj\Debug\net5.0\StringSplit.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\Arrays\StringSplit\obj\Debug\net5.0\StringSplit.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\Arrays\StringSplit\obj\Debug\net5.0\StringSplit.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\Arrays\StringSplit\obj\Debug\net5.0\StringSplit.AssemblyInfo.cs
+D:\IJuniorHomeworks\Arrays\StringSplit\obj\Debug\net5.0\StringSplit.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\Arrays\StringSplit\obj\Debug\net5.0\StringSplit.dll
+D:\IJuniorHomeworks\Arrays\StringSplit\obj\Debug\net5.0\refint\StringSplit.dll
+D:\IJuniorHomeworks\Arrays\StringSplit\obj\Debug\net5.0\StringSplit.pdb
+D:\IJuniorHomeworks\Arrays\StringSplit\obj\Debug\net5.0\StringSplit.genruntimeconfig.cache
+D:\IJuniorHomeworks\Arrays\StringSplit\obj\Debug\net5.0\ref\StringSplit.dll
