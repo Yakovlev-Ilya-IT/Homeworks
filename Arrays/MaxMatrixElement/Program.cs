@@ -6,9 +6,13 @@ namespace MaxMatrixElement
     {
         static void Main(string[] args)
         {
-            int[,] matrix = new int[10, 10];
+            int rowsNumber = 10;
+            int columnsNumber = 10;
+
+            int[,] matrix = new int[rowsNumber, columnsNumber];
 
             int maxElement = int.MinValue;
+            int replacementElement = 0;
 
             Random random = new Random();
             int lowerGenerationLimit = 1;
@@ -38,7 +42,7 @@ namespace MaxMatrixElement
                 for (int j = 0; j < matrix.GetLength(1); j++)
                 {
                     if (matrix[i, j] == maxElement)
-                        matrix[i, j] = 0;
+                        matrix[i, j] = replacementElement;
 
                     Console.Write(matrix[i, j] + " ");
                 }
