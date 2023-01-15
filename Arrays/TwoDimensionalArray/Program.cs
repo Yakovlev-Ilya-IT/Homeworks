@@ -25,16 +25,16 @@ namespace TwoDimensionalArray
                 {
                     array[i,j] = random.Next(lowerGenerationLimit, upperGenerationLimit);
                     Console.Write(array[i,j] + " ");
-
-                    if(i == numberOfCalculatedRow)
-                        rowSum += array[i,j];
-
-                    if(j == numberOfCalculatedColumn)
-                        columnMultiplication *= array[i,j]; 
                 }
 
                 Console.WriteLine();
             }
+
+            for (int i = 0; i < array.GetLength(0); i++)
+                rowSum += array[numberOfCalculatedRow, i];
+
+            for (int i = 0; i < array.GetLength(1); i++)
+                columnMultiplication *= array[i, numberOfCalculatedColumn];
 
             Console.WriteLine($"Сумма {numberOfCalculatedRow + 1} строки: {rowSum}");
             Console.WriteLine($"Произведение {numberOfCalculatedColumn + 1} столбца: {columnMultiplication}");
