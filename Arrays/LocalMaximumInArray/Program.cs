@@ -6,7 +6,8 @@ namespace LocalMaximumInArray
     {
         static void Main(string[] args)
         {
-            int[] array = new int[30];
+            int size = 30;
+            int[] array = new int[size];
 
             Random random = new Random();
             int lowerGenerationLimit = 1;
@@ -22,27 +23,15 @@ namespace LocalMaximumInArray
 
             Console.WriteLine("\nЛокальные максимумы: ");
 
-            for (int i = 0; i < array.Length; i++)
-            {
-                if(i == 0)
-                {
-                    if (array[i + 1] <= array[i])
-                        Console.Write(array[i] + " ");
+            if (array[1] <= array[0])
+                Console.Write(array[0] + " ");
 
-                    continue;
-                }
-
-                if(i == array.Length - 1)
-                {
-                    if (array[i - 1] <= array[i])
-                        Console.Write(array[i] + " ");
-
-                    continue;
-                }
-
+            for (int i = 1; i < array.Length - 1; i++)
                 if(array[i - 1] <= array[i] && array[i + 1] <= array[i])
                     Console.Write(array[i] + " ");
-            }
+
+            if (array[array.Length - 2] <= array[array.Length - 1])
+                Console.Write(array[array.Length - 1] + " ");
         }
     }
 }
