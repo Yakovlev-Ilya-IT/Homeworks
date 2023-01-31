@@ -7,7 +7,7 @@ namespace ListOfDossiers
         private const string ExitCommand = "0";
         private const string AddPositionCommand = "1";
         private const string ShowAllPositionsCommand = "2";
-        private const string DeleteLastPositionCommand = "3";
+        private const string DeletePositionCommand = "3";
         private const string SearchByLastNameCommand = "4";
 
         static void Main(string[] args)
@@ -15,11 +15,11 @@ namespace ListOfDossiers
             string[] fullNames = new string[0];
             string[] positions = new string[0];
 
-            bool programmIsRunning = true;
+            bool isProgrammRunning = true;
 
             Console.WriteLine("Добро пожаловать в отдел досье");
 
-            while (programmIsRunning)
+            while (isProgrammRunning)
             {
                 ShowMenu();
 
@@ -29,7 +29,7 @@ namespace ListOfDossiers
                 switch (userInput)
                 {
                     case ExitCommand:
-                        programmIsRunning = false;
+                        isProgrammRunning = false;
                         break;
                     case AddPositionCommand:
                         AddPosition(ref fullNames, ref positions);
@@ -37,15 +37,11 @@ namespace ListOfDossiers
                     case ShowAllPositionsCommand:
                         ShowAllPositions(fullNames, positions);
                         break;
-                    case DeleteLastPositionCommand:
-                        DeleteLastPosition(ref fullNames, ref positions);
+                    case DeletePositionCommand:
+                        DeletePosition(ref fullNames, ref positions);
                         break;
                     case SearchByLastNameCommand:
-                        if (TrySearchByLastName(fullNames, positions, out string fullName, out string position))
-                            Console.WriteLine($"{fullName} - {position}");
-                        else
-                            Console.WriteLine("Данной фамилии нет");
-
+                        SearchByLastName(fullNames, positions);
                         break;
                     default:
                         Console.WriteLine("Неверная команда, попробуйте еще");
@@ -54,11 +50,12 @@ namespace ListOfDossiers
             }
         }
 
-        static bool TrySearchByLastName(string[] fullNames, string[] positions, out string fullName, out string position)
+        static void SearchByLastName(string[] fullNames, string[] positions)
         {
             Console.WriteLine("Введите фамилию для поиска");
 
             string inputSurname = Console.ReadLine();
+            bool isMatchNotFound = true;
 
             for (int i = 0; i < fullNames.Length; i++)
             {
@@ -66,19 +63,16 @@ namespace ListOfDossiers
 
                 if (splitFullName[0].ToUpper() == inputSurname.ToUpper())
                 {
-                    fullName = fullNames[i];
-                    position = positions[i];
-                    return true;
+                    Console.WriteLine($"{fullNames[i]} - {positions[i]}");
+                    isMatchNotFound = false;
                 }
             }
 
-            fullName = string.Empty;
-            position = string.Empty;
-
-            return false;
+            if (isMatchNotFound)
+                Console.WriteLine("Совпадения не найдены");
         }
 
-        static void DeleteLastPosition(ref string[] fullNames, ref string[] positions)
+        static void DeletePosition(ref string[] fullNames, ref string[] positions)
         {
             if (CheckListForEmptiness(fullNames, positions, out string errorMessage))
             {
@@ -86,9 +80,27 @@ namespace ListOfDossiers
                 return;
             }
 
-            fullNames = DecrementArraySize(fullNames);
-            positions = DecrementArraySize(positions);
-            Console.WriteLine("Последнее досье успешно удалено");
+            Console.WriteLine("Введите номер досье, которое хотите удалить");
+
+            int inputIndex = int.Parse(Console.ReadLine());
+
+            if(!CheckOutOfBounds(inputIndex - 1, fullNames, positions))
+            {
+                Console.WriteLine("Введенный номер за пределами списка");
+            }
+
+            DeleteArrayElementAtIndex(ref fullNames, inputIndex - 1);
+            DeleteArrayElementAtIndex(ref positions, inputIndex - 1);
+
+            Console.WriteLine("Досье успешно удалено");
+        }
+
+        private static void DeleteArrayElementAtIndex(ref string[] array, int index)
+        {
+            for (int i = index + 1; i < array.Length; i++)
+                array[i - 1] = array[i];
+
+            array = DecrementArraySize(array);
         }
 
         static void ShowAllPositions(string[] fullNames, string[] positions)
@@ -106,21 +118,25 @@ namespace ListOfDossiers
         static void AddPosition(ref string[] fullNames, ref string[] positions)
         {
             Console.WriteLine("Введите ФИО через пробел");
-            
-            string input = Console.ReadLine();
 
-            fullNames = IncrementArraySize(fullNames);
-            fullNames[fullNames.Length - 1] = input;
+            AddElementToArray(ref fullNames);
 
             Console.WriteLine("Введите должность");
 
-            input = Console.ReadLine();
+            AddElementToArray(ref positions);
 
-            positions = IncrementArraySize(positions);
-            positions[positions.Length - 1] = input;
-
-            Console.WriteLine("Досье успешно добавлена");
+            Console.WriteLine("Досье успешно добавлено");
         }
+
+        static void AddElementToArray(ref string[] array)
+        {
+            string input = Console.ReadLine();
+
+            array = IncrementArraySize(array);
+            array[array.Length - 1] = input;
+        }
+
+        static bool CheckOutOfBounds(int index, string[] fullNames, string[] positions) => index < fullNames.Length && index < positions.Length && index >= 0;
 
         static bool CheckListForEmptiness(string[] fullNames, string[] positions, out string errorMessage)
         {
@@ -161,7 +177,7 @@ namespace ListOfDossiers
             Console.WriteLine($"{ExitCommand} - выйти из программы");
             Console.WriteLine($"{AddPositionCommand} - добавить досье");
             Console.WriteLine($"{ShowAllPositionsCommand} - вывести все досье");
-            Console.WriteLine($"{DeleteLastPositionCommand} - удалить последнее досье");
+            Console.WriteLine($"{DeletePositionCommand} - удалить досье по номеру");
             Console.WriteLine($"{SearchByLastNameCommand} - найти досье по фамилии");
             Console.WriteLine();
         }
