@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\Functions\BarDrawing\bin\Debug\net5.0\BarDrawing.exe
+D:\IJuniorHomeworks\Functions\BarDrawing\bin\Debug\net5.0\BarDrawing.deps.json
+D:\IJuniorHomeworks\Functions\BarDrawing\bin\Debug\net5.0\BarDrawing.runtimeconfig.json
+D:\IJuniorHomeworks\Functions\BarDrawing\bin\Debug\net5.0\BarDrawing.runtimeconfig.dev.json
+D:\IJuniorHomeworks\Functions\BarDrawing\bin\Debug\net5.0\BarDrawing.dll
+D:\IJuniorHomeworks\Functions\BarDrawing\bin\Debug\net5.0\BarDrawing.pdb
+D:\IJuniorHomeworks\Functions\BarDrawing\obj\Debug\net5.0\BarDrawing.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\Functions\BarDrawing\obj\Debug\net5.0\BarDrawing.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\Functions\BarDrawing\obj\Debug\net5.0\BarDrawing.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\Functions\BarDrawing\obj\Debug\net5.0\BarDrawing.AssemblyInfo.cs
+D:\IJuniorHomeworks\Functions\BarDrawing\obj\Debug\net5.0\BarDrawing.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\Functions\BarDrawing\obj\Debug\net5.0\BarDrawing.dll
+D:\IJuniorHomeworks\Functions\BarDrawing\obj\Debug\net5.0\refint\BarDrawing.dll
+D:\IJuniorHomeworks\Functions\BarDrawing\obj\Debug\net5.0\BarDrawing.pdb
+D:\IJuniorHomeworks\Functions\BarDrawing\obj\Debug\net5.0\BarDrawing.genruntimeconfig.cache
+D:\IJuniorHomeworks\Functions\BarDrawing\obj\Debug\net5.0\ref\BarDrawing.dll
