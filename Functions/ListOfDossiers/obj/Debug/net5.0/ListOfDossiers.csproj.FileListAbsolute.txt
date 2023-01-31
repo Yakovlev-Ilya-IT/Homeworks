@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\Functions\ListOfDossiers\bin\Debug\net5.0\ListOfDossiers.exe
+D:\IJuniorHomeworks\Functions\ListOfDossiers\bin\Debug\net5.0\ListOfDossiers.deps.json
+D:\IJuniorHomeworks\Functions\ListOfDossiers\bin\Debug\net5.0\ListOfDossiers.runtimeconfig.json
+D:\IJuniorHomeworks\Functions\ListOfDossiers\bin\Debug\net5.0\ListOfDossiers.runtimeconfig.dev.json
+D:\IJuniorHomeworks\Functions\ListOfDossiers\bin\Debug\net5.0\ListOfDossiers.dll
+D:\IJuniorHomeworks\Functions\ListOfDossiers\bin\Debug\net5.0\ListOfDossiers.pdb
+D:\IJuniorHomeworks\Functions\ListOfDossiers\obj\Debug\net5.0\ListOfDossiers.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\Functions\ListOfDossiers\obj\Debug\net5.0\ListOfDossiers.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\Functions\ListOfDossiers\obj\Debug\net5.0\ListOfDossiers.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\Functions\ListOfDossiers\obj\Debug\net5.0\ListOfDossiers.AssemblyInfo.cs
+D:\IJuniorHomeworks\Functions\ListOfDossiers\obj\Debug\net5.0\ListOfDossiers.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\Functions\ListOfDossiers\obj\Debug\net5.0\ListOfDossiers.dll
+D:\IJuniorHomeworks\Functions\ListOfDossiers\obj\Debug\net5.0\refint\ListOfDossiers.dll
+D:\IJuniorHomeworks\Functions\ListOfDossiers\obj\Debug\net5.0\ListOfDossiers.pdb
+D:\IJuniorHomeworks\Functions\ListOfDossiers\obj\Debug\net5.0\ListOfDossiers.genruntimeconfig.cache
+D:\IJuniorHomeworks\Functions\ListOfDossiers\obj\Debug\net5.0\ref\ListOfDossiers.dll
