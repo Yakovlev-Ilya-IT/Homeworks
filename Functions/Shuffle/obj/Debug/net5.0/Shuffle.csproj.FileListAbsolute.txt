@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\Functions\Shuffle\bin\Debug\net5.0\Shuffle.exe
+D:\IJuniorHomeworks\Functions\Shuffle\bin\Debug\net5.0\Shuffle.deps.json
+D:\IJuniorHomeworks\Functions\Shuffle\bin\Debug\net5.0\Shuffle.runtimeconfig.json
+D:\IJuniorHomeworks\Functions\Shuffle\bin\Debug\net5.0\Shuffle.runtimeconfig.dev.json
+D:\IJuniorHomeworks\Functions\Shuffle\bin\Debug\net5.0\Shuffle.dll
+D:\IJuniorHomeworks\Functions\Shuffle\bin\Debug\net5.0\Shuffle.pdb
+D:\IJuniorHomeworks\Functions\Shuffle\obj\Debug\net5.0\Shuffle.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\Functions\Shuffle\obj\Debug\net5.0\Shuffle.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\Functions\Shuffle\obj\Debug\net5.0\Shuffle.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\Functions\Shuffle\obj\Debug\net5.0\Shuffle.AssemblyInfo.cs
+D:\IJuniorHomeworks\Functions\Shuffle\obj\Debug\net5.0\Shuffle.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\Functions\Shuffle\obj\Debug\net5.0\Shuffle.dll
+D:\IJuniorHomeworks\Functions\Shuffle\obj\Debug\net5.0\refint\Shuffle.dll
+D:\IJuniorHomeworks\Functions\Shuffle\obj\Debug\net5.0\Shuffle.pdb
+D:\IJuniorHomeworks\Functions\Shuffle\obj\Debug\net5.0\Shuffle.genruntimeconfig.cache
+D:\IJuniorHomeworks\Functions\Shuffle\obj\Debug\net5.0\ref\Shuffle.dll
