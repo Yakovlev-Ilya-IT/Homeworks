@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\Functions\ConvertNumber\bin\Debug\net5.0\ConvertNumber.exe
+D:\IJuniorHomeworks\Functions\ConvertNumber\bin\Debug\net5.0\ConvertNumber.deps.json
+D:\IJuniorHomeworks\Functions\ConvertNumber\bin\Debug\net5.0\ConvertNumber.runtimeconfig.json
+D:\IJuniorHomeworks\Functions\ConvertNumber\bin\Debug\net5.0\ConvertNumber.runtimeconfig.dev.json
+D:\IJuniorHomeworks\Functions\ConvertNumber\bin\Debug\net5.0\ConvertNumber.dll
+D:\IJuniorHomeworks\Functions\ConvertNumber\bin\Debug\net5.0\ConvertNumber.pdb
+D:\IJuniorHomeworks\Functions\ConvertNumber\obj\Debug\net5.0\ConvertNumber.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\Functions\ConvertNumber\obj\Debug\net5.0\ConvertNumber.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\Functions\ConvertNumber\obj\Debug\net5.0\ConvertNumber.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\Functions\ConvertNumber\obj\Debug\net5.0\ConvertNumber.AssemblyInfo.cs
+D:\IJuniorHomeworks\Functions\ConvertNumber\obj\Debug\net5.0\ConvertNumber.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\Functions\ConvertNumber\obj\Debug\net5.0\ConvertNumber.dll
+D:\IJuniorHomeworks\Functions\ConvertNumber\obj\Debug\net5.0\refint\ConvertNumber.dll
+D:\IJuniorHomeworks\Functions\ConvertNumber\obj\Debug\net5.0\ConvertNumber.pdb
+D:\IJuniorHomeworks\Functions\ConvertNumber\obj\Debug\net5.0\ConvertNumber.genruntimeconfig.cache
+D:\IJuniorHomeworks\Functions\ConvertNumber\obj\Debug\net5.0\ref\ConvertNumber.dll
