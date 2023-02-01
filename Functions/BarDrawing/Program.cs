@@ -31,6 +31,9 @@ namespace BarDrawing
             int maxValue = 10;
             int fillingValue = (int)(percentageFilling / 100f * maxValue);
 
+            if(fillingValue > maxValue)
+                fillingValue = maxValue;
+
             string bar = "";
 
             for (int i = 0; i < fillingValue; i++)
