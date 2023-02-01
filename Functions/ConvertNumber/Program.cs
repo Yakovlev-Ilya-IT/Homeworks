@@ -18,7 +18,7 @@ namespace ConvertNumber
             int resultNumber = 0;
             bool isInputConvertSuccessfull = false;
 
-            while (!isInputConvertSuccessfull)
+            while (isInputConvertSuccessfull == false)
             {
                 if (int.TryParse(Console.ReadLine(), out int number))
                 {
