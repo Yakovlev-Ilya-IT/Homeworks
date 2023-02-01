@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\Functions\MapDrawing\bin\Debug\net5.0\MapDrawing.exe
+D:\IJuniorHomeworks\Functions\MapDrawing\bin\Debug\net5.0\MapDrawing.deps.json
+D:\IJuniorHomeworks\Functions\MapDrawing\bin\Debug\net5.0\MapDrawing.runtimeconfig.json
+D:\IJuniorHomeworks\Functions\MapDrawing\bin\Debug\net5.0\MapDrawing.runtimeconfig.dev.json
+D:\IJuniorHomeworks\Functions\MapDrawing\bin\Debug\net5.0\MapDrawing.dll
+D:\IJuniorHomeworks\Functions\MapDrawing\bin\Debug\net5.0\MapDrawing.pdb
+D:\IJuniorHomeworks\Functions\MapDrawing\obj\Debug\net5.0\MapDrawing.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\Functions\MapDrawing\obj\Debug\net5.0\MapDrawing.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\Functions\MapDrawing\obj\Debug\net5.0\MapDrawing.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\Functions\MapDrawing\obj\Debug\net5.0\MapDrawing.AssemblyInfo.cs
+D:\IJuniorHomeworks\Functions\MapDrawing\obj\Debug\net5.0\MapDrawing.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\Functions\MapDrawing\obj\Debug\net5.0\MapDrawing.dll
+D:\IJuniorHomeworks\Functions\MapDrawing\obj\Debug\net5.0\refint\MapDrawing.dll
+D:\IJuniorHomeworks\Functions\MapDrawing\obj\Debug\net5.0\MapDrawing.pdb
+D:\IJuniorHomeworks\Functions\MapDrawing\obj\Debug\net5.0\MapDrawing.genruntimeconfig.cache
+D:\IJuniorHomeworks\Functions\MapDrawing\obj\Debug\net5.0\ref\MapDrawing.dll
