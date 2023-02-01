@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\IJuniorHomeworks\\PlayerInformation\\PlayerInformation\\PlayerInformation.csproj",
+      "projectUniqueName": "D:\\IJuniorHomeworks\\OOP\\PlayerInformation\\PlayerInformation.csproj",
       "projectName": "PlayerInformation",
-      "projectPath": "D:\\IJuniorHomeworks\\PlayerInformation\\PlayerInformation\\PlayerInformation.csproj",
+      "projectPath": "D:\\IJuniorHomeworks\\OOP\\PlayerInformation\\PlayerInformation.csproj",
       "packagesPath": "C:\\Users\\iliaw\\.nuget\\packages\\",
-      "outputPath": "D:\\IJuniorHomeworks\\PlayerInformation\\PlayerInformation\\obj\\",
+      "outputPath": "D:\\IJuniorHomeworks\\OOP\\PlayerInformation\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "E:\\VisualStudio\\Shared\\NuGetPackages"

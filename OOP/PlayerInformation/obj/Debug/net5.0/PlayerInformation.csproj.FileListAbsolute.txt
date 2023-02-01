@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\OOP\PlayerInformation\bin\Debug\net5.0\PlayerInformation.exe
+D:\IJuniorHomeworks\OOP\PlayerInformation\bin\Debug\net5.0\PlayerInformation.deps.json
+D:\IJuniorHomeworks\OOP\PlayerInformation\bin\Debug\net5.0\PlayerInformation.runtimeconfig.json
+D:\IJuniorHomeworks\OOP\PlayerInformation\bin\Debug\net5.0\PlayerInformation.runtimeconfig.dev.json
+D:\IJuniorHomeworks\OOP\PlayerInformation\bin\Debug\net5.0\PlayerInformation.dll
+D:\IJuniorHomeworks\OOP\PlayerInformation\bin\Debug\net5.0\PlayerInformation.pdb
+D:\IJuniorHomeworks\OOP\PlayerInformation\obj\Debug\net5.0\PlayerInformation.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\OOP\PlayerInformation\obj\Debug\net5.0\PlayerInformation.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\OOP\PlayerInformation\obj\Debug\net5.0\PlayerInformation.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\OOP\PlayerInformation\obj\Debug\net5.0\PlayerInformation.AssemblyInfo.cs
+D:\IJuniorHomeworks\OOP\PlayerInformation\obj\Debug\net5.0\PlayerInformation.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\OOP\PlayerInformation\obj\Debug\net5.0\PlayerInformation.dll
+D:\IJuniorHomeworks\OOP\PlayerInformation\obj\Debug\net5.0\refint\PlayerInformation.dll
+D:\IJuniorHomeworks\OOP\PlayerInformation\obj\Debug\net5.0\PlayerInformation.pdb
+D:\IJuniorHomeworks\OOP\PlayerInformation\obj\Debug\net5.0\PlayerInformation.genruntimeconfig.cache
+D:\IJuniorHomeworks\OOP\PlayerInformation\obj\Debug\net5.0\ref\PlayerInformation.dll
