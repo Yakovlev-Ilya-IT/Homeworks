@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\Collections\Dossiers\bin\Debug\net5.0\Dossiers.exe
+D:\IJuniorHomeworks\Collections\Dossiers\bin\Debug\net5.0\Dossiers.deps.json
+D:\IJuniorHomeworks\Collections\Dossiers\bin\Debug\net5.0\Dossiers.runtimeconfig.json
+D:\IJuniorHomeworks\Collections\Dossiers\bin\Debug\net5.0\Dossiers.runtimeconfig.dev.json
+D:\IJuniorHomeworks\Collections\Dossiers\bin\Debug\net5.0\Dossiers.dll
+D:\IJuniorHomeworks\Collections\Dossiers\bin\Debug\net5.0\Dossiers.pdb
+D:\IJuniorHomeworks\Collections\Dossiers\obj\Debug\net5.0\Dossiers.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\Collections\Dossiers\obj\Debug\net5.0\Dossiers.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\Collections\Dossiers\obj\Debug\net5.0\Dossiers.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\Collections\Dossiers\obj\Debug\net5.0\Dossiers.AssemblyInfo.cs
+D:\IJuniorHomeworks\Collections\Dossiers\obj\Debug\net5.0\Dossiers.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\Collections\Dossiers\obj\Debug\net5.0\Dossiers.dll
+D:\IJuniorHomeworks\Collections\Dossiers\obj\Debug\net5.0\refint\Dossiers.dll
+D:\IJuniorHomeworks\Collections\Dossiers\obj\Debug\net5.0\Dossiers.pdb
+D:\IJuniorHomeworks\Collections\Dossiers\obj\Debug\net5.0\Dossiers.genruntimeconfig.cache
+D:\IJuniorHomeworks\Collections\Dossiers\obj\Debug\net5.0\ref\Dossiers.dll
