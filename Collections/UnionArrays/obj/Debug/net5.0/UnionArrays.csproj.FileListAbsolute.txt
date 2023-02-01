@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\Collections\UnionArrays\bin\Debug\net5.0\UnionArrays.exe
+D:\IJuniorHomeworks\Collections\UnionArrays\bin\Debug\net5.0\UnionArrays.deps.json
+D:\IJuniorHomeworks\Collections\UnionArrays\bin\Debug\net5.0\UnionArrays.runtimeconfig.json
+D:\IJuniorHomeworks\Collections\UnionArrays\bin\Debug\net5.0\UnionArrays.runtimeconfig.dev.json
+D:\IJuniorHomeworks\Collections\UnionArrays\bin\Debug\net5.0\UnionArrays.dll
+D:\IJuniorHomeworks\Collections\UnionArrays\bin\Debug\net5.0\UnionArrays.pdb
+D:\IJuniorHomeworks\Collections\UnionArrays\obj\Debug\net5.0\UnionArrays.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\Collections\UnionArrays\obj\Debug\net5.0\UnionArrays.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\Collections\UnionArrays\obj\Debug\net5.0\UnionArrays.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\Collections\UnionArrays\obj\Debug\net5.0\UnionArrays.AssemblyInfo.cs
+D:\IJuniorHomeworks\Collections\UnionArrays\obj\Debug\net5.0\UnionArrays.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\Collections\UnionArrays\obj\Debug\net5.0\UnionArrays.dll
+D:\IJuniorHomeworks\Collections\UnionArrays\obj\Debug\net5.0\refint\UnionArrays.dll
+D:\IJuniorHomeworks\Collections\UnionArrays\obj\Debug\net5.0\UnionArrays.pdb
+D:\IJuniorHomeworks\Collections\UnionArrays\obj\Debug\net5.0\UnionArrays.genruntimeconfig.cache
+D:\IJuniorHomeworks\Collections\UnionArrays\obj\Debug\net5.0\ref\UnionArrays.dll
