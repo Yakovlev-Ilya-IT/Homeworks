@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\Collections\Dictionary\bin\Debug\net5.0\Dictionary.exe
+D:\IJuniorHomeworks\Collections\Dictionary\bin\Debug\net5.0\Dictionary.deps.json
+D:\IJuniorHomeworks\Collections\Dictionary\bin\Debug\net5.0\Dictionary.runtimeconfig.json
+D:\IJuniorHomeworks\Collections\Dictionary\bin\Debug\net5.0\Dictionary.runtimeconfig.dev.json
+D:\IJuniorHomeworks\Collections\Dictionary\bin\Debug\net5.0\Dictionary.dll
+D:\IJuniorHomeworks\Collections\Dictionary\bin\Debug\net5.0\Dictionary.pdb
+D:\IJuniorHomeworks\Collections\Dictionary\obj\Debug\net5.0\Dictionary.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\Collections\Dictionary\obj\Debug\net5.0\Dictionary.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\Collections\Dictionary\obj\Debug\net5.0\Dictionary.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\Collections\Dictionary\obj\Debug\net5.0\Dictionary.AssemblyInfo.cs
+D:\IJuniorHomeworks\Collections\Dictionary\obj\Debug\net5.0\Dictionary.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\Collections\Dictionary\obj\Debug\net5.0\Dictionary.dll
+D:\IJuniorHomeworks\Collections\Dictionary\obj\Debug\net5.0\refint\Dictionary.dll
+D:\IJuniorHomeworks\Collections\Dictionary\obj\Debug\net5.0\Dictionary.pdb
+D:\IJuniorHomeworks\Collections\Dictionary\obj\Debug\net5.0\Dictionary.genruntimeconfig.cache
+D:\IJuniorHomeworks\Collections\Dictionary\obj\Debug\net5.0\ref\Dictionary.dll
