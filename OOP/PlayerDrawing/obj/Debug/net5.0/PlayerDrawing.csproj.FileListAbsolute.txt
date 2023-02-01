@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\OOP\PlayerDrawing\bin\Debug\net5.0\PlayerDrawing.exe
+D:\IJuniorHomeworks\OOP\PlayerDrawing\bin\Debug\net5.0\PlayerDrawing.deps.json
+D:\IJuniorHomeworks\OOP\PlayerDrawing\bin\Debug\net5.0\PlayerDrawing.runtimeconfig.json
+D:\IJuniorHomeworks\OOP\PlayerDrawing\bin\Debug\net5.0\PlayerDrawing.runtimeconfig.dev.json
+D:\IJuniorHomeworks\OOP\PlayerDrawing\bin\Debug\net5.0\PlayerDrawing.dll
+D:\IJuniorHomeworks\OOP\PlayerDrawing\bin\Debug\net5.0\PlayerDrawing.pdb
+D:\IJuniorHomeworks\OOP\PlayerDrawing\obj\Debug\net5.0\PlayerDrawing.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\OOP\PlayerDrawing\obj\Debug\net5.0\PlayerDrawing.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\OOP\PlayerDrawing\obj\Debug\net5.0\PlayerDrawing.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\OOP\PlayerDrawing\obj\Debug\net5.0\PlayerDrawing.AssemblyInfo.cs
+D:\IJuniorHomeworks\OOP\PlayerDrawing\obj\Debug\net5.0\PlayerDrawing.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\OOP\PlayerDrawing\obj\Debug\net5.0\PlayerDrawing.dll
+D:\IJuniorHomeworks\OOP\PlayerDrawing\obj\Debug\net5.0\refint\PlayerDrawing.dll
+D:\IJuniorHomeworks\OOP\PlayerDrawing\obj\Debug\net5.0\PlayerDrawing.pdb
+D:\IJuniorHomeworks\OOP\PlayerDrawing\obj\Debug\net5.0\PlayerDrawing.genruntimeconfig.cache
+D:\IJuniorHomeworks\OOP\PlayerDrawing\obj\Debug\net5.0\ref\PlayerDrawing.dll

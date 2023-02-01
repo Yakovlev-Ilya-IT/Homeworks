@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerInformation", "PlayerInformation\PlayerInformation.csproj", "{0C3EC1DC-DECA-4EFD-8CED-423B320A48A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerDrawing", "PlayerDrawing\PlayerDrawing.csproj", "{FEE7B4F1-3BA9-4943-A033-C4A92B1CCD0F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0C3EC1DC-DECA-4EFD-8CED-423B320A48A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C3EC1DC-DECA-4EFD-8CED-423B320A48A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C3EC1DC-DECA-4EFD-8CED-423B320A48A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEE7B4F1-3BA9-4943-A033-C4A92B1CCD0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEE7B4F1-3BA9-4943-A033-C4A92B1CCD0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEE7B4F1-3BA9-4943-A033-C4A92B1CCD0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEE7B4F1-3BA9-4943-A033-C4A92B1CCD0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
