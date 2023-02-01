@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerInformation", "Player
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerDrawing", "PlayerDrawing\PlayerDrawing.csproj", "{FEE7B4F1-3BA9-4943-A033-C4A92B1CCD0F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerDatabase", "PlayerDatabase\PlayerDatabase.csproj", "{34419D39-06C4-4748-8DF8-9B5AB747AECD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{FEE7B4F1-3BA9-4943-A033-C4A92B1CCD0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEE7B4F1-3BA9-4943-A033-C4A92B1CCD0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEE7B4F1-3BA9-4943-A033-C4A92B1CCD0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34419D39-06C4-4748-8DF8-9B5AB747AECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34419D39-06C4-4748-8DF8-9B5AB747AECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34419D39-06C4-4748-8DF8-9B5AB747AECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34419D39-06C4-4748-8DF8-9B5AB747AECD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

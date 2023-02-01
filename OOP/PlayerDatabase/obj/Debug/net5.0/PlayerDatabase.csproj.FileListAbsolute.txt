@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\OOP\PlayerDatabase\bin\Debug\net5.0\PlayerDatabase.exe
+D:\IJuniorHomeworks\OOP\PlayerDatabase\bin\Debug\net5.0\PlayerDatabase.deps.json
+D:\IJuniorHomeworks\OOP\PlayerDatabase\bin\Debug\net5.0\PlayerDatabase.runtimeconfig.json
+D:\IJuniorHomeworks\OOP\PlayerDatabase\bin\Debug\net5.0\PlayerDatabase.runtimeconfig.dev.json
+D:\IJuniorHomeworks\OOP\PlayerDatabase\bin\Debug\net5.0\PlayerDatabase.dll
+D:\IJuniorHomeworks\OOP\PlayerDatabase\bin\Debug\net5.0\PlayerDatabase.pdb
+D:\IJuniorHomeworks\OOP\PlayerDatabase\obj\Debug\net5.0\PlayerDatabase.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\OOP\PlayerDatabase\obj\Debug\net5.0\PlayerDatabase.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\OOP\PlayerDatabase\obj\Debug\net5.0\PlayerDatabase.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\OOP\PlayerDatabase\obj\Debug\net5.0\PlayerDatabase.AssemblyInfo.cs
+D:\IJuniorHomeworks\OOP\PlayerDatabase\obj\Debug\net5.0\PlayerDatabase.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\OOP\PlayerDatabase\obj\Debug\net5.0\PlayerDatabase.dll
+D:\IJuniorHomeworks\OOP\PlayerDatabase\obj\Debug\net5.0\refint\PlayerDatabase.dll
+D:\IJuniorHomeworks\OOP\PlayerDatabase\obj\Debug\net5.0\PlayerDatabase.pdb
+D:\IJuniorHomeworks\OOP\PlayerDatabase\obj\Debug\net5.0\PlayerDatabase.genruntimeconfig.cache
+D:\IJuniorHomeworks\OOP\PlayerDatabase\obj\Debug\net5.0\ref\PlayerDatabase.dll
