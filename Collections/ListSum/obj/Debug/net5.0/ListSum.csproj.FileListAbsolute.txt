@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\Collections\ListSum\bin\Debug\net5.0\ListSum.exe
+D:\IJuniorHomeworks\Collections\ListSum\bin\Debug\net5.0\ListSum.deps.json
+D:\IJuniorHomeworks\Collections\ListSum\bin\Debug\net5.0\ListSum.runtimeconfig.json
+D:\IJuniorHomeworks\Collections\ListSum\bin\Debug\net5.0\ListSum.runtimeconfig.dev.json
+D:\IJuniorHomeworks\Collections\ListSum\bin\Debug\net5.0\ListSum.dll
+D:\IJuniorHomeworks\Collections\ListSum\bin\Debug\net5.0\ListSum.pdb
+D:\IJuniorHomeworks\Collections\ListSum\obj\Debug\net5.0\ListSum.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\Collections\ListSum\obj\Debug\net5.0\ListSum.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\Collections\ListSum\obj\Debug\net5.0\ListSum.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\Collections\ListSum\obj\Debug\net5.0\ListSum.AssemblyInfo.cs
+D:\IJuniorHomeworks\Collections\ListSum\obj\Debug\net5.0\ListSum.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\Collections\ListSum\obj\Debug\net5.0\ListSum.dll
+D:\IJuniorHomeworks\Collections\ListSum\obj\Debug\net5.0\refint\ListSum.dll
+D:\IJuniorHomeworks\Collections\ListSum\obj\Debug\net5.0\ListSum.pdb
+D:\IJuniorHomeworks\Collections\ListSum\obj\Debug\net5.0\ListSum.genruntimeconfig.cache
+D:\IJuniorHomeworks\Collections\ListSum\obj\Debug\net5.0\ref\ListSum.dll
