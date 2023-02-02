@@ -18,28 +18,36 @@ namespace BarDrawing
 
             int percentageFilling = int.Parse(Console.ReadLine());
 
-            DrawBar(x, y, percentageFilling);
+            Console.WriteLine("Введите длину бара");
+
+            int length = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Введите символ отрисовки");
+
+            char fillingSymbol = Console.ReadLine()[0];
+
+            DrawBar(x, y, length, percentageFilling, fillingSymbol);
         }
 
-        private static void DrawBar(int x, int y, int percentageFilling)
+        private static void DrawBar(int x, int y, int length, int percentageFilling, char fillingSymbol)
         {
-            char fillingSymbol = '#';
             char emptySymbol = '_';
             char leftLimitSymbol = '[';
             char rightLimitSymbol = ']';
 
-            int maxValue = 10;
-            int fillingValue = (int)(percentageFilling / 100f * maxValue);
+            float percentageConverter = 1 / 100f;
 
-            if(fillingValue > maxValue)
-                fillingValue = maxValue;
+            int fillingValue = (int)(percentageFilling * length * percentageConverter);
+
+            if(fillingValue > length)
+                fillingValue = length;
 
             string bar = "";
 
             for (int i = 0; i < fillingValue; i++)
                 bar += fillingSymbol;
 
-            for (int i = fillingValue; i < maxValue; i++)
+            for (int i = fillingValue; i < length; i++)
                 bar += emptySymbol;
 
             Console.Clear();
