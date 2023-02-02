@@ -31,33 +31,42 @@ namespace ListSum
                         break;
 
                     case SumCommand:
-                        if (storedNumbers.Count == 0)
-                        {
-                            Console.WriteLine("Вы не ввели ни одного числа");
-                            break;
-                        }
-
-                        int storedNumbersSum = 0;
-                        Console.WriteLine("Все введенные числа:");
-
-                        foreach (int item in storedNumbers)
-                        {
-                            Console.Write(item + " ");
-                            storedNumbersSum += item;
-                        }
-
-                        Console.WriteLine($"\nСумма всех введенных чисел: {storedNumbersSum}");
+                        Sum(storedNumbers);
                         break;
 
                     default:
-                        if (int.TryParse(input, out int number))
-                            storedNumbers.Add(number);
-                        else
-                            Console.WriteLine("Ой, похоже вы ввели что-то не то:(");
-
+                        HandleAddInput(input, storedNumbers);
                         break;
                 }
             }
+        }
+
+        static void Sum(List<int> numbers)
+        {
+            if (numbers.Count == 0)
+            {
+                Console.WriteLine("Вы не ввели ни одного числа");
+                return;
+            }
+
+            int storedNumbersSum = 0;
+            Console.WriteLine("Все введенные числа:");
+
+            foreach (int item in numbers)
+            {
+                Console.Write(item + " ");
+                storedNumbersSum += item;
+            }
+
+            Console.WriteLine($"\nСумма всех введенных чисел: {storedNumbersSum}");
+        }
+
+        static void HandleAddInput(string input, List<int> storedNumbers)
+        {
+            if (int.TryParse(input, out int number))
+                storedNumbers.Add(number);
+            else
+                Console.WriteLine("Ой, похоже вы ввели что-то не то:(");
         }
     }
 }
