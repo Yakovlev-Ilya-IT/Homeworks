@@ -56,17 +56,22 @@ namespace Dossiers
 
             Console.WriteLine("Введите номер досье, которое хотите удалить");
 
-            int inputIndex = int.Parse(Console.ReadLine());
-
-            if (!CheckOutOfBounds(inputIndex - 1, fullNamesToPosition))
+            if (int.TryParse(Console.ReadLine(), out int inputIndex))
             {
-                Console.WriteLine("Введенный номер за пределами списка");
-                return;
+                if (CheckOutOfBounds(inputIndex - 1, fullNamesToPosition) == false)
+                {
+                    Console.WriteLine("Введенный номер за пределами списка");
+                    return;
+                }
+
+                DeleteDictionaryElementAtIndex(fullNamesToPosition, inputIndex - 1);
+
+                Console.WriteLine("Досье успешно удалено");
             }
-
-            DeleteDictionaryElementAtIndex(fullNamesToPosition, inputIndex - 1);
-
-            Console.WriteLine("Досье успешно удалено");
+            else
+            {
+                Console.WriteLine("Попробуйте ввести число");
+            }
         }
 
         private static void DeleteDictionaryElementAtIndex(Dictionary<string, string> dictionary, int index)
