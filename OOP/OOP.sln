@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayerDatabase", "PlayerDat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeckOfCards", "DeckOfCards\DeckOfCards.csproj", "{C263A8C3-C5F1-43BE-814D-3FFBDE74F10A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStorage", "BookStorage\BookStorage.csproj", "{F4D40381-01AD-4F5F-9D3B-BF743302F7B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C263A8C3-C5F1-43BE-814D-3FFBDE74F10A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C263A8C3-C5F1-43BE-814D-3FFBDE74F10A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C263A8C3-C5F1-43BE-814D-3FFBDE74F10A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4D40381-01AD-4F5F-9D3B-BF743302F7B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4D40381-01AD-4F5F-9D3B-BF743302F7B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4D40381-01AD-4F5F-9D3B-BF743302F7B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4D40381-01AD-4F5F-9D3B-BF743302F7B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

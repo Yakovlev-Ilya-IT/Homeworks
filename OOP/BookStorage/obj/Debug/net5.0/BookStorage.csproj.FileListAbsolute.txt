@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\OOP\BookStorage\bin\Debug\net5.0\BookStorage.exe
+D:\IJuniorHomeworks\OOP\BookStorage\bin\Debug\net5.0\BookStorage.deps.json
+D:\IJuniorHomeworks\OOP\BookStorage\bin\Debug\net5.0\BookStorage.runtimeconfig.json
+D:\IJuniorHomeworks\OOP\BookStorage\bin\Debug\net5.0\BookStorage.runtimeconfig.dev.json
+D:\IJuniorHomeworks\OOP\BookStorage\bin\Debug\net5.0\BookStorage.dll
+D:\IJuniorHomeworks\OOP\BookStorage\bin\Debug\net5.0\BookStorage.pdb
+D:\IJuniorHomeworks\OOP\BookStorage\obj\Debug\net5.0\BookStorage.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\OOP\BookStorage\obj\Debug\net5.0\BookStorage.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\OOP\BookStorage\obj\Debug\net5.0\BookStorage.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\OOP\BookStorage\obj\Debug\net5.0\BookStorage.AssemblyInfo.cs
+D:\IJuniorHomeworks\OOP\BookStorage\obj\Debug\net5.0\BookStorage.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\OOP\BookStorage\obj\Debug\net5.0\BookStorage.dll
+D:\IJuniorHomeworks\OOP\BookStorage\obj\Debug\net5.0\refint\BookStorage.dll
+D:\IJuniorHomeworks\OOP\BookStorage\obj\Debug\net5.0\BookStorage.pdb
+D:\IJuniorHomeworks\OOP\BookStorage\obj\Debug\net5.0\BookStorage.genruntimeconfig.cache
+D:\IJuniorHomeworks\OOP\BookStorage\obj\Debug\net5.0\ref\BookStorage.dll
