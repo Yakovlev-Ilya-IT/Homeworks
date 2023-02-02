@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerInformation", "PlayerInformation\PlayerInformation.csproj", "{0C3EC1DC-DECA-4EFD-8CED-423B320A48A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayerInformation", "PlayerInformation\PlayerInformation.csproj", "{0C3EC1DC-DECA-4EFD-8CED-423B320A48A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerDrawing", "PlayerDrawing\PlayerDrawing.csproj", "{FEE7B4F1-3BA9-4943-A033-C4A92B1CCD0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayerDrawing", "PlayerDrawing\PlayerDrawing.csproj", "{FEE7B4F1-3BA9-4943-A033-C4A92B1CCD0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerDatabase", "PlayerDatabase\PlayerDatabase.csproj", "{34419D39-06C4-4748-8DF8-9B5AB747AECD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayerDatabase", "PlayerDatabase\PlayerDatabase.csproj", "{34419D39-06C4-4748-8DF8-9B5AB747AECD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeckOfCards", "DeckOfCards\DeckOfCards.csproj", "{C263A8C3-C5F1-43BE-814D-3FFBDE74F10A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{34419D39-06C4-4748-8DF8-9B5AB747AECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34419D39-06C4-4748-8DF8-9B5AB747AECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34419D39-06C4-4748-8DF8-9B5AB747AECD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C263A8C3-C5F1-43BE-814D-3FFBDE74F10A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C263A8C3-C5F1-43BE-814D-3FFBDE74F10A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C263A8C3-C5F1-43BE-814D-3FFBDE74F10A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C263A8C3-C5F1-43BE-814D-3FFBDE74F10A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

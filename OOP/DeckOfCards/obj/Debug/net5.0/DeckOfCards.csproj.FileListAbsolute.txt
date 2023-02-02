@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\OOP\DeckOfCards\bin\Debug\net5.0\DeckOfCards.exe
+D:\IJuniorHomeworks\OOP\DeckOfCards\bin\Debug\net5.0\DeckOfCards.deps.json
+D:\IJuniorHomeworks\OOP\DeckOfCards\bin\Debug\net5.0\DeckOfCards.runtimeconfig.json
+D:\IJuniorHomeworks\OOP\DeckOfCards\bin\Debug\net5.0\DeckOfCards.runtimeconfig.dev.json
+D:\IJuniorHomeworks\OOP\DeckOfCards\bin\Debug\net5.0\DeckOfCards.dll
+D:\IJuniorHomeworks\OOP\DeckOfCards\bin\Debug\net5.0\DeckOfCards.pdb
+D:\IJuniorHomeworks\OOP\DeckOfCards\obj\Debug\net5.0\DeckOfCards.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\OOP\DeckOfCards\obj\Debug\net5.0\DeckOfCards.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\OOP\DeckOfCards\obj\Debug\net5.0\DeckOfCards.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\OOP\DeckOfCards\obj\Debug\net5.0\DeckOfCards.AssemblyInfo.cs
+D:\IJuniorHomeworks\OOP\DeckOfCards\obj\Debug\net5.0\DeckOfCards.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\OOP\DeckOfCards\obj\Debug\net5.0\DeckOfCards.dll
+D:\IJuniorHomeworks\OOP\DeckOfCards\obj\Debug\net5.0\refint\DeckOfCards.dll
+D:\IJuniorHomeworks\OOP\DeckOfCards\obj\Debug\net5.0\DeckOfCards.pdb
+D:\IJuniorHomeworks\OOP\DeckOfCards\obj\Debug\net5.0\DeckOfCards.genruntimeconfig.cache
+D:\IJuniorHomeworks\OOP\DeckOfCards\obj\Debug\net5.0\ref\DeckOfCards.dll
