@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeckOfCards", "DeckOfCards\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStorage", "BookStorage\BookStorage.csproj", "{F4D40381-01AD-4F5F-9D3B-BF743302F7B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop", "Shop\Shop.csproj", "{F794B6BA-26A0-4762-84B9-04A7405E1050}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{F4D40381-01AD-4F5F-9D3B-BF743302F7B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4D40381-01AD-4F5F-9D3B-BF743302F7B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4D40381-01AD-4F5F-9D3B-BF743302F7B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F794B6BA-26A0-4762-84B9-04A7405E1050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F794B6BA-26A0-4762-84B9-04A7405E1050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F794B6BA-26A0-4762-84B9-04A7405E1050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F794B6BA-26A0-4762-84B9-04A7405E1050}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
