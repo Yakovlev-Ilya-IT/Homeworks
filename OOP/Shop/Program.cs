@@ -7,7 +7,41 @@ namespace Shop
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            List<Cell> traderCells = new List<Cell>();
+            List<Item> items = new List<Item>();
+
+            for (int i = 0; i < 5; i++)
+            {
+                traderCells.Add(new Cell());
+            }
+
+            items.Add(new Sword("Меч Артура", 1000));
+            items.Add(new Sword("Деревянный меч", 100));
+            items.Add(new Sword("Деревянный меч", 100));
+            items.Add(new Apple("Золотое яблоко", 50));
+            items.Add(new Arrow("Обычная стрела", 10));
+            items.Add(new Arrow("Магическая стрела", 100));
+
+            for (int i = 0; i < traderCells.Count; i++)
+            {
+                for (int j = 0; j < items[i].MaxInStack; j++)
+                {
+                    traderCells[i].TryPut(items[i]);
+                }
+            }
+
+            Trader trader = new Trader(traderCells, 100);
+
+            List<Cell> playerCells = new List<Cell>();
+
+            for (int i = 0; i < 3; i++)
+            {
+                playerCells.Add(new Cell());
+            }
+
+            Player player = new Player(playerCells, 1500);
+
+            trader.Work(player);
         }
     }
 
@@ -32,6 +66,7 @@ namespace Shop
         public override bool Equals(object other)
         {
             Item item = other as Item;
+
             if (item == null)
                 return false;
 
@@ -126,6 +161,34 @@ namespace Shop
             Console.WriteLine("Ячейка пуста");
         }
 
+        public bool CheckPossibleToPut(List<Item> items, out int possiblePutCount)
+        {
+            int tempCapacity = Amount;
+            possiblePutCount = 0;
+
+            foreach (Item item in items)
+            {
+                if (IsTaken)
+                {
+                    if (_items[0].Equals(item) == false)
+                        return false;
+                }
+                else
+                {
+                    if (items[0].Equals(item) == false)
+                        return false;
+                }
+
+                if (tempCapacity + 1 <= item.MaxInStack)
+                {
+                    possiblePutCount++;
+                    tempCapacity++;
+                }
+            }
+
+            return true;
+        }
+
         private bool CheckCapacity(Item item) => Amount + 1 <= item.MaxInStack;
     }
 
@@ -133,7 +196,8 @@ namespace Shop
     {
         private const string ShowStorageCommand = "1";
         private const string BuyCommand = "2";
-        private const string ExitCommand = "3";
+        private const string ShowBuyerInventoryCommand = "3";
+        private const string ExitCommand = "4";
 
         private List<Cell> _cells;
         private int _money;
@@ -151,8 +215,9 @@ namespace Shop
         {
             bool isWorking = true;
 
-            if (isWorking)
+            while (isWorking)
             {
+                ShowBalances(buyer);
                 ShowMenu();
 
                 string input = Console.ReadLine();
@@ -171,11 +236,29 @@ namespace Shop
                         isWorking = false;
                         break;
 
+                    case ShowBuyerInventoryCommand:
+                        buyer.ShowInventory();
+                        break;
+
                     default:
                         Console.WriteLine("Неопознанная команда, попробуйте еще раз");
                         break;
                 }
+
+                Console.WriteLine();
+                Console.WriteLine("Нажми любую клавишу, что бы продолжить:)");
+                Console.ReadKey(true);
+                Console.Clear();
             }
+        }
+
+        public void ShowBalances(IBuyer buyer)
+        {
+            Console.WriteLine();
+            Console.WriteLine($"Деньги продовца: {_money} золота");
+            Console.Write("Деньги покупателя: ");
+            buyer.ShowBalance();
+            Console.WriteLine();
         }
 
         public void ShowMenu()
@@ -184,6 +267,7 @@ namespace Shop
             Console.WriteLine("Добрый день, странник! Чего желаешь?");
             Console.WriteLine($"{ShowStorageCommand} - показать хранилище товаров");
             Console.WriteLine($"{BuyCommand} - купить понравившийся товар");
+            Console.WriteLine($"{ShowBuyerInventoryCommand} - посмотреть свой инвентарь");
             Console.WriteLine($"{ExitCommand} - попрощаться");
             Console.WriteLine();
         }
@@ -192,7 +276,7 @@ namespace Shop
         {
             for (int i = 0; i < _cells.Count; i++)
             {
-                Console.WriteLine($"{i + 1} - ");
+                Console.Write($"{i + 1} - ");
                 _cells[i].ShowInformation();
             }
         }
@@ -219,26 +303,34 @@ namespace Shop
             {
                 IEnumerable<Item> takenItems = _cells[cellNumber].Take();
 
-                //не знаю как лучше сделать проверку денег и вместимости инвентаря покупателя
-                if (buyer.CheckSolvency(takenItems) && buyer.CheckInventoryCapacity(takenItems))
+                if (buyer.CheckSolvency(takenItems))
                 {
-                    foreach(Item item in takenItems)
+                    if (buyer.TryPut(takenItems))
                     {
-                        buyer.TryPut(item);
+                        _money += buyer.Pay();
+
+                        Console.WriteLine("Поздравляю с покупкой!");
+                        return;
                     }
+                    else
+                    {
+                        foreach (Item item in takenItems)
+                        {
+                            _cells[cellNumber].TryPut(item);
+                        }
 
-                    _money += buyer.Pay();
-
-                    Console.WriteLine("Поздравляю с покупкой!");
-                    return;
+                        Console.WriteLine("Похоже у вас не хватает места в рюкзаке");
+                        return;
+                    }
                 }
 
-                foreach (Item item in takenItems)
-                {
-                    _cells[cellNumber].TryPut(item);
-                }
+                //foreach (Item item in takenItems)
+                //{
+                //    _cells[cellNumber].TryPut(item);
+                //}
 
-                Console.WriteLine("Похоже у вас не хватает денег или места в рюкзаке");
+                Console.WriteLine("Похоже у вас не хватает денег");
+                return;
             }
 
             Console.WriteLine("К сожалению в этой ячейке нет такого количества товара");
@@ -292,11 +384,26 @@ namespace Shop
             _money = money;
         }
 
-        public bool TryPut(Item item)
+        public bool TryPut(IEnumerable<Item> items)
         {
-            foreach (Cell cell in _cells)
-                if (cell.TryPut(item))
-                    return true;
+            List<Item> checkedItems = new List<Item>(items);
+
+            if (CheckInventoryCapacity(checkedItems))
+            {
+                foreach (Cell cell in _cells)
+                {
+                    for (int j = checkedItems.Count - 1; j >= 0; j--)
+                    {
+                        if (cell.TryPut(checkedItems[j]))
+                        {
+                            checkedItems.RemoveAt(j);
+
+                            if (checkedItems.Count == 0)
+                                return true;
+                        }
+                    }
+                }
+            }
 
             return false;
         }
@@ -305,14 +412,29 @@ namespace Shop
         {
             for (int i = 0; i < _cells.Count; i++)
             {
-                Console.WriteLine($"{i + 1} - ");
+                Console.Write($"{i + 1} - ");
                 _cells[i].ShowInformation();
             }
         }
 
-        public bool CheckInventoryCapacity(IEnumerable<Item> items)
+        public void ShowBalance() => Console.WriteLine($"{_money} золота");
+
+        private bool CheckInventoryCapacity(List<Item> items)
         {
-            throw new NotImplementedException();
+            int numberOfPlacedItems = 0;
+
+            foreach (Cell cell in _cells)
+            {
+                if (cell.CheckPossibleToPut(items, out int possiblePutCount))
+                {
+                    numberOfPlacedItems += possiblePutCount;
+
+                    if(numberOfPlacedItems == items.Count)
+                        return true;
+                }
+            }
+
+            return false;
         }
 
         public bool CheckSolvency(IEnumerable<Item> items)
@@ -340,9 +462,9 @@ namespace Shop
 
     public interface IBuyer
     {
-        bool TryPut(Item item);
-        bool CheckInventoryCapacity(IEnumerable<Item> items);
+        bool TryPut(IEnumerable<Item> items);
         bool CheckSolvency(IEnumerable<Item> items);
+        void ShowBalance();
         int Pay();
         void ShowInventory();
     }

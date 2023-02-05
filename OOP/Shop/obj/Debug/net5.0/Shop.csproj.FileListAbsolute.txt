@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\OOP\Shop\bin\Debug\net5.0\Shop.exe
+D:\IJuniorHomeworks\OOP\Shop\bin\Debug\net5.0\Shop.deps.json
+D:\IJuniorHomeworks\OOP\Shop\bin\Debug\net5.0\Shop.runtimeconfig.json
+D:\IJuniorHomeworks\OOP\Shop\bin\Debug\net5.0\Shop.runtimeconfig.dev.json
+D:\IJuniorHomeworks\OOP\Shop\bin\Debug\net5.0\Shop.dll
+D:\IJuniorHomeworks\OOP\Shop\bin\Debug\net5.0\Shop.pdb
+D:\IJuniorHomeworks\OOP\Shop\obj\Debug\net5.0\Shop.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\OOP\Shop\obj\Debug\net5.0\Shop.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\OOP\Shop\obj\Debug\net5.0\Shop.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\OOP\Shop\obj\Debug\net5.0\Shop.AssemblyInfo.cs
+D:\IJuniorHomeworks\OOP\Shop\obj\Debug\net5.0\Shop.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\OOP\Shop\obj\Debug\net5.0\Shop.dll
+D:\IJuniorHomeworks\OOP\Shop\obj\Debug\net5.0\refint\Shop.dll
+D:\IJuniorHomeworks\OOP\Shop\obj\Debug\net5.0\Shop.pdb
+D:\IJuniorHomeworks\OOP\Shop\obj\Debug\net5.0\Shop.genruntimeconfig.cache
+D:\IJuniorHomeworks\OOP\Shop\obj\Debug\net5.0\ref\Shop.dll
