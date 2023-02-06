@@ -187,12 +187,24 @@ namespace Trains
             _wagons.Add(wagon);
         }
 
-        public void ShowInformation() => Console.WriteLine($"Количество вагонов в поезде: {_wagons.Count}");
+        public void ShowInformation()
+        {
+            Console.Write($"Количество вагонов в поезде: {_wagons.Count}, ");
+
+            int numberOfSeats = 0;
+
+            foreach (var wagon in _wagons)
+                numberOfSeats += wagon.Size;
+
+            Console.WriteLine($"количество мест в поезде: {numberOfSeats}");
+        }
     }
 
     public class Wagon
     {
         private int _size;
+
+        public int Size => _size;
 
         public Wagon(int size)
         {

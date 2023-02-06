@@ -171,7 +171,7 @@ namespace Shop
             return false;
         }
 
-        public bool CheckPossibleToPut(Item item, int amount, out int possiblePutCount)
+        public bool IsPossibleToPut(Item item, int amount, out int possiblePutCount)
         {
             if(IsEmpty == false)
             {
@@ -395,7 +395,7 @@ namespace Shop
 
         public bool TryPut(Item item, int amount)
         {
-            if (CheckInventoryCapacity(item, amount) == false)
+            if (IsInventoryHasPlace(item, amount) == false)
                 return false;
 
             foreach (Cell cell in _cells)
@@ -445,11 +445,11 @@ namespace Shop
             return _moneyToPay;
         }
 
-        private bool CheckInventoryCapacity(Item item, int amount)
+        private bool IsInventoryHasPlace(Item item, int amount)
         {
             foreach (Cell cell in _cells)
             {
-                if (cell.CheckPossibleToPut(item, amount, out int possiblePutCount))
+                if (cell.IsPossibleToPut(item, amount, out int possiblePutCount))
                 {
                     amount -= possiblePutCount;
 
