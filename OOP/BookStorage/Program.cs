@@ -196,48 +196,75 @@ namespace BookStorage
         {
             Console.WriteLine("Введите автора");
 
-            string input = Console.ReadLine();
+            string author = Console.ReadLine();
 
-            ShowBy((book, requestAuthor) => book.Author.ToUpper() == requestAuthor.ToUpper(), input);
+            if (TryFindBy((book, requestAuthor) => book.Author.ToUpper() == requestAuthor.ToUpper(), author, out List<Book> books))
+            {
+                ShowBooks(books);
+                return;
+            }
+
+            ShowNotFindBooksMessage();
         }
 
         private void ShowSortedBooksByTitle()
         {
             Console.WriteLine("Введите название");
 
-            string input = Console.ReadLine();
+            string title = Console.ReadLine();
 
-            ShowBy((book, requestTitle) => book.Title.ToUpper() == requestTitle.ToUpper(), input);
+            if (TryFindBy((book, requestTitle) => book.Title.ToUpper() == requestTitle.ToUpper(), title, out List<Book> books))
+            {
+                ShowBooks(books);
+                return;
+            }
+
+            ShowNotFindBooksMessage();
         }
 
         private void ShowSortedBooksByReleaseYear()
         {
             Console.WriteLine("Введите год выпуска");
 
-            if (uint.TryParse(Console.ReadLine(), out uint releaseYear))
+            if (uint.TryParse(Console.ReadLine(), out uint releaseYear) == false)
             {
-                ShowBy((book, requestReleaseYear) => book.ReleaseYear.ToString() == requestReleaseYear.ToString(), releaseYear.ToString());
+                ShowRequirementsMessageForEnteringReleaseDate();
                 return;
             }
 
-            ShowRequirementsMessageForEnteringReleaseDate();
+            if(TryFindBy((book, requestReleaseYear) => book.ReleaseYear.ToString() == requestReleaseYear.ToString(), releaseYear.ToString(), out List<Book> books))
+            {
+                ShowBooks(books);
+                return;
+            }
+
+            ShowNotFindBooksMessage();
         }
 
-        private void ShowBy(Func<Book, string, bool> comparer, string comparedValue)
+        private bool TryFindBy(Func<Book, string, bool> comparer, string comparedValue, out List<Book> books)
         {
             int matchCounter = 0;
+            books = new List<Book>();
 
             foreach (Book book in _books)
             {
                 if (comparer(book, comparedValue))
                 {
-                    book.ShowInfo();
+                    books.Add(book);
                     matchCounter++;
                 }
             }
 
             if (matchCounter == 0)
-                Console.WriteLine("Таких книг не найдено");
+                return false;
+
+            return true;
+        }
+
+        private void ShowBooks(List<Book> books)
+        {
+            foreach (Book book in books)
+                book.ShowInfo();
         }
 
         private void ShowAllBooks()
@@ -254,6 +281,8 @@ namespace BookStorage
                 _books[i].ShowInfo();
             }
         }
+
+        private void ShowNotFindBooksMessage() => Console.WriteLine("Таких книг не найдено");
 
         private void ShowRequirementsMessageForEnteringReleaseDate() => Console.WriteLine("Нужно ввести неотрицательное число");
 
