@@ -7,14 +7,7 @@ namespace Shop
     {
         static void Main(string[] args)
         {
-            List<Cell> traderCells = new List<Cell>();
             List<Item> items = new List<Item>();
-
-            for (int i = 0; i < 5; i++)
-            {
-                traderCells.Add(new Cell());
-            }
-
             items.Add(new Sword("Меч Артура", 1000));
             items.Add(new Sword("Деревянный меч", 100));
             items.Add(new Sword("Деревянный меч", 100));
@@ -22,19 +15,18 @@ namespace Shop
             items.Add(new Arrow("Обычная стрела", 10));
             items.Add(new Arrow("Магическая стрела", 100));
 
-            for (int i = 0; i < traderCells.Count; i++)
+            List<Cell> traderCells = new List<Cell>();
+
+            for (int i = 0; i < items.Count; i++)
             {
-                for (int j = 0; j < items[i].MaxInStack; j++)
-                {
-                    traderCells[i].TryPut(items[i]);
-                }
+                traderCells.Add(new Cell(items[i], items[i].MaxInStack));
             }
 
             Trader trader = new Trader(traderCells, 100);
 
             List<Cell> playerCells = new List<Cell>();
 
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < 4; i++)
             {
                 playerCells.Add(new Cell());
             }
@@ -103,100 +95,112 @@ namespace Shop
         public override int MaxInStack => 16;
     }
 
-    //Задавать тип ячейки Item'ом и количеством
-    //Делать две проверки на совпадение с типом если в ячейке что-то лежит
-    //Создавать ячейку типо и количеством предметов
     public class Cell
     {
-        private List<Item> _items = new List<Item>();
+        private Item _item;
+
+        private int _amount;
         private int _amountToTake;
 
         public Cell() { }
 
-        public Cell(List<Item> items)
+        public Cell(Item item, int amount)
         {
-            _items = new List<Item>(items);
+            _item =  item;
+            _amount = amount;
         }
 
-        public int Amount => _items.Count;
-        public bool IsTaken => Amount != 0;
+        public bool IsEmpty => _item == null;
+        private bool IsNotFull => _amount + 1 <= _item?.MaxInStack;
 
         public bool CheckAmountToTake(int amount)
         {
-            if (Amount >= amount)
+            if (_amount >= amount)
             {
                 _amountToTake = amount;
+                return true;
+            }
+
+            _amountToTake = 0;
+            return false;
+        }
+
+        public Item Take(out int amount)
+        {
+            _amount -= _amountToTake;
+
+            Item takenItem = _item;
+            amount = _amountToTake;
+
+            if (_amount <= 0)
+                _item = null;
+
+            return takenItem;
+        }
+
+        public void ShowInformation()
+        {
+            if (IsEmpty)
+            {
+                Console.WriteLine("Ячейка пуста");
+                return;
+            }
+
+            _item.ShowInformation();
+            Console.WriteLine($"Количество: {_amount} шт.");
+        }
+
+        public bool TryPut(Item item)
+        {
+            if (IsEmpty)
+            {
+                _item = item;
+                _amount = 1;
+                return true;
+            }
+
+            if(CheckTypeMatch(item) == false)
+                return false;
+
+            if (IsNotFull)
+            {
+                _amount++;
                 return true;
             }
 
             return false;
         }
 
-        public IEnumerable<Item> Take()
+        public bool CheckPossibleToPut(Item item, int amount, out int possiblePutCount)
         {
-            List<Item> items = _items.GetRange(_items.Count - _amountToTake, _amountToTake);
-            _items.RemoveRange(_items.Count - _amountToTake, _amountToTake);
-            return items;
-        }
-
-        public void ShowInformation()
-        {
-            if (IsTaken)
+            if(IsEmpty == false)
             {
-                _items[0].ShowInformation();
-                Console.WriteLine($"Количество: {Amount} шт.");
-                return;
-            }
+                if (CheckTypeMatch(item) == false)
+                {
+                    possiblePutCount = 0;
+                    return false;
+                }
+            }   
 
-            Console.WriteLine("Ячейка пуста");
-        }
+            int remainingPlace = item.MaxInStack - amount - _amount;
 
-        public bool TryPut(Item item)
-        {
-            if (IsTaken)
+            if (remainingPlace >= 0)
             {
-                if (_items[0].Equals(item) && CheckCapacity(item))
-                {
-                    _items.Add(item);
-                    return true;
-                }
-
-                return false;
+                possiblePutCount = amount;
+                return true;
             }
-
-            _items.Add(item);
-            return true;
-        }
-
-        public bool CheckPossibleToPut(List<Item> items, out int possiblePutCount)
-        {
-            int tempCapacity = Amount;
-            possiblePutCount = 0;
-
-            foreach (Item item in items)
+            else
             {
-                if (IsTaken)
-                {
-                    if (_items[0].Equals(item) == false)
-                        return false;
-                }
-                else
-                {
-                    if (items[0].Equals(item) == false)
-                        return false;
-                }
+                possiblePutCount = amount - Math.Abs(remainingPlace);
 
-                if (tempCapacity + 1 <= item.MaxInStack)
-                {
-                    possiblePutCount++;
-                    tempCapacity++;
-                }
+                if(possiblePutCount <= 0)
+                    return false;
+
+                return true;
             }
-
-            return true;
         }
 
-        private bool CheckCapacity(Item item) => Amount + 1 <= item.MaxInStack;
+        private bool CheckTypeMatch(Item item) => _item.Equals(item);
     }
 
     public class Trader
@@ -211,9 +215,6 @@ namespace Shop
 
         public Trader(List<Cell> cells, int money)
         {
-            if(money < 0)
-                throw new ArgumentOutOfRangeException(nameof(money));
-
             _money = money;
             _cells = new List<Cell>(cells);
         }
@@ -308,11 +309,11 @@ namespace Shop
 
             if (_cells[cellNumber].CheckAmountToTake(itemAmount))
             {
-                IEnumerable<Item> takenItems = _cells[cellNumber].Take();
+                Item takenItem = _cells[cellNumber].Take(out int amount);
 
-                if (buyer.CheckSolvency(takenItems))
+                if (buyer.CheckSolvency(takenItem, amount))
                 {
-                    if (buyer.TryPut(takenItems))
+                    if (buyer.TryPut(takenItem, amount))
                     {
                         _money += buyer.Pay();
 
@@ -320,13 +321,13 @@ namespace Shop
                         return;
                     }
 
-                    ReturnItemsToCell(_cells[cellNumber], takenItems);
+                    ReturnItemsToCell(_cells[cellNumber], takenItem, amount);
 
                     Console.WriteLine("Похоже у вас не хватает места в рюкзаке");
                     return;
                 }
 
-                ReturnItemsToCell(_cells[cellNumber], takenItems);
+                ReturnItemsToCell(_cells[cellNumber], takenItem, amount);
 
                 Console.WriteLine("Похоже у вас не хватает денег");
                 return;
@@ -335,11 +336,12 @@ namespace Shop
             Console.WriteLine("К сожалению в этой ячейке нет такого количества товара");
         }
 
-        private void ReturnItemsToCell(Cell cell, IEnumerable<Item> items)
+        private void ReturnItemsToCell(Cell cell, Item item, int amount)
         {
-            foreach (Item item in items)
+            for (int i = 0; i < amount; i++)
             {
-                cell.TryPut(item);
+                if(cell.TryPut(item) == false)
+                    throw new InvalidOperationException();
             }
         }
 
@@ -391,28 +393,26 @@ namespace Shop
             _money = money;
         }
 
-        public bool TryPut(IEnumerable<Item> items)
+        public bool TryPut(Item item, int amount)
         {
-            List<Item> checkedItems = new List<Item>(items);
+            if (CheckInventoryCapacity(item, amount) == false)
+                return false;
 
-            if (CheckInventoryCapacity(checkedItems))
+            foreach (Cell cell in _cells)
             {
-                foreach (Cell cell in _cells)
+                for (int i = amount; i >= 0; i--)
                 {
-                    for (int j = checkedItems.Count - 1; j >= 0; j--)
+                    if (cell.TryPut(item))
                     {
-                        if (cell.TryPut(checkedItems[j]))
-                        {
-                            checkedItems.RemoveAt(j);
+                        amount--;
 
-                            if (checkedItems.Count == 0)
-                                return true;
-                        }
+                        if (amount == 0)
+                            return true;
                     }
                 }
             }
 
-            return false;
+            throw new InvalidOperationException();
         }
 
         public void ShowInventory()
@@ -426,32 +426,11 @@ namespace Shop
 
         public void ShowBalance() => Console.WriteLine($"{_money} золота");
 
-        private bool CheckInventoryCapacity(List<Item> items)
+        public bool CheckSolvency(Item item, int amount)
         {
-            int numberOfPlacedItems = 0;
+            _moneyToPay = item.Price * amount;
 
-            foreach (Cell cell in _cells)
-            {
-                if (cell.CheckPossibleToPut(items, out int possiblePutCount))
-                {
-                    numberOfPlacedItems += possiblePutCount;
-
-                    if(numberOfPlacedItems == items.Count)
-                        return true;
-                }
-            }
-
-            return false;
-        }
-
-        public bool CheckSolvency(IEnumerable<Item> items)
-        {
-            _moneyToPay = 0;
-
-            foreach (Item item in items)
-                _moneyToPay += item.Price;
-
-            if(_money >= _moneyToPay)
+            if (_money >= _moneyToPay)
             {
                 return true;
             }
@@ -465,12 +444,28 @@ namespace Shop
             _money -= _moneyToPay;
             return _moneyToPay;
         }
+
+        private bool CheckInventoryCapacity(Item item, int amount)
+        {
+            foreach (Cell cell in _cells)
+            {
+                if (cell.CheckPossibleToPut(item, amount, out int possiblePutCount))
+                {
+                    amount -= possiblePutCount;
+
+                    if (amount == 0)
+                        return true;
+                }
+            }
+
+            return false;
+        }
     }
 
     public interface IBuyer
     {
-        bool TryPut(IEnumerable<Item> items);
-        bool CheckSolvency(IEnumerable<Item> items);
+        bool TryPut(Item item, int amount);
+        bool CheckSolvency(Item item, int amount);
         int Pay();
         void ShowBalance();
         void ShowInventory();
