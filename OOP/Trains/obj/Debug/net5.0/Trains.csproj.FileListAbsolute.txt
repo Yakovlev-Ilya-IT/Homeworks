@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\OOP\Trains\bin\Debug\net5.0\Trains.exe
+D:\IJuniorHomeworks\OOP\Trains\bin\Debug\net5.0\Trains.deps.json
+D:\IJuniorHomeworks\OOP\Trains\bin\Debug\net5.0\Trains.runtimeconfig.json
+D:\IJuniorHomeworks\OOP\Trains\bin\Debug\net5.0\Trains.runtimeconfig.dev.json
+D:\IJuniorHomeworks\OOP\Trains\bin\Debug\net5.0\Trains.dll
+D:\IJuniorHomeworks\OOP\Trains\bin\Debug\net5.0\Trains.pdb
+D:\IJuniorHomeworks\OOP\Trains\obj\Debug\net5.0\Trains.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\OOP\Trains\obj\Debug\net5.0\Trains.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\OOP\Trains\obj\Debug\net5.0\Trains.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\OOP\Trains\obj\Debug\net5.0\Trains.AssemblyInfo.cs
+D:\IJuniorHomeworks\OOP\Trains\obj\Debug\net5.0\Trains.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\OOP\Trains\obj\Debug\net5.0\Trains.dll
+D:\IJuniorHomeworks\OOP\Trains\obj\Debug\net5.0\refint\Trains.dll
+D:\IJuniorHomeworks\OOP\Trains\obj\Debug\net5.0\Trains.pdb
+D:\IJuniorHomeworks\OOP\Trains\obj\Debug\net5.0\Trains.genruntimeconfig.cache
+D:\IJuniorHomeworks\OOP\Trains\obj\Debug\net5.0\ref\Trains.dll

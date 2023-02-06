@@ -15,16 +15,16 @@ namespace BookStorage
 
     public class Book
     {
-        public string Title { get; }
-        public string Author { get; }
-        public string ReleaseYear { get; }
-
-        public Book(string title, string author, string releaseYear)
+        public Book(string title, string author, int releaseYear)
         {
             Title = title;
             Author = author;
             ReleaseYear = releaseYear;
         }
+
+        public string Title { get; }
+        public string Author { get; }
+        public int ReleaseYear { get; }
 
         public void ShowInfo() => Console.WriteLine($"Название - {Title}, автор - {Author}, год выпуска - {ReleaseYear}");
     }
@@ -47,10 +47,12 @@ namespace BookStorage
         {
             _books = new List<Book>();
 
-            _books.Add(new Book("Преступление и наказание", "Достоевский", "1865"));
-            _books.Add(new Book("Три товарища", "Ремарк", "1936"));
-            _books.Add(new Book("Властелин колец", "Толкин", "1954"));
+            _books.Add(new Book("Преступление и наказание", "Достоевский", 1865));
+            _books.Add(new Book("Три товарища", "Ремарк", 1936));
+            _books.Add(new Book("Властелин колец", "Толкин", 1954));
         }
+
+        private bool IsEmpty => _books.Count == 0;
 
         public void Work()
         {
@@ -125,9 +127,15 @@ namespace BookStorage
 
             Console.WriteLine("Введите год выпуска");
 
-            string releaseYear = Console.ReadLine();
+            if (uint.TryParse(Console.ReadLine(), out uint releaseYear))
+            {
+                _books.Add(new Book(title, author, (int)releaseYear));
 
-            _books.Add(new Book(title, author, releaseYear));
+                Console.WriteLine("Книга успешно добавлена");
+                return;
+            }
+
+            ShowRequirementsMessageForEnteringReleaseDate();
         }
 
         private void RemoveBook()
@@ -154,8 +162,11 @@ namespace BookStorage
 
         private void ShowSortedBooks()
         {
-            if (CheckCapacity() == false)
+            if (IsEmpty)
+            {
+                ShowEmptyStorageMessage();
                 return;
+            }
 
             ShowSortingMenu();
 
@@ -187,7 +198,7 @@ namespace BookStorage
 
             string input = Console.ReadLine();
 
-            ShowBy((x, y) => x.Author.ToUpper() == y.ToUpper(), input);
+            ShowBy((book, requestAuthor) => book.Author.ToUpper() == requestAuthor.ToUpper(), input);
         }
 
         private void ShowSortedBooksByTitle()
@@ -196,16 +207,20 @@ namespace BookStorage
 
             string input = Console.ReadLine();
 
-            ShowBy((x, y) => x.Title.ToUpper() == y.ToUpper(), input);
+            ShowBy((book, requestTitle) => book.Title.ToUpper() == requestTitle.ToUpper(), input);
         }
 
         private void ShowSortedBooksByReleaseYear()
         {
             Console.WriteLine("Введите год выпуска");
 
-            string input = Console.ReadLine();
+            if (uint.TryParse(Console.ReadLine(), out uint releaseYear))
+            {
+                ShowBy((book, requestReleaseYear) => book.ReleaseYear.ToString() == requestReleaseYear.ToString(), releaseYear.ToString());
+                return;
+            }
 
-            ShowBy((x, y) => x.ReleaseYear.ToUpper() == y.ToUpper(), input);
+            ShowRequirementsMessageForEnteringReleaseDate();
         }
 
         private void ShowBy(Func<Book, string, bool> comparer, string comparedValue)
@@ -227,30 +242,21 @@ namespace BookStorage
 
         private void ShowAllBooks()
         {
-            if (CheckCapacity() == false)
-                return;
-
-            ShowAll();
-        }
-
-        private bool CheckCapacity()
-        {
-            if (_books.Count == 0)
+            if (IsEmpty)
             {
-                Console.WriteLine("Книг в хранилище нет");
-                return false;
+                ShowEmptyStorageMessage();
+                return;
             }
 
-            return true;
-        }
-
-        private void ShowAll()
-        {
             for (int i = 0; i < _books.Count; i++)
             {
                 Console.Write($"{i + 1} -");
                 _books[i].ShowInfo();
             }
         }
+
+        private void ShowRequirementsMessageForEnteringReleaseDate() => Console.WriteLine("Нужно ввести неотрицательное число");
+
+        private void ShowEmptyStorageMessage() => Console.WriteLine("Книг в хранилище нет");
     }
 }

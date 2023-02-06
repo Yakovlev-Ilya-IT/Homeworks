@@ -9,11 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayerDrawing", "PlayerDraw
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayerDatabase", "PlayerDatabase\PlayerDatabase.csproj", "{34419D39-06C4-4748-8DF8-9B5AB747AECD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeckOfCards", "DeckOfCards\DeckOfCards.csproj", "{C263A8C3-C5F1-43BE-814D-3FFBDE74F10A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeckOfCards", "DeckOfCards\DeckOfCards.csproj", "{C263A8C3-C5F1-43BE-814D-3FFBDE74F10A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStorage", "BookStorage\BookStorage.csproj", "{F4D40381-01AD-4F5F-9D3B-BF743302F7B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookStorage", "BookStorage\BookStorage.csproj", "{F4D40381-01AD-4F5F-9D3B-BF743302F7B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop", "Shop\Shop.csproj", "{F794B6BA-26A0-4762-84B9-04A7405E1050}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop", "Shop\Shop.csproj", "{F794B6BA-26A0-4762-84B9-04A7405E1050}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trains", "Trains\Trains.csproj", "{3DC9B60E-F042-408F-910D-2B5D9456AD47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{F794B6BA-26A0-4762-84B9-04A7405E1050}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F794B6BA-26A0-4762-84B9-04A7405E1050}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F794B6BA-26A0-4762-84B9-04A7405E1050}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DC9B60E-F042-408F-910D-2B5D9456AD47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DC9B60E-F042-408F-910D-2B5D9456AD47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DC9B60E-F042-408F-910D-2B5D9456AD47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DC9B60E-F042-408F-910D-2B5D9456AD47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

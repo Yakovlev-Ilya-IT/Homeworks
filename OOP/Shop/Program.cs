@@ -49,9 +49,6 @@ namespace Shop
     {
         public Item(string name, int price)
         {
-            if(price < 0)
-                throw new ArgumentOutOfRangeException(nameof(price));
-
             Name = name;
             Price = price;
         }
@@ -106,30 +103,23 @@ namespace Shop
         public override int MaxInStack => 16;
     }
 
+    //Задавать тип ячейки Item'ом и количеством
+    //Делать две проверки на совпадение с типом если в ячейке что-то лежит
+    //Создавать ячейку типо и количеством предметов
     public class Cell
     {
         private List<Item> _items = new List<Item>();
         private int _amountToTake;
 
+        public Cell() { }
+
+        public Cell(List<Item> items)
+        {
+            _items = new List<Item>(items);
+        }
+
         public int Amount => _items.Count;
         public bool IsTaken => Amount != 0;
-
-        public bool TryPut(Item item)
-        {
-            if (IsTaken)
-            {
-                if (_items[0].Equals(item) && CheckCapacity(item))
-                {
-                    _items.Add(item);
-                    return true;
-                }
-
-                return false;
-            }
-
-            _items.Add(item);
-            return true;
-        }
 
         public bool CheckAmountToTake(int amount)
         {
@@ -159,6 +149,23 @@ namespace Shop
             }
 
             Console.WriteLine("Ячейка пуста");
+        }
+
+        public bool TryPut(Item item)
+        {
+            if (IsTaken)
+            {
+                if (_items[0].Equals(item) && CheckCapacity(item))
+                {
+                    _items.Add(item);
+                    return true;
+                }
+
+                return false;
+            }
+
+            _items.Add(item);
+            return true;
         }
 
         public bool CheckPossibleToPut(List<Item> items, out int possiblePutCount)
@@ -312,28 +319,28 @@ namespace Shop
                         Console.WriteLine("Поздравляю с покупкой!");
                         return;
                     }
-                    else
-                    {
-                        foreach (Item item in takenItems)
-                        {
-                            _cells[cellNumber].TryPut(item);
-                        }
 
-                        Console.WriteLine("Похоже у вас не хватает места в рюкзаке");
-                        return;
-                    }
+                    ReturnItemsToCell(_cells[cellNumber], takenItems);
+
+                    Console.WriteLine("Похоже у вас не хватает места в рюкзаке");
+                    return;
                 }
 
-                //foreach (Item item in takenItems)
-                //{
-                //    _cells[cellNumber].TryPut(item);
-                //}
+                ReturnItemsToCell(_cells[cellNumber], takenItems);
 
                 Console.WriteLine("Похоже у вас не хватает денег");
                 return;
             }
 
             Console.WriteLine("К сожалению в этой ячейке нет такого количества товара");
+        }
+
+        private void ReturnItemsToCell(Cell cell, IEnumerable<Item> items)
+        {
+            foreach (Item item in items)
+            {
+                cell.TryPut(item);
+            }
         }
 
         private bool HandleCellNumberInput(out int cellNumber)
@@ -464,8 +471,8 @@ namespace Shop
     {
         bool TryPut(IEnumerable<Item> items);
         bool CheckSolvency(IEnumerable<Item> items);
-        void ShowBalance();
         int Pay();
+        void ShowBalance();
         void ShowInventory();
     }
 }
