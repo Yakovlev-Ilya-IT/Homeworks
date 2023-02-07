@@ -33,7 +33,6 @@ namespace DeckOfCards
         public void Work()
         {
             Deck deck = new Deck();
-            deck.Shuffle();
 
             Console.WriteLine("Добро пожаловать в наше казино, помните что вам нельзя набрать больше 21 очка!");
 
@@ -129,123 +128,83 @@ namespace DeckOfCards
 
     public enum CardSuits
     {
-        Hearts = 0,
-        Spades,
-        Diamonds,
-        Clubs
+        Черви = 0,
+        Пики,
+        Бубны,
+        Трефы
     }
 
-    public enum CardNames
+    public enum CardCosts
     {
-        Six = 0,
-        Seven,
-        Eight,
-        Nine,
-        Ten,
-        Jack,
-        Queen,
-        King,
-        Ace
+        Шестерка = 6,
+        Семерка = 7,
+        Восьмерка = 8,
+        Девятка = 9,
+        Десятка = 10,
+        Валет = 2,
+        Дама = 3,
+        Король = 4,
+        Туз = 11
     }
 
     public class Card
     {
         private CardSuits _suit;
-        private CardNames _name;
+        private CardCosts _cost;
 
-        private Dictionary<CardNames, string> _namesTranslation = new Dictionary<CardNames, string>()
+        public Card(CardCosts cost, CardSuits suit)
         {
-            {CardNames.Six, "Шестерка" },
-            {CardNames.Seven, "Семерка" },
-            {CardNames.Eight, "Восьмерка" },
-            {CardNames.Nine, "Девятка" },
-            {CardNames.Ten, "Десятка" },
-            {CardNames.Jack, "Валет" },
-            {CardNames.Queen, "Дама" },
-            {CardNames.King, "Король" },
-            {CardNames.Ace, "Туз" }
-        };
-
-        private Dictionary<CardSuits, string> _suitsTranslation = new Dictionary<CardSuits, string>()
-        {
-            {CardSuits.Hearts, "черви"},
-            {CardSuits.Spades, "пики" },
-            {CardSuits.Diamonds, "бубны" },
-            {CardSuits.Clubs, "трефы" }
-        };
-
-        private Dictionary<CardNames, int> _values = new Dictionary<CardNames, int>()
-        {
-            {CardNames.Six, 6 },
-            {CardNames.Seven, 7 },
-            {CardNames.Eight, 8 },
-            {CardNames.Nine, 9 },
-            {CardNames.Ten, 10 },
-            {CardNames.Jack, 2 },
-            {CardNames.Queen, 3 },
-            {CardNames.King, 4 },
-            {CardNames.Ace, 11 }
-        };
-
-        public Card(CardNames name, CardSuits suit)
-        {
-            _name = name;
+            _cost = cost;
             _suit = suit;
-            Value = _values[_name];
         }
 
-        public int Value { get; }
+        public int Value => (int)_cost;
 
-        public void ShowInfo() => Console.WriteLine($"Название - {_namesTranslation[_name]}, масть - {_suitsTranslation[_suit]}");
+        public void ShowInfo() => Console.WriteLine($"Название - {_cost}, масть - {_suit}");
     }
 
     public class Deck
     {
-        private List<Card> _cards;
-
-        public int CurrentCount => _cards.Count;
+        private Stack<Card> _cards;
 
         public Deck()
         {
-            _cards = new List<Card>();
-            int cardNamesNumber = Enum.GetValues(typeof(CardNames)).Length;
-            int cardSuitsNumber = Enum.GetValues(typeof(CardSuits)).Length;
+            List<Card> cards = new List<Card>();
 
-            for (int i = 0; i < cardNamesNumber; i++)
-            {
-                for (int j = 0; j < cardSuitsNumber; j++)
-                {
-                    _cards.Add(new Card((CardNames)i, (CardSuits)j));
-                }
-            }
+            foreach (CardCosts cost in Enum.GetValues(typeof(CardCosts)))
+                foreach (CardSuits suit in Enum.GetValues(typeof(CardSuits)))
+                    cards.Add(new Card(cost, suit));
+
+            Shuffle(cards);
+            _cards = new Stack<Card>(cards);
         }
 
-        public Card Get()
-        {
-            Card takenCard = _cards[_cards.Count - 1];
-            _cards.RemoveAt(_cards.Count - 1);
-            return takenCard;
-        }
+        public int CurrentCount => _cards.Count;
+
+        public Card Get() => _cards.Pop();
 
         public List<Card> Get(int cardsAmount)
         {
-            List<Card> takenCards = _cards.GetRange(_cards.Count - cardsAmount, cardsAmount);
-            _cards.RemoveRange(_cards.Count - cardsAmount, cardsAmount);
+            List<Card> takenCards = new List<Card>();
+
+            for (int i = 0; i < cardsAmount; i++)
+                takenCards.Add(_cards.Pop());
+
             return takenCards;
         }
 
-        public void Shuffle()
+        private void Shuffle(List<Card> cards)
         {
             Random random = new Random();
 
-            for (int i = 0; i < _cards.Count; i++)
+            for (int i = 0; i < cards.Count; i++)
             {
-                int randomIndexForTemp = random.Next(_cards.Count);
-                int randomIndexForSource = random.Next(_cards.Count);
+                int randomIndexForTemp = random.Next(cards.Count);
+                int randomIndexForSource = random.Next(cards.Count);
 
-                Card temp = _cards[randomIndexForTemp];
-                _cards[randomIndexForTemp] = _cards[randomIndexForSource];
-                _cards[randomIndexForSource] = temp;
+                Card temp = cards[randomIndexForTemp];
+                cards[randomIndexForTemp] = cards[randomIndexForSource];
+                cards[randomIndexForSource] = temp;
             }
         }
     }
