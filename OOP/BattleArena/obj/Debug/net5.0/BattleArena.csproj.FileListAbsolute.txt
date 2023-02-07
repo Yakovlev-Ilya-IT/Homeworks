@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\OOP\BattleArena\bin\Debug\net5.0\BattleArena.exe
+D:\IJuniorHomeworks\OOP\BattleArena\bin\Debug\net5.0\BattleArena.deps.json
+D:\IJuniorHomeworks\OOP\BattleArena\bin\Debug\net5.0\BattleArena.runtimeconfig.json
+D:\IJuniorHomeworks\OOP\BattleArena\bin\Debug\net5.0\BattleArena.runtimeconfig.dev.json
+D:\IJuniorHomeworks\OOP\BattleArena\bin\Debug\net5.0\BattleArena.dll
+D:\IJuniorHomeworks\OOP\BattleArena\bin\Debug\net5.0\BattleArena.pdb
+D:\IJuniorHomeworks\OOP\BattleArena\obj\Debug\net5.0\BattleArena.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\OOP\BattleArena\obj\Debug\net5.0\BattleArena.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\OOP\BattleArena\obj\Debug\net5.0\BattleArena.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\OOP\BattleArena\obj\Debug\net5.0\BattleArena.AssemblyInfo.cs
+D:\IJuniorHomeworks\OOP\BattleArena\obj\Debug\net5.0\BattleArena.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\OOP\BattleArena\obj\Debug\net5.0\BattleArena.dll
+D:\IJuniorHomeworks\OOP\BattleArena\obj\Debug\net5.0\refint\BattleArena.dll
+D:\IJuniorHomeworks\OOP\BattleArena\obj\Debug\net5.0\BattleArena.pdb
+D:\IJuniorHomeworks\OOP\BattleArena\obj\Debug\net5.0\BattleArena.genruntimeconfig.cache
+D:\IJuniorHomeworks\OOP\BattleArena\obj\Debug\net5.0\ref\BattleArena.dll

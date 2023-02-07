@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookStorage", "BookStorage\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop", "Shop\Shop.csproj", "{F794B6BA-26A0-4762-84B9-04A7405E1050}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trains", "Trains\Trains.csproj", "{3DC9B60E-F042-408F-910D-2B5D9456AD47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trains", "Trains\Trains.csproj", "{3DC9B60E-F042-408F-910D-2B5D9456AD47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleArena", "BattleArena\BattleArena.csproj", "{7488D082-6871-4590-AAD0-D957664E97E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{3DC9B60E-F042-408F-910D-2B5D9456AD47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DC9B60E-F042-408F-910D-2B5D9456AD47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DC9B60E-F042-408F-910D-2B5D9456AD47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7488D082-6871-4590-AAD0-D957664E97E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7488D082-6871-4590-AAD0-D957664E97E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7488D082-6871-4590-AAD0-D957664E97E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7488D082-6871-4590-AAD0-D957664E97E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
