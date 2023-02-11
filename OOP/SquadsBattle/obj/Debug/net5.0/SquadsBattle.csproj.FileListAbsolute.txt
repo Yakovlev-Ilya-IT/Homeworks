@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\OOP\SquadsBattle\bin\Debug\net5.0\SquadsBattle.exe
+D:\IJuniorHomeworks\OOP\SquadsBattle\bin\Debug\net5.0\SquadsBattle.deps.json
+D:\IJuniorHomeworks\OOP\SquadsBattle\bin\Debug\net5.0\SquadsBattle.runtimeconfig.json
+D:\IJuniorHomeworks\OOP\SquadsBattle\bin\Debug\net5.0\SquadsBattle.runtimeconfig.dev.json
+D:\IJuniorHomeworks\OOP\SquadsBattle\bin\Debug\net5.0\SquadsBattle.dll
+D:\IJuniorHomeworks\OOP\SquadsBattle\bin\Debug\net5.0\SquadsBattle.pdb
+D:\IJuniorHomeworks\OOP\SquadsBattle\obj\Debug\net5.0\SquadsBattle.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\OOP\SquadsBattle\obj\Debug\net5.0\SquadsBattle.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\OOP\SquadsBattle\obj\Debug\net5.0\SquadsBattle.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\OOP\SquadsBattle\obj\Debug\net5.0\SquadsBattle.AssemblyInfo.cs
+D:\IJuniorHomeworks\OOP\SquadsBattle\obj\Debug\net5.0\SquadsBattle.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\OOP\SquadsBattle\obj\Debug\net5.0\SquadsBattle.dll
+D:\IJuniorHomeworks\OOP\SquadsBattle\obj\Debug\net5.0\refint\SquadsBattle.dll
+D:\IJuniorHomeworks\OOP\SquadsBattle\obj\Debug\net5.0\SquadsBattle.pdb
+D:\IJuniorHomeworks\OOP\SquadsBattle\obj\Debug\net5.0\SquadsBattle.genruntimeconfig.cache
+D:\IJuniorHomeworks\OOP\SquadsBattle\obj\Debug\net5.0\ref\SquadsBattle.dll

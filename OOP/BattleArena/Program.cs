@@ -157,7 +157,7 @@ namespace BattleArena
         public int Health
         {
             get => _health;
-            set
+            protected set
             {
                 if (value > _maxHealth)
                     _health = _maxHealth;
