@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\OOP\ShopAdministration\bin\Debug\net5.0\ShopAdministration.exe
+D:\IJuniorHomeworks\OOP\ShopAdministration\bin\Debug\net5.0\ShopAdministration.deps.json
+D:\IJuniorHomeworks\OOP\ShopAdministration\bin\Debug\net5.0\ShopAdministration.runtimeconfig.json
+D:\IJuniorHomeworks\OOP\ShopAdministration\bin\Debug\net5.0\ShopAdministration.runtimeconfig.dev.json
+D:\IJuniorHomeworks\OOP\ShopAdministration\bin\Debug\net5.0\ShopAdministration.dll
+D:\IJuniorHomeworks\OOP\ShopAdministration\bin\Debug\net5.0\ShopAdministration.pdb
+D:\IJuniorHomeworks\OOP\ShopAdministration\obj\Debug\net5.0\ShopAdministration.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\OOP\ShopAdministration\obj\Debug\net5.0\ShopAdministration.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\OOP\ShopAdministration\obj\Debug\net5.0\ShopAdministration.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\OOP\ShopAdministration\obj\Debug\net5.0\ShopAdministration.AssemblyInfo.cs
+D:\IJuniorHomeworks\OOP\ShopAdministration\obj\Debug\net5.0\ShopAdministration.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\OOP\ShopAdministration\obj\Debug\net5.0\ShopAdministration.dll
+D:\IJuniorHomeworks\OOP\ShopAdministration\obj\Debug\net5.0\refint\ShopAdministration.dll
+D:\IJuniorHomeworks\OOP\ShopAdministration\obj\Debug\net5.0\ShopAdministration.pdb
+D:\IJuniorHomeworks\OOP\ShopAdministration\obj\Debug\net5.0\ShopAdministration.genruntimeconfig.cache
+D:\IJuniorHomeworks\OOP\ShopAdministration\obj\Debug\net5.0\ref\ShopAdministration.dll
