@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BattleArena", "BattleArena\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopAdministration", "ShopAdministration\ShopAdministration.csproj", "{E52A6E81-991B-43AF-9109-BED90F634C80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquadsBattle", "SquadsBattle\SquadsBattle.csproj", "{9C5D24F3-47B2-48CA-85D1-4A1CE37C7898}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SquadsBattle", "SquadsBattle\SquadsBattle.csproj", "{9C5D24F3-47B2-48CA-85D1-4A1CE37C7898}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aquarium", "Aquarium\Aquarium.csproj", "{B81B4F38-7CBC-4CE0-9339-E411808D07A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{9C5D24F3-47B2-48CA-85D1-4A1CE37C7898}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C5D24F3-47B2-48CA-85D1-4A1CE37C7898}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C5D24F3-47B2-48CA-85D1-4A1CE37C7898}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B81B4F38-7CBC-4CE0-9339-E411808D07A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B81B4F38-7CBC-4CE0-9339-E411808D07A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B81B4F38-7CBC-4CE0-9339-E411808D07A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B81B4F38-7CBC-4CE0-9339-E411808D07A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
