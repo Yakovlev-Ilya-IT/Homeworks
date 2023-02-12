@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\OOP\Zoo\bin\Debug\net5.0\Zoo.exe
+D:\IJuniorHomeworks\OOP\Zoo\bin\Debug\net5.0\Zoo.deps.json
+D:\IJuniorHomeworks\OOP\Zoo\bin\Debug\net5.0\Zoo.runtimeconfig.json
+D:\IJuniorHomeworks\OOP\Zoo\bin\Debug\net5.0\Zoo.runtimeconfig.dev.json
+D:\IJuniorHomeworks\OOP\Zoo\bin\Debug\net5.0\Zoo.dll
+D:\IJuniorHomeworks\OOP\Zoo\bin\Debug\net5.0\Zoo.pdb
+D:\IJuniorHomeworks\OOP\Zoo\obj\Debug\net5.0\Zoo.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\OOP\Zoo\obj\Debug\net5.0\Zoo.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\OOP\Zoo\obj\Debug\net5.0\Zoo.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\OOP\Zoo\obj\Debug\net5.0\Zoo.AssemblyInfo.cs
+D:\IJuniorHomeworks\OOP\Zoo\obj\Debug\net5.0\Zoo.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\OOP\Zoo\obj\Debug\net5.0\Zoo.dll
+D:\IJuniorHomeworks\OOP\Zoo\obj\Debug\net5.0\refint\Zoo.dll
+D:\IJuniorHomeworks\OOP\Zoo\obj\Debug\net5.0\Zoo.pdb
+D:\IJuniorHomeworks\OOP\Zoo\obj\Debug\net5.0\Zoo.genruntimeconfig.cache
+D:\IJuniorHomeworks\OOP\Zoo\obj\Debug\net5.0\ref\Zoo.dll
