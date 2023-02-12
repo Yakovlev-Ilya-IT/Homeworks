@@ -42,7 +42,8 @@ namespace Aquarium
                 ShowFishes();
                 ShowMenu();
 
-                if(HandleAquariumCommand(out AquariumCommands command)){
+                if(IsEqualAquariumCommand(out AquariumCommands command))
+                {
                     switch (command)
                     {
                         case AquariumCommands.Add:
@@ -87,7 +88,7 @@ namespace Aquarium
 
             Console.WriteLine("Задайте ее максимальный возраст");
 
-            int age = HandleFishAgeInput();
+            int age = GetFishAge();
 
             _fishes.Add(new Fish(name, age));
 
@@ -116,7 +117,7 @@ namespace Aquarium
             Console.WriteLine("Введите число");
         }
 
-        private bool HandleAquariumCommand(out AquariumCommands command)
+        private bool IsEqualAquariumCommand(out AquariumCommands command)
         {
             if (int.TryParse(Console.ReadLine(), out int number))
             {
@@ -134,7 +135,7 @@ namespace Aquarium
             return false;
         }
 
-        private int HandleFishAgeInput()
+        private int GetFishAge()
         {
             uint age;
 
@@ -183,11 +184,11 @@ namespace Aquarium
             _maxAge = maxAge;
         }
 
-        private bool _isDead => _currentAge >= _maxAge;
+        private bool IsDead => _currentAge >= _maxAge;
 
         public void IncreaseAge()
         {
-            if(_isDead)
+            if(IsDead)
                 return;
 
             _currentAge++;
@@ -197,7 +198,7 @@ namespace Aquarium
         {
             Console.Write($"Имя - {_name}, возраст: {_currentAge}, максимальный возраст: {_maxAge}, состояние здоровья: ");
 
-            if(_isDead)
+            if(IsDead)
                 Console.WriteLine("мертвая");
             else
                 Console.WriteLine("живая");
