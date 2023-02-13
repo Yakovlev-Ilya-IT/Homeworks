@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\LINQ\SoldiersUnion\bin\Debug\net5.0\SoldiersUnion.exe
+D:\IJuniorHomeworks\LINQ\SoldiersUnion\bin\Debug\net5.0\SoldiersUnion.deps.json
+D:\IJuniorHomeworks\LINQ\SoldiersUnion\bin\Debug\net5.0\SoldiersUnion.runtimeconfig.json
+D:\IJuniorHomeworks\LINQ\SoldiersUnion\bin\Debug\net5.0\SoldiersUnion.runtimeconfig.dev.json
+D:\IJuniorHomeworks\LINQ\SoldiersUnion\bin\Debug\net5.0\SoldiersUnion.dll
+D:\IJuniorHomeworks\LINQ\SoldiersUnion\bin\Debug\net5.0\SoldiersUnion.pdb
+D:\IJuniorHomeworks\LINQ\SoldiersUnion\obj\Debug\net5.0\SoldiersUnion.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\LINQ\SoldiersUnion\obj\Debug\net5.0\SoldiersUnion.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\LINQ\SoldiersUnion\obj\Debug\net5.0\SoldiersUnion.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\LINQ\SoldiersUnion\obj\Debug\net5.0\SoldiersUnion.AssemblyInfo.cs
+D:\IJuniorHomeworks\LINQ\SoldiersUnion\obj\Debug\net5.0\SoldiersUnion.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\LINQ\SoldiersUnion\obj\Debug\net5.0\SoldiersUnion.dll
+D:\IJuniorHomeworks\LINQ\SoldiersUnion\obj\Debug\net5.0\refint\SoldiersUnion.dll
+D:\IJuniorHomeworks\LINQ\SoldiersUnion\obj\Debug\net5.0\SoldiersUnion.pdb
+D:\IJuniorHomeworks\LINQ\SoldiersUnion\obj\Debug\net5.0\SoldiersUnion.genruntimeconfig.cache
+D:\IJuniorHomeworks\LINQ\SoldiersUnion\obj\Debug\net5.0\ref\SoldiersUnion.dll

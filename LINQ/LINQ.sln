@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CannedMeat", "CannedMeat\Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soldiers", "Soldiers\Soldiers.csproj", "{C24D2583-954A-40A5-9B34-60F2E531C58E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoldiersUnion", "SoldiersUnion\SoldiersUnion.csproj", "{D76B6BEA-BB51-408D-9F31-D4FBB3568845}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{C24D2583-954A-40A5-9B34-60F2E531C58E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C24D2583-954A-40A5-9B34-60F2E531C58E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C24D2583-954A-40A5-9B34-60F2E531C58E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D76B6BEA-BB51-408D-9F31-D4FBB3568845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D76B6BEA-BB51-408D-9F31-D4FBB3568845}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D76B6BEA-BB51-408D-9F31-D4FBB3568845}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D76B6BEA-BB51-408D-9F31-D4FBB3568845}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
