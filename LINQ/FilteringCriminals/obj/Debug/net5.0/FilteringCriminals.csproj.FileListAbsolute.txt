@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\LINQ\FilteringCriminals\bin\Debug\net5.0\FilteringCriminals.exe
+D:\IJuniorHomeworks\LINQ\FilteringCriminals\bin\Debug\net5.0\FilteringCriminals.deps.json
+D:\IJuniorHomeworks\LINQ\FilteringCriminals\bin\Debug\net5.0\FilteringCriminals.runtimeconfig.json
+D:\IJuniorHomeworks\LINQ\FilteringCriminals\bin\Debug\net5.0\FilteringCriminals.runtimeconfig.dev.json
+D:\IJuniorHomeworks\LINQ\FilteringCriminals\bin\Debug\net5.0\FilteringCriminals.dll
+D:\IJuniorHomeworks\LINQ\FilteringCriminals\bin\Debug\net5.0\FilteringCriminals.pdb
+D:\IJuniorHomeworks\LINQ\FilteringCriminals\obj\Debug\net5.0\FilteringCriminals.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\LINQ\FilteringCriminals\obj\Debug\net5.0\FilteringCriminals.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\LINQ\FilteringCriminals\obj\Debug\net5.0\FilteringCriminals.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\LINQ\FilteringCriminals\obj\Debug\net5.0\FilteringCriminals.AssemblyInfo.cs
+D:\IJuniorHomeworks\LINQ\FilteringCriminals\obj\Debug\net5.0\FilteringCriminals.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\LINQ\FilteringCriminals\obj\Debug\net5.0\FilteringCriminals.dll
+D:\IJuniorHomeworks\LINQ\FilteringCriminals\obj\Debug\net5.0\refint\FilteringCriminals.dll
+D:\IJuniorHomeworks\LINQ\FilteringCriminals\obj\Debug\net5.0\FilteringCriminals.pdb
+D:\IJuniorHomeworks\LINQ\FilteringCriminals\obj\Debug\net5.0\FilteringCriminals.genruntimeconfig.cache
+D:\IJuniorHomeworks\LINQ\FilteringCriminals\obj\Debug\net5.0\ref\FilteringCriminals.dll
