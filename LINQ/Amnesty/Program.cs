@@ -21,14 +21,14 @@ namespace Amnesty
             Console.WriteLine("Список до амнистии:");
 
             foreach (var prisoner in prisoners)
-                Console.WriteLine($"{prisoner.FullName}");
+                Console.WriteLine(prisoner.FullName);
 
             var filteringPrisoners = prisoners
                 .Where(prisoner => prisoner.Crime != Crimes.Antigovernment);
 
             Console.WriteLine("\nСписок после амнистии:");
             foreach (var prisoner in filteringPrisoners)
-                Console.WriteLine($"{prisoner.FullName}");
+                Console.WriteLine(prisoner.FullName);
         }
     }
 

@@ -15,7 +15,7 @@ namespace FilteringCriminals
 
     public class CriminalDatabase
     {
-        List<Criminal> _criminals = new List<Criminal>()
+        private List<Criminal> _criminals = new List<Criminal>()
             {
                 new Criminal("Воробьёв Федор Миронович", false, 170, 65, "Русский"),
                 new Criminal("Давыдов Любомир Альбертович", true, 180, 75, "Русский"),
@@ -67,8 +67,6 @@ namespace FilteringCriminals
            
             return (int)number;
         }
-
-
     }
 
     public class Criminal
