@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\LINQ\Amnesty\bin\Debug\net5.0\Amnesty.exe
+D:\IJuniorHomeworks\LINQ\Amnesty\bin\Debug\net5.0\Amnesty.deps.json
+D:\IJuniorHomeworks\LINQ\Amnesty\bin\Debug\net5.0\Amnesty.runtimeconfig.json
+D:\IJuniorHomeworks\LINQ\Amnesty\bin\Debug\net5.0\Amnesty.runtimeconfig.dev.json
+D:\IJuniorHomeworks\LINQ\Amnesty\bin\Debug\net5.0\Amnesty.dll
+D:\IJuniorHomeworks\LINQ\Amnesty\bin\Debug\net5.0\Amnesty.pdb
+D:\IJuniorHomeworks\LINQ\Amnesty\obj\Debug\net5.0\Amnesty.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\LINQ\Amnesty\obj\Debug\net5.0\Amnesty.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\LINQ\Amnesty\obj\Debug\net5.0\Amnesty.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\LINQ\Amnesty\obj\Debug\net5.0\Amnesty.AssemblyInfo.cs
+D:\IJuniorHomeworks\LINQ\Amnesty\obj\Debug\net5.0\Amnesty.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\LINQ\Amnesty\obj\Debug\net5.0\Amnesty.dll
+D:\IJuniorHomeworks\LINQ\Amnesty\obj\Debug\net5.0\refint\Amnesty.dll
+D:\IJuniorHomeworks\LINQ\Amnesty\obj\Debug\net5.0\Amnesty.pdb
+D:\IJuniorHomeworks\LINQ\Amnesty\obj\Debug\net5.0\Amnesty.genruntimeconfig.cache
+D:\IJuniorHomeworks\LINQ\Amnesty\obj\Debug\net5.0\ref\Amnesty.dll
