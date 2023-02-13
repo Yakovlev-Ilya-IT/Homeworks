@@ -7,48 +7,46 @@ namespace Shop
     {
         static void Main(string[] args)
         {
-            List<Item> items = new List<Item>();
-            items.Add(new Sword("Меч Артура", 1000));
-            items.Add(new Sword("Деревянный меч", 100));
-            items.Add(new Sword("Деревянный меч", 100));
-            items.Add(new Apple("Золотое яблоко", 50));
-            items.Add(new Arrow("Обычная стрела", 10));
-            items.Add(new Arrow("Магическая стрела", 100));
+            ShopStorage shopStorage = new ShopStorage();
 
-            List<Cell> traderCells = new List<Cell>();
+            Trader trader = new Trader(shopStorage, 100);
 
-            for (int i = 0; i < items.Count; i++)
-            {
-                traderCells.Add(new Cell(items[i], items[i].MaxInStack));
-            }
-
-            Trader trader = new Trader(traderCells, 100);
-
-            List<Cell> playerCells = new List<Cell>();
-
-            for (int i = 0; i < 4; i++)
-            {
-                playerCells.Add(new Cell());
-            }
-
-            Player player = new Player(playerCells, 1500);
+            Player player = new Player(4, 1500);
 
             trader.Work(player);
         }
     }
 
-    public abstract class Item
+    public class ShopStorage 
     {
-        public Item(string name, int price)
+        private List<Item> _items;
+
+        public ShopStorage()
+        {
+            _items = new List<Item>();
+            _items.Add(new Item("Меч Артура", 1000, 1));
+            _items.Add(new Item("Деревянный меч", 100, 1));
+            _items.Add(new Item("Деревянный меч", 100, 1));
+            _items.Add(new Item("Золотое яблоко", 50, 64));
+            _items.Add(new Item("Обычная стрела", 10, 16));
+            _items.Add(new Item("Магическая стрела", 100, 16));
+        }
+
+        public IEnumerable<Item> Items => _items;
+    }
+
+    public class Item
+    {
+        public Item(string name, int price, int maxInStack)
         {
             Name = name;
             Price = price;
+            MaxInStack = maxInStack;
         }
 
         public string Name { get; }
         public int Price { get; }
-
-        public abstract int MaxInStack { get; }
+        public int MaxInStack { get; }
 
         public void ShowInformation() => Console.WriteLine($"Название: {Name}, цена: {Price} золота");
 
@@ -66,33 +64,6 @@ namespace Shop
         }
 
         public override int GetHashCode() => HashCode.Combine(Name, Price);
-    }
-
-    public class Sword : Item
-    {
-        public Sword(string name, int price) : base(name, price)
-        {
-        }
-
-        public override int MaxInStack => 1;
-    }
-
-    public class Apple : Item
-    {
-        public Apple(string name, int price) : base(name, price)
-        {
-        }
-
-        public override int MaxInStack => 64;
-    }
-
-    public class Arrow : Item
-    {
-        public Arrow(string name, int price) : base(name, price)
-        {
-        }
-
-        public override int MaxInStack => 16;
     }
 
     public class Cell
@@ -213,10 +184,14 @@ namespace Shop
         private List<Cell> _cells;
         private int _money;
 
-        public Trader(List<Cell> cells, int money)
+        public Trader(ShopStorage shopStorage, int money)
         {
             _money = money;
-            _cells = new List<Cell>(cells);
+
+            _cells = new List<Cell>();
+
+            foreach (Item item in shopStorage.Items)
+                _cells.Add(new Cell(item, item.MaxInStack));
         }
 
         public void Work(IBuyer buyer)
@@ -384,12 +359,16 @@ namespace Shop
         private int _money;
         private int _moneyToPay;
 
-        public Player(List<Cell> cells, int money)
+        public Player(int inventoryCapacity, int money)
         {
             if(money < 0)
                 throw new ArgumentOutOfRangeException(nameof(money));
 
-            _cells = new List<Cell>(cells);
+            _cells = new List<Cell>();
+
+            for (int i = 0; i < 4; i++)
+                _cells.Add(new Cell());
+
             _money = money;
         }
 
