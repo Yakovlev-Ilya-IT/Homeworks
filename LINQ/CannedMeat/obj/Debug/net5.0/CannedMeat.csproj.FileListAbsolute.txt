@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\LINQ\CannedMeat\bin\Debug\net5.0\CannedMeat.exe
+D:\IJuniorHomeworks\LINQ\CannedMeat\bin\Debug\net5.0\CannedMeat.deps.json
+D:\IJuniorHomeworks\LINQ\CannedMeat\bin\Debug\net5.0\CannedMeat.runtimeconfig.json
+D:\IJuniorHomeworks\LINQ\CannedMeat\bin\Debug\net5.0\CannedMeat.runtimeconfig.dev.json
+D:\IJuniorHomeworks\LINQ\CannedMeat\bin\Debug\net5.0\CannedMeat.dll
+D:\IJuniorHomeworks\LINQ\CannedMeat\bin\Debug\net5.0\CannedMeat.pdb
+D:\IJuniorHomeworks\LINQ\CannedMeat\obj\Debug\net5.0\CannedMeat.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\LINQ\CannedMeat\obj\Debug\net5.0\CannedMeat.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\LINQ\CannedMeat\obj\Debug\net5.0\CannedMeat.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\LINQ\CannedMeat\obj\Debug\net5.0\CannedMeat.AssemblyInfo.cs
+D:\IJuniorHomeworks\LINQ\CannedMeat\obj\Debug\net5.0\CannedMeat.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\LINQ\CannedMeat\obj\Debug\net5.0\CannedMeat.dll
+D:\IJuniorHomeworks\LINQ\CannedMeat\obj\Debug\net5.0\refint\CannedMeat.dll
+D:\IJuniorHomeworks\LINQ\CannedMeat\obj\Debug\net5.0\CannedMeat.pdb
+D:\IJuniorHomeworks\LINQ\CannedMeat\obj\Debug\net5.0\CannedMeat.genruntimeconfig.cache
+D:\IJuniorHomeworks\LINQ\CannedMeat\obj\Debug\net5.0\ref\CannedMeat.dll
