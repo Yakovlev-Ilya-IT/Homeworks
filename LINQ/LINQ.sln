@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopPlayers", "TopPlayers\To
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CannedMeat", "CannedMeat\CannedMeat.csproj", "{A836F187-00D4-4309-8D00-B89910910D77}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soldiers", "Soldiers\Soldiers.csproj", "{C24D2583-954A-40A5-9B34-60F2E531C58E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{A836F187-00D4-4309-8D00-B89910910D77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A836F187-00D4-4309-8D00-B89910910D77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A836F187-00D4-4309-8D00-B89910910D77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C24D2583-954A-40A5-9B34-60F2E531C58E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C24D2583-954A-40A5-9B34-60F2E531C58E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C24D2583-954A-40A5-9B34-60F2E531C58E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C24D2583-954A-40A5-9B34-60F2E531C58E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
