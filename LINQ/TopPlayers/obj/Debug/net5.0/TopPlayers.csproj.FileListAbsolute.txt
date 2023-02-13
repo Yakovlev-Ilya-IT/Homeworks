@@ -1,0 +1,16 @@
+D:\IJuniorHomeworks\LINQ\TopPlayers\bin\Debug\net5.0\TopPlayers.exe
+D:\IJuniorHomeworks\LINQ\TopPlayers\bin\Debug\net5.0\TopPlayers.deps.json
+D:\IJuniorHomeworks\LINQ\TopPlayers\bin\Debug\net5.0\TopPlayers.runtimeconfig.json
+D:\IJuniorHomeworks\LINQ\TopPlayers\bin\Debug\net5.0\TopPlayers.runtimeconfig.dev.json
+D:\IJuniorHomeworks\LINQ\TopPlayers\bin\Debug\net5.0\TopPlayers.dll
+D:\IJuniorHomeworks\LINQ\TopPlayers\bin\Debug\net5.0\TopPlayers.pdb
+D:\IJuniorHomeworks\LINQ\TopPlayers\obj\Debug\net5.0\TopPlayers.csproj.AssemblyReference.cache
+D:\IJuniorHomeworks\LINQ\TopPlayers\obj\Debug\net5.0\TopPlayers.GeneratedMSBuildEditorConfig.editorconfig
+D:\IJuniorHomeworks\LINQ\TopPlayers\obj\Debug\net5.0\TopPlayers.AssemblyInfoInputs.cache
+D:\IJuniorHomeworks\LINQ\TopPlayers\obj\Debug\net5.0\TopPlayers.AssemblyInfo.cs
+D:\IJuniorHomeworks\LINQ\TopPlayers\obj\Debug\net5.0\TopPlayers.csproj.CoreCompileInputs.cache
+D:\IJuniorHomeworks\LINQ\TopPlayers\obj\Debug\net5.0\TopPlayers.dll
+D:\IJuniorHomeworks\LINQ\TopPlayers\obj\Debug\net5.0\refint\TopPlayers.dll
+D:\IJuniorHomeworks\LINQ\TopPlayers\obj\Debug\net5.0\TopPlayers.pdb
+D:\IJuniorHomeworks\LINQ\TopPlayers\obj\Debug\net5.0\TopPlayers.genruntimeconfig.cache
+D:\IJuniorHomeworks\LINQ\TopPlayers\obj\Debug\net5.0\ref\TopPlayers.dll
