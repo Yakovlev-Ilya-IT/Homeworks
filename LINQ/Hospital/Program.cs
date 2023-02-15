@@ -31,34 +31,34 @@ namespace Hospital
 
         public void Work()
         {
-            const string sortingByFullNameCommand = "1";
-            const string sortingByAgeCommand = "2";
-            const string sortingByDiseaseCommand = "3";
-            const string exitCommand = "4";
+            const string SortingByFullNameCommand = "1";
+            const string SortingByAgeCommand = "2";
+            const string SortingByDiseaseCommand = "3";
+            const string ExitCommand = "4";
 
             bool isWorking = true;
 
             while (isWorking)
             {
-                ShowMenu(sortingByFullNameCommand, sortingByAgeCommand, sortingByDiseaseCommand, exitCommand);
+                ShowMenu(SortingByFullNameCommand, SortingByAgeCommand, SortingByDiseaseCommand, ExitCommand);
 
                 string input = Console.ReadLine();
 
                 switch (input)
                 {
-                    case sortingByFullNameCommand:
-                        SortByFullName();
+                    case SortingByFullNameCommand:
+                        ShowSorted(SortByFullName());
                         break;
 
-                    case sortingByAgeCommand:
-                        SortByAge();
+                    case SortingByAgeCommand:
+                        ShowSorted(SortByAge());
                         break;
 
-                    case sortingByDiseaseCommand:
-                        SortByDisease();
+                    case SortingByDiseaseCommand:
+                        ShowSorted(SortByDisease());
                         break;
 
-                    case exitCommand:
+                    case ExitCommand:
                         isWorking = false;
                         break;
 
@@ -69,7 +69,7 @@ namespace Hospital
             }
         }
 
-        private void SortByDisease()
+        private IEnumerable<Patient> SortByDisease()
         {
             Console.WriteLine("\nВведите заболевание");
             string Disease = Console.ReadLine();
@@ -77,10 +77,10 @@ namespace Hospital
             var sortedPatients = _patients
                 .Where(patient => patient.Disease.ToString().ToUpper() == Disease.ToUpper());
 
-            ShowSorted(sortedPatients);
+            return sortedPatients;
         }
 
-        private void SortByAge()
+        private IEnumerable<Patient> SortByAge()
         {
             Console.WriteLine("\nВведите возраст");
             int age = GetInputNumber();
@@ -88,7 +88,7 @@ namespace Hospital
             var sortedPatients = _patients
                 .Where(patient => patient.Age == age);
 
-            ShowSorted(sortedPatients);
+            return sortedPatients;
         }
 
         private int GetInputNumber()
@@ -101,7 +101,7 @@ namespace Hospital
             return (int)number;
         }
 
-        private void SortByFullName()
+        private IEnumerable<Patient> SortByFullName()
         {
             Console.WriteLine("\nВведите фио");
             string fullName = Console.ReadLine();
@@ -109,7 +109,7 @@ namespace Hospital
             var sortedPatients = _patients
                 .Where(patient => patient.FullName.ToUpper() == fullName.ToUpper());
 
-            ShowSorted(sortedPatients);
+            return sortedPatients;
         }
 
         private void ShowSorted(IEnumerable<Patient> patients)
