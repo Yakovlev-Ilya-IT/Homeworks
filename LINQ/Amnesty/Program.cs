@@ -23,11 +23,12 @@ namespace Amnesty
             foreach (var prisoner in prisoners)
                 Console.WriteLine(prisoner.FullName);
 
-            var filteringPrisoners = prisoners
-                .Where(prisoner => prisoner.Crime != Crimes.Antigovernment);
+            prisoners = prisoners
+                .Where(prisoner => prisoner.Crime != Crimes.Antigovernment).ToList();
 
             Console.WriteLine("\nСписок после амнистии:");
-            foreach (var prisoner in filteringPrisoners)
+
+            foreach (var prisoner in prisoners)
                 Console.WriteLine(prisoner.FullName);
         }
     }
