@@ -64,7 +64,8 @@ namespace Trains
 
             for (int i = 0; i < _departures.Count; i++)
             {
-                Console.Write($"{i + 1} - ");
+                int departureNumber = i + 1;
+                Console.Write($"{departureNumber} - ");
                 _departures[i].ShowInformation();
             }
         }
@@ -92,26 +93,33 @@ namespace Trains
 
         private Train CreateTrain(int passengers)
         {
-            Train train = new Train();
+            List<Wagon> wagons = new List<Wagon>();
 
             while (passengers > 0)
             {
                 Console.WriteLine($"Осталось разместить {passengers} пасажиров");
                 Console.WriteLine($"Выберите размер нового вагона");
 
-                if(uint.TryParse(Console.ReadLine(), out uint wagonSize))
+                if(int.TryParse(Console.ReadLine(), out int wagonSize))
                 {
-                    train.AddWagon(new Wagon((int)wagonSize));
-                    passengers -= (int)wagonSize;
+                    if(wagonSize > 0)
+                    {
+                        wagons.Add(new Wagon(wagonSize));
+                        passengers -= wagonSize;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Ошибка размер вагона долже быть положительным числом");
+                    }
                 }
                 else
                 {
-                    Console.WriteLine("Ошибка, введите неотрицательное число");
+                    Console.WriteLine("Ошибка, введите число");
                 }
             }
 
             Console.WriteLine("Отлично, поезд вмещает всех пассажиров!");
-            return train;
+            return new Train(wagons);
         }
 
         private int GetSoldTicketsCount()
@@ -180,12 +188,9 @@ namespace Trains
 
     public class Train
     {
-        private List<Wagon> _wagons = new List<Wagon>();
+        private List<Wagon> _wagons;
 
-        public void AddWagon(Wagon wagon)
-        {
-            _wagons.Add(wagon);
-        }
+        public Train(List<Wagon> wagons) => _wagons = new List<Wagon>(wagons);
 
         public void ShowInformation()
         {
@@ -202,13 +207,12 @@ namespace Trains
 
     public class Wagon
     {
-        private int _size;
-
-        public int Size => _size;
 
         public Wagon(int size)
         {
-            _size = size;
+            Size = size;
         }
+
+        public int Size { get; }
     }
 }
