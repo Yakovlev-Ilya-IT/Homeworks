@@ -35,6 +35,30 @@ namespace Shop
         public IEnumerable<Item> Items => _items;
     }
 
+    public abstract class Person
+    {
+        protected int _money;
+
+        public Person(int money)
+        {
+            Money = money;
+            Cells = new List<Cell>();
+        }
+
+        protected List<Cell> Cells { get; }
+        protected int Money
+        {
+            get => _money;
+            set
+            {
+                if(value < 0)
+                    throw new ArgumentOutOfRangeException(nameof(value));
+
+                _money = value;
+            }
+        }
+    }
+
     public class Item
     {
         public Item(string name, int price, int maxInStack)
@@ -174,24 +198,17 @@ namespace Shop
         private bool CheckTypeMatch(Item item) => _item.Equals(item);
     }
 
-    public class Trader
+    public class Trader: Person
     {
         private const string ShowStorageCommand = "1";
-        private const string BuyCommand = "2";
+        private const string SellCommand = "2";
         private const string ShowBuyerInventoryCommand = "3";
         private const string ExitCommand = "4";
 
-        private List<Cell> _cells;
-        private int _money;
-
         public Trader(ShopStorage shopStorage, int money)
         {
-            _money = money;
-
-            _cells = new List<Cell>();
-
             foreach (Item item in shopStorage.Items)
-                _cells.Add(new Cell(item, item.MaxInStack));
+                Cells.Add(new Cell(item, item.MaxInStack));
         }
 
         public void Work(IBuyer buyer)
@@ -211,8 +228,8 @@ namespace Shop
                         ShowStorage();
                         break;
 
-                    case BuyCommand:
-                        Buy(buyer);
+                    case SellCommand:
+                        Sell(buyer);
                         break;
 
                     case ExitCommand:
@@ -235,36 +252,36 @@ namespace Shop
             }
         }
 
-        public void ShowBalances(IBuyer buyer)
+        private void ShowBalances(IBuyer buyer)
         {
             Console.WriteLine();
-            Console.WriteLine($"Деньги продовца: {_money} золота");
+            Console.WriteLine($"Деньги продовца: {Money} золота");
             Console.Write("Деньги покупателя: ");
             buyer.ShowBalance();
             Console.WriteLine();
         }
 
-        public void ShowMenu()
+        private void ShowMenu()
         {
             Console.WriteLine();
             Console.WriteLine("Добрый день, странник! Чего желаешь?");
             Console.WriteLine($"{ShowStorageCommand} - показать хранилище товаров");
-            Console.WriteLine($"{BuyCommand} - купить понравившийся товар");
+            Console.WriteLine($"{SellCommand} - купить понравившийся товар");
             Console.WriteLine($"{ShowBuyerInventoryCommand} - посмотреть свой инвентарь");
             Console.WriteLine($"{ExitCommand} - попрощаться");
             Console.WriteLine();
         }
 
-        public void ShowStorage()
+        private void ShowStorage()
         {
-            for (int i = 0; i < _cells.Count; i++)
+            for (int i = 0; i < Cells.Count; i++)
             {
                 Console.Write($"{i + 1} - ");
-                _cells[i].ShowInformation();
+                Cells[i].ShowInformation();
             }
         }
 
-        public void Buy(IBuyer buyer)
+        private void Sell(IBuyer buyer)
         {
             Console.WriteLine("Какой товар ты хочешь взять? (введи номер)");
 
@@ -282,27 +299,27 @@ namespace Shop
                 return;
             }
 
-            if (_cells[cellNumber].CheckAmountToTake(itemAmount))
+            if (Cells[cellNumber].CheckAmountToTake(itemAmount))
             {
-                Item takenItem = _cells[cellNumber].Take(out int amount);
+                Item takenItem = Cells[cellNumber].Take(out int amount);
 
                 if (buyer.CheckSolvency(takenItem, amount))
                 {
                     if (buyer.TryPut(takenItem, amount))
                     {
-                        _money += buyer.Pay();
+                        Money += buyer.Pay();
 
                         Console.WriteLine("Поздравляю с покупкой!");
                         return;
                     }
 
-                    ReturnItemsToCell(_cells[cellNumber], takenItem, amount);
+                    ReturnItemsToCell(Cells[cellNumber], takenItem, amount);
 
                     Console.WriteLine("Похоже у вас не хватает места в рюкзаке");
                     return;
                 }
 
-                ReturnItemsToCell(_cells[cellNumber], takenItem, amount);
+                ReturnItemsToCell(Cells[cellNumber], takenItem, amount);
 
                 Console.WriteLine("Похоже у вас не хватает денег");
                 return;
@@ -326,7 +343,7 @@ namespace Shop
             {
                 cellNumber -= 1;
 
-                if (cellNumber >= 0 && cellNumber < _cells.Count)
+                if (cellNumber >= 0 && cellNumber < Cells.Count)
                     return true;
 
                 Console.WriteLine("Похоже ты выбрал несуществующий номер ячейки, может взглянешь на мое хранилище еще раз?");
@@ -352,24 +369,14 @@ namespace Shop
         }
     }
 
-    public class Player : IBuyer
+    public class Player : Person, IBuyer
     {
-        private List<Cell> _cells;
-
-        private int _money;
         private int _moneyToPay;
 
-        public Player(int inventoryCapacity, int money)
+        public Player(int inventoryCapacity, int money) : base(money)
         {
-            if(money < 0)
-                throw new ArgumentOutOfRangeException(nameof(money));
-
-            _cells = new List<Cell>();
-
-            for (int i = 0; i < 4; i++)
-                _cells.Add(new Cell());
-
-            _money = money;
+            for (int i = 0; i < inventoryCapacity; i++)
+                Cells.Add(new Cell());
         }
 
         public bool TryPut(Item item, int amount)
@@ -377,7 +384,7 @@ namespace Shop
             if (IsInventoryHasPlace(item, amount) == false)
                 return false;
 
-            foreach (Cell cell in _cells)
+            foreach (Cell cell in Cells)
             {
                 for (int i = amount; i >= 0; i--)
                 {
@@ -396,20 +403,20 @@ namespace Shop
 
         public void ShowInventory()
         {
-            for (int i = 0; i < _cells.Count; i++)
+            for (int i = 0; i < Cells.Count; i++)
             {
                 Console.Write($"{i + 1} - ");
-                _cells[i].ShowInformation();
+                Cells[i].ShowInformation();
             }
         }
 
-        public void ShowBalance() => Console.WriteLine($"{_money} золота");
+        public void ShowBalance() => Console.WriteLine($"{Money} золота");
 
         public bool CheckSolvency(Item item, int amount)
         {
             _moneyToPay = item.Price * amount;
 
-            if (_money >= _moneyToPay)
+            if (Money >= _moneyToPay)
             {
                 return true;
             }
@@ -420,13 +427,13 @@ namespace Shop
 
         public int Pay()
         {
-            _money -= _moneyToPay;
+            Money -= _moneyToPay;
             return _moneyToPay;
         }
 
         private bool IsInventoryHasPlace(Item item, int amount)
         {
-            foreach (Cell cell in _cells)
+            foreach (Cell cell in Cells)
             {
                 if (cell.IsPossibleToPut(item, amount, out int possiblePutCount))
                 {
