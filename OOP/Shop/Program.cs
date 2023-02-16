@@ -37,7 +37,7 @@ namespace Shop
 
     public abstract class Person
     {
-        protected int _money;
+        private int _money;
 
         public Person(int money)
         {
@@ -205,7 +205,7 @@ namespace Shop
         private const string ShowBuyerInventoryCommand = "3";
         private const string ExitCommand = "4";
 
-        public Trader(ShopStorage shopStorage, int money)
+        public Trader(ShopStorage shopStorage, int money) : base(money)
         {
             foreach (Item item in shopStorage.Items)
                 Cells.Add(new Cell(item, item.MaxInStack));
