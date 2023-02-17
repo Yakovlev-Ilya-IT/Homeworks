@@ -92,7 +92,7 @@ namespace Hospital
                 return;
             }
 
-            Console.WriteLine("Отсортированные пациенты");
+            Console.WriteLine("Пациенты:");
             foreach (var patient in patients)
                 Console.WriteLine(patient.FullName + " " + patient.Age);
         }
