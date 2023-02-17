@@ -18,12 +18,8 @@ namespace BattleArena
 
             BattleArena battleArena = new BattleArena(fighters);
 
-            while (battleArena.TryBattle() == false)
-            {
-                Console.WriteLine("Выберите бойцов для боя");
-                battleArena.ShowFighters();
-                battleArena.ChooseFightersForBattle();
-            }
+            battleArena.ShowFighters();
+            battleArena.Battle();
         }
     }
 
@@ -31,10 +27,8 @@ namespace BattleArena
     {
         private List<Fighter> _fighters;
 
-        private Fighter _firstFighterForBattle;
-        private Fighter _secondFighterForBattle;
-
-        private bool _isBattleReady;
+        private Fighter _firstFighter;
+        private Fighter _secondFighter;
 
         public BattleArena(List<Fighter> fighters)
         {
@@ -50,7 +44,39 @@ namespace BattleArena
             }
         }
 
-        public void ChooseFightersForBattle()
+        public void Battle()
+        {
+            ChooseFightersForBattle();
+
+            while (_firstFighter.Health > 0 && _secondFighter.Health > 0)
+            {
+                _firstFighter.Attack(_secondFighter);
+                _secondFighter.Attack(_firstFighter);
+                _firstFighter.ShowCurrentHealth();
+                _secondFighter.ShowCurrentHealth();
+            }
+
+            ShowResult();
+        }
+
+        private void ShowResult()
+        {
+            if (_firstFighter.Health > 0)
+            {
+                Console.WriteLine($"Выиграл боец {_firstFighter.Name}");
+                return;
+            }
+
+            if (_secondFighter.Health > 0)
+            {
+                Console.WriteLine($"Выиграл боец {_secondFighter.Name}");
+                return;
+            }
+
+            Console.WriteLine("Боевая ничья! Оба бойца пали смертью храбрых...");
+        }
+
+        private void ChooseFightersForBattle()
         {
             bool isFightersMatch = true;
 
@@ -58,60 +84,27 @@ namespace BattleArena
             {
                 Console.WriteLine("Выберите номер первого бойца для боя");
 
-                HandleFighterNumberInput(out int fighterNumber);
-
-                _firstFighterForBattle = _fighters[fighterNumber];
+                _firstFighter = GetFighter();
 
                 Console.WriteLine("Выберите номер второго бойца для боя");
 
-                HandleFighterNumberInput(out fighterNumber);
+                _secondFighter = GetFighter();
 
-                _secondFighterForBattle = _fighters[fighterNumber];
-
-                isFightersMatch = _firstFighterForBattle == _secondFighterForBattle;
+                isFightersMatch = _firstFighter == _secondFighter;
 
                 if (isFightersMatch)
                     Console.WriteLine("Вы выбрали одного и того же бойца, выберите разных бойцов для сражения");
 
             } while (isFightersMatch);
 
-            _isBattleReady = true;
             Console.WriteLine("Бойцы успешно выбраны");
         }
 
-        public bool TryBattle()
-        {
-            if (_isBattleReady == false)
-                return false;
-
-            while (_firstFighterForBattle.Health > 0 && _secondFighterForBattle.Health > 0)
-            {
-                _firstFighterForBattle.Attack(_secondFighterForBattle);
-                _secondFighterForBattle.Attack(_firstFighterForBattle);
-                _firstFighterForBattle.ShowCurrentHealth();
-                _secondFighterForBattle.ShowCurrentHealth();
-            }
-
-            if (_firstFighterForBattle.Health > 0)
-            {
-                Console.WriteLine($"Выиграл боец {_firstFighterForBattle.Name}");
-                return true;
-            }
-
-            if (_secondFighterForBattle.Health > 0)
-            {
-                Console.WriteLine($"Выиграл боец {_secondFighterForBattle.Name}");
-                return true;
-            }
-
-            Console.WriteLine("Боевая ничья! Оба бойца пали смертью храбрых...");
-            return true;
-        }
-
-        private void HandleFighterNumberInput(out int fighterNumber)
+        private Fighter GetFighter()
         {
             bool isInputSuccessful = false;
             bool isInputNotOutOfRange = false;
+            int fighterNumber;
 
             do
             {
@@ -131,6 +124,8 @@ namespace BattleArena
                 }
 
             } while (isInputSuccessful == false && isInputNotOutOfRange == false);
+
+            return _fighters[fighterNumber];
         }
     }
 

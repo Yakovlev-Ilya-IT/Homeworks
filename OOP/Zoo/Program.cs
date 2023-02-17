@@ -28,6 +28,33 @@ namespace Zoo
         }
     }
 
+    public class Animal
+    {
+        private bool _isMan;
+        private string _sound;
+
+        public Animal(AnimalTypes type, bool isMan, string sound)
+        {
+            Type = type;
+            _isMan = isMan;
+            _sound = sound;
+        }
+
+        public AnimalTypes Type { get; }
+
+        public void ShowInformation()
+        {
+            Console.Write($"Животное - {Type}, ");
+
+            if (_isMan)
+                Console.Write($"пол: мужской, ");
+            else
+                Console.Write($"пол: женский, ");
+
+            Console.WriteLine($"Издаваемый звук: {_sound}");
+        }
+    }
+
     public enum AnimalTypes
     {
         Лев = 0,
@@ -94,32 +121,7 @@ namespace Zoo
         }
     }
 
-    public class Animal
-    {
-        private bool _isMan;
-        private string _sound;
 
-        public Animal(AnimalTypes type, bool isMan, string sound)
-        {
-            Type = type;
-            _isMan = isMan;
-            _sound = sound;
-        }
-
-        public AnimalTypes Type { get; }
-
-        public void ShowInformation()
-        {
-            Console.Write($"Животное - {Type}, ");
-
-            if (_isMan)
-                Console.Write($"пол: мужской, ");
-            else
-                Console.Write($"пол: женский, ");
-
-            Console.WriteLine($"Издаваемый звук: {_sound}");
-        }
-    }
 
     public class Cage
     {
