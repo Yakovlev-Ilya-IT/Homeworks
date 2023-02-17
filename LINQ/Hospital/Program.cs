@@ -55,7 +55,7 @@ namespace Hospital
                         break;
 
                     case SortingByDiseaseCommand:
-                        ShowSorted(SortByDisease());
+                        ShowSorted(FilterByDisease());
                         break;
 
                     case ExitCommand:
@@ -69,7 +69,7 @@ namespace Hospital
             }
         }
 
-        private IEnumerable<Patient> SortByDisease()
+        private IEnumerable<Patient> FilterByDisease()
         {
             Console.WriteLine("\nВведите заболевание");
             string Disease = Console.ReadLine();
@@ -80,37 +80,9 @@ namespace Hospital
             return sortedPatients;
         }
 
-        private IEnumerable<Patient> SortByAge()
-        {
-            Console.WriteLine("\nВведите возраст");
-            int age = GetInputNumber();
+        private IEnumerable<Patient> SortByAge() => _patients.OrderBy(patient => patient.Age);
 
-            var sortedPatients = _patients
-                .Where(patient => patient.Age == age);
-
-            return sortedPatients;
-        }
-
-        private int GetInputNumber()
-        {
-            uint number = 0;
-
-            while (uint.TryParse(Console.ReadLine(), out number) == false)
-                Console.WriteLine("Введите неотрицательное число");
-
-            return (int)number;
-        }
-
-        private IEnumerable<Patient> SortByFullName()
-        {
-            Console.WriteLine("\nВведите фио");
-            string fullName = Console.ReadLine();
-
-            var sortedPatients = _patients
-                .Where(patient => patient.FullName.ToUpper() == fullName.ToUpper());
-
-            return sortedPatients;
-        }
+        private IEnumerable<Patient> SortByFullName() => _patients.OrderBy(patient => patient.FullName);
 
         private void ShowSorted(IEnumerable<Patient> patients)
         {
@@ -122,7 +94,7 @@ namespace Hospital
 
             Console.WriteLine("Отсортированные пациенты");
             foreach (var patient in patients)
-                Console.WriteLine(patient.FullName);
+                Console.WriteLine(patient.FullName + " " + patient.Age);
         }
 
         private void ShowMenu(string sortingByFullNameCommand, string sortingByAgeCommand, string sortingByDiseaseCommand, string exitCommand)
