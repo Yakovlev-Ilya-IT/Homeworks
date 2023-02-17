@@ -7,60 +7,21 @@ namespace Zoo
     {
         static void Main(string[] args)
         {
-            List<Animal> animals = new List<Animal>()
-            {
-                new Animal(AnimalTypes.Лев, true, "Арррр"),
-                new Animal(AnimalTypes.Обезьяна, false, "Ууа-уа-уа-а-у"),
-                new Animal(AnimalTypes.Медведь, true, "РРРРР"),
-                new Animal(AnimalTypes.Утка, false, "Кря-кря")
-            };
-
             Dictionary<AnimalTypes, Cage> cages = new Dictionary<AnimalTypes, Cage>();
+
             Random random = new Random();
             int minAnimalsNumber = 2;
             int maxAnimalsNumber = 15;
 
-            foreach (var animal in animals)
-                cages.Add(animal.Type, new Cage(animal, random.Next(minAnimalsNumber, maxAnimalsNumber)));
+            for (int i = 0; i < Enum.GetValues(typeof(AnimalTypes)).Length; i++)
+            {
+                AnimalTypes animalType = (AnimalTypes)i;
+                cages.Add(animalType, new Cage(animalType, random.Next(minAnimalsNumber, maxAnimalsNumber)));
+            }
 
             Zoo zoo = new Zoo(cages);
             zoo.Work();
         }
-    }
-
-    public class Animal
-    {
-        private bool _isMan;
-        private string _sound;
-
-        public Animal(AnimalTypes type, bool isMan, string sound)
-        {
-            Type = type;
-            _isMan = isMan;
-            _sound = sound;
-        }
-
-        public AnimalTypes Type { get; }
-
-        public void ShowInformation()
-        {
-            Console.Write($"Животное - {Type}, ");
-
-            if (_isMan)
-                Console.Write($"пол: мужской, ");
-            else
-                Console.Write($"пол: женский, ");
-
-            Console.WriteLine($"Издаваемый звук: {_sound}");
-        }
-    }
-
-    public enum AnimalTypes
-    {
-        Лев = 0,
-        Обезьяна,
-        Медведь,
-        Утка
     }
 
     public class Zoo
@@ -102,45 +63,144 @@ namespace Zoo
                     type = (AnimalTypes)number;
                     return true;
                 }
-
-                type = AnimalTypes.Лев;
-                return false;
             }
 
-            type = AnimalTypes.Лев;
+            type = AnimalTypes.Lion;
             return false;
         }
 
         private void ShowCageSelectionMenu()
         {
             Console.WriteLine("Выберите к каком вольеру подойти (введите соответствуюущую цифру):");
-            Console.WriteLine($"Вольер со львами {(int)AnimalTypes.Лев}");
-            Console.WriteLine($"Вольер с обезьянами {(int)AnimalTypes.Обезьяна}");
-            Console.WriteLine($"Вольер с медведями {(int)AnimalTypes.Медведь}");
-            Console.WriteLine($"Вольер с утками {(int)AnimalTypes.Утка}\n");
+            Console.WriteLine($"Вольер со львами {(int)AnimalTypes.Lion}");
+            Console.WriteLine($"Вольер с обезьянами {(int)AnimalTypes.Monkey}");
+            Console.WriteLine($"Вольер с медведями {(int)AnimalTypes.Bear}");
+            Console.WriteLine($"Вольер с утками {(int)AnimalTypes.Duck}\n");
         }
     }
 
-
-
     public class Cage
     {
-        private Animal _animal;
-        private int _count;
+        private List<Animal> _animals;
 
-        public Cage(Animal animal, int count)
+        public Cage(AnimalTypes type, int count)
         {
-            _animal = animal;
-            _count = count;
-        }
+            _animals = new List<Animal>();
+            AnimalFactory factory = new AnimalFactory();
 
-        public AnimalTypes Type => _animal.Type;
+            for (int i = 0; i < count; i++)
+                _animals.Add(factory.Get(type, i % 2 == 0));
+        }
 
         public void ShowInformation()
         {
             Console.WriteLine($"Добро пожаловать в наш вольер! Полная информация о животных и их количестве приведена ниже:");
-            _animal.ShowInformation();
-            Console.WriteLine($"Количество особей в вольере: {_count} шт.");
+
+            foreach (var animal in _animals)
+                animal.ShowInformation();
+
+            Console.WriteLine($"Количество особей в вольере: {_animals.Count} шт.");
         }
+    }
+
+    public class AnimalFactory
+    {
+        public Animal Get(AnimalTypes type, bool isMan)
+        {
+            switch (type)
+            {
+                case AnimalTypes.Lion:
+                    return new Lion(isMan);
+
+                case AnimalTypes.Monkey:
+                    return new Monkey(isMan);
+
+                case AnimalTypes.Bear:
+                    return new Bear(isMan);
+
+                case AnimalTypes.Duck:
+                    return new Duck(isMan);
+
+                default:
+                    throw new ArgumentOutOfRangeException(nameof(type));
+            }
+        }
+    }
+
+    public abstract class Animal
+    {
+        private bool _isMan;
+
+        public Animal(bool isMan)
+        {
+            _isMan = isMan;
+        }
+
+        protected abstract string Name { get; }
+        protected abstract string Sound { get; }
+
+        public void ShowInformation()
+        {
+            Console.Write($"Животное - {Name}, ");
+
+            if (_isMan)
+                Console.Write($"пол: мужской, ");
+            else
+                Console.Write($"пол: женский, ");
+
+            Console.WriteLine($"Издаваемый звук: {Sound}");
+        }
+    }
+
+    public class Lion : Animal
+    {
+        public Lion(bool isMan) : base(isMan)
+        {
+        }
+
+        protected override string Name => "Лев";
+
+        protected override string Sound => "Арррр";
+    }
+
+    public class Monkey : Animal
+    {
+        public Monkey(bool isMan) : base(isMan)
+        {
+        }
+
+        protected override string Name => "Обезьяна";
+
+        protected override string Sound => "Ууа-уа-уа-а-у";
+    }
+
+    public class Bear : Animal
+    {
+        public Bear(bool isMan) : base(isMan)
+        {
+        }
+
+        protected override string Name => "Медведь";
+
+        protected override string Sound => "РРРРррр";
+    }
+
+    public class Duck : Animal
+    {
+        public Duck(bool isMan) : base(isMan)
+        {
+        }
+
+        protected override string Name => "Утка";
+
+        protected override string Sound => "Кря - кря";
+    }
+
+    public enum AnimalTypes
+    {
+        Lion = 0,
+        Monkey,
+        Bear,
+        Duck
     }
 }
