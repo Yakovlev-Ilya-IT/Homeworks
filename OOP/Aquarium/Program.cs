@@ -7,7 +7,7 @@ namespace Aquarium
     {
         static void Main(string[] args)
         {
-            Aquarium aquarium = new Aquarium();
+            Aquarium aquarium = new Aquarium(7);
             aquarium.Work();
         }
     }
@@ -23,15 +23,14 @@ namespace Aquarium
     {
         private List<Fish> _fishes;
 
-        public Aquarium()
+        public Aquarium(int capacity)
         {
-            _fishes = new List<Fish>()
-            {
-                new Fish("Альберт", 10),
-                new Fish("Роберт", 5),
-                new Fish("Алекс", 15)
-            };
+            _fishes = new List<Fish>();
+            Capacity = capacity;
         }
+
+        public int Capacity { get; }
+        private bool IsFull => _fishes.Count + 1 > Capacity;
 
         public void Work()
         {
@@ -82,6 +81,12 @@ namespace Aquarium
 
         private void AddFish()
         {
+            if (IsFull)
+            {
+                Console.WriteLine("Аквариум переполнен, пожалуйста выньте другую рыбку, что бы положить новую");
+                return;
+            }
+
             Console.WriteLine("Дайте новой рыбке имя");
 
             string name = Console.ReadLine();
@@ -114,7 +119,7 @@ namespace Aquarium
                 return;
             }
 
-            Console.WriteLine("Введите число");
+            Console.WriteLine("Пожалуйста, введите число");
         }
 
         private bool IsEqualAquariumCommand(out AquariumCommands command)
