@@ -7,32 +7,74 @@ namespace SquadsBattle
     {
         static void Main(string[] args)
         {
+            UnitFactory unitFactory = new UnitFactory();
+
             List<Unit> units = new List<Unit>()
             {
-                new Soldier("Солдат", 200, 30, 5, 2),
-                new Soldier("Улучшенный солдат", 230, 35, 5, 3),
-                new Bomber("Подрывник", 150, 30, 0, 2),
-                new Bomber("Подрывник", 150, 30, 0, 2),
-                new Medic("Медик", 200, 15, 0, 5),
-                new Medic("Улучшенный медик", 220, 15, 0, 10)
+                unitFactory.Get(UnitTypes.Soldier),
+                unitFactory.Get(UnitTypes.ImprovedSoldier),
+                unitFactory.Get(UnitTypes.Bomber),
+                unitFactory.Get(UnitTypes.Bomber),
+                unitFactory.Get(UnitTypes.Medic),
+                unitFactory.Get(UnitTypes.ImprovedMedic)
             };
 
             Squad firstSquad = new Squad(units, "Альфа");
 
             units = new List<Unit>()
             {
-                new Soldier("Солдат", 200, 30, 5, 2),
-                new Soldier("Солдат", 200, 30, 5, 2),
-                new Bomber("Подрывник", 150, 30, 0, 2),
-                new Bomber("Улучшенный подрывник", 170, 20, 0, 4),
-                new Medic("Медик", 200, 15, 0, 5),
-                new Medic("Улучшенный медик", 220, 15, 0, 10),
+                unitFactory.Get(UnitTypes.Soldier),
+                unitFactory.Get(UnitTypes.Soldier),
+                unitFactory.Get(UnitTypes.Bomber),
+                unitFactory.Get(UnitTypes.ImprovedBomber),
+                unitFactory.Get(UnitTypes.Medic),
+                unitFactory.Get(UnitTypes.ImprovedMedic)
             };
 
             Squad secondSquad = new Squad(units, "Браво");
 
             BattleArena battleArena = new BattleArena(firstSquad, secondSquad);
             battleArena.Battle();
+        }
+    }
+
+    public enum UnitTypes
+    {
+        Soldier = 0,
+        ImprovedSoldier,
+        Bomber,
+        ImprovedBomber,
+        Medic,
+        ImprovedMedic
+    }
+
+    public class UnitFactory
+    {
+        public Unit Get(UnitTypes type)
+        {
+            switch (type)
+            {
+                case UnitTypes.Soldier:
+                    return new Soldier("Солдат", 200, 30, 5, 2);
+
+                case UnitTypes.ImprovedSoldier:
+                    return new Soldier("Улучшенный солдат", 230, 35, 5, 3);
+                    
+                case UnitTypes.Bomber:
+                    return new Bomber("Подрывник", 150, 30, 0, 2);
+
+                case UnitTypes.ImprovedBomber:
+                    return new Bomber("Улучшенный подрывник", 170, 20, 0, 4);
+
+                case UnitTypes.Medic:
+                    return new Medic("Медик", 200, 15, 0, 5); 
+
+                case UnitTypes.ImprovedMedic:
+                    return new Medic("Улучшенный медик", 220, 15, 0, 10);
+
+                default:
+                    throw new ArgumentException(nameof(type));
+            }
         }
     }
 
@@ -75,18 +117,11 @@ namespace SquadsBattle
         private void ShowWinner()
         {
             if (_firstSquad.Count > 0)
-            {
                 Console.WriteLine($"Выиграл взвод {_firstSquad.Name}");
-                return;
-            }
-
-            if (_secondSquad.Count > 0)
-            {
+            else if( _secondSquad.Count > 0)
                 Console.WriteLine($"Выиграл взвод {_secondSquad.Name}");
-                return;
-            }
-
-            Console.WriteLine("Боевая ничья! Оба взвода пали...");
+            else
+                Console.WriteLine("Боевая ничья! Оба взвода пали...");
         }
 
         private void ShowSquad(Squad squad)
