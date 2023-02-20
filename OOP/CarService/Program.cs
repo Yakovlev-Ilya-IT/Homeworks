@@ -187,7 +187,7 @@ namespace CarService
                 {
                     Console.WriteLine($"Требуется замена детали: {replacementDeatial.Name}, стоимость замены с учетом работы: {receipt.Cost}");
 
-                    if (newClient.CheckSolvency(receipt))
+                    if (newClient.IsSolvency(receipt))
                     {
                         if (_detailStorage.TryGet(replacementDeatial, out Detail newDetail))
                         {
@@ -315,7 +315,7 @@ namespace CarService
 
         public Car Car { get; }
 
-        public bool CheckSolvency(PaymentReceipt receipt)
+        public bool IsSolvency(PaymentReceipt receipt)
         {
             _moneyToPay = receipt.Cost;
 
