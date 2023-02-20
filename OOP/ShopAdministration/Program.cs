@@ -66,17 +66,16 @@ namespace ShopAdministration
 
                 Console.ReadKey(true);
 
-                ProductBasket clientProductBasket = newClient.ProductBasket;
-
-                while (newClient.CheckSolvency(clientProductBasket.GetCost()) == false)
+                while (newClient.IsSolvency() == false)
                 {
                     Product removedProduct = newClient.RemoveRandomProduct();
                     Console.WriteLine($"У покупателя не хватило денег и он выкинул {removedProduct.Name} ценой {removedProduct.Price} руб. из корзины");
                 }
 
-                _money += newClient.Pay();
+                int paidMoney = newClient.Pay();
+                _money += paidMoney;
 
-                Console.WriteLine($"Покупка на сумму {clientProductBasket.GetCost()} успешно совершена");
+                Console.WriteLine($"Покупка на сумму {paidMoney} успешно совершена");
                 Console.WriteLine("Нажмите любую кнопку, что бы перейти к следующему клиенту");
 
                 Console.ReadKey(true);
@@ -92,29 +91,29 @@ namespace ShopAdministration
 
         private Random _random;
 
+        private ProductBasket _productBasket { get; }
+
         public Client(int money, Random random)
         {
             _money = money;
-            ProductBasket = new ProductBasket();
+            _productBasket = new ProductBasket();
             _random = random;
         }
-        
-        public ProductBasket ProductBasket { get; }
 
         public void PutProducts(IAvailableProducts products)
         {
-            for (int i = 0; i < ProductBasket.Capacity; i++)
+            for (int i = 0; i < _productBasket.Capacity; i++)
             {
                 int selectedProduct = _random.Next(0, products.Products.Count);
-                ProductBasket.Add(products.Products[selectedProduct]);
+                _productBasket.Add(products.Products[selectedProduct]);
             }
         }
 
-        public Product RemoveRandomProduct() => ProductBasket.Remove(_random);
+        public Product RemoveRandomProduct() => _productBasket.Remove(_random);
 
-        public bool CheckSolvency(int cost)
+        public bool IsSolvency()
         {
-            _moneyToPay = cost;
+            _moneyToPay = _productBasket.GetCost();
 
             if (_money >= _moneyToPay)
                 return true;
@@ -159,13 +158,13 @@ namespace ShopAdministration
 
     public class Product
     {
-        public string Name { get; }
-        public int Price { get; }
-
         public Product(string name, int price)
         {
             Name = name;
             Price = price;
         }
+
+        public string Name { get; }
+        public int Price { get; }
     }
 }
