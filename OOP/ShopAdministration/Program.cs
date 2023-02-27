@@ -91,7 +91,7 @@ namespace ShopAdministration
 
         private Random _random;
 
-        private ProductBasket _productBasket { get; }
+        private ProductBasket _productBasket;
 
         public Client(int money, Random random)
         {
